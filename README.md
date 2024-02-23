@@ -5,814 +5,1858 @@
 
 ## Contents
 
-- [Batchfile](#batchfile)
-- [C](#c)
-- [C#](#c#)
-- [C++](#c++)
-- [CMake](#cmake)
-- [CSS](#css)
-- [Dart](#dart)
-- [Dockerfile](#dockerfile)
-- [GLSL](#glsl)
-- [Go](#go)
-- [HTML](#html)
-- [Handlebars](#handlebars)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Jupyter Notebook](#jupyter-notebook)
-- [Kotlin](#kotlin)
-- [Logos](#logos)
-- [Lua](#lua)
-- [Makefile](#makefile)
-- [Markdown](#markdown)
-- [Nim](#nim)
-- [Objective-C](#objective-c)
-- [Others](#others)
-- [PHP](#php)
-- [Pascal](#pascal)
-- [PowerShell](#powershell)
-- [Python](#python)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [SCSS](#scss)
-- [ShaderLab](#shaderlab)
-- [Shell](#shell)
-- [Svelte](#svelte)
-- [Swift](#swift)
-- [TypeScript](#typescript)
-- [V](#v)
-- [Vala](#vala)
-- [Vue](#vue)
-- [Zig](#zig)
-- [xBase](#xbase)
+- [3d](#3d)
+- [ai](#ai)
+- [algorithm](#algorithm)
+- [analytics](#analytics)
+- [android](#android)
+- [angular](#angular)
+- [api](#api)
+- [aspnet](#aspnet)
+- [atom](#atom)
+- [automation](#automation)
+- [awesome](#awesome)
+- [awesome-list](#awesome-list)
+- [babel](#babel)
+- [bash](#bash)
+- [bootstrap](#bootstrap)
+- [bot](#bot)
+- [c](#c)
+- [chatgpt](#chatgpt)
+- [chatgpt-api](#chatgpt-api)
+- [chrome](#chrome)
+- [chrome-extension](#chrome-extension)
+- [cli](#cli)
+- [compiler](#compiler)
+- [computer-science](#computer-science)
+- [computer-vision](#computer-vision)
+- [covid-19](#covid-19)
+- [cpp](#cpp)
+- [csharp](#csharp)
+- [css](#css)
+- [dart](#dart)
+- [data-structures](#data-structures)
+- [database](#database)
+- [deep-learning](#deep-learning)
+- [deno](#deno)
+- [design](#design)
+- [discord](#discord)
+- [docker](#docker)
+- [documentation](#documentation)
+- [dotnet](#dotnet)
+- [education](#education)
+- [electron](#electron)
+- [emoji](#emoji)
+- [emulator](#emulator)
+- [es6](#es6)
+- [eslint](#eslint)
+- [express](#express)
+- [firebase](#firebase)
+- [firefox](#firefox)
+- [flutter](#flutter)
+- [flutter-apps](#flutter-apps)
+- [font](#font)
+- [framework](#framework)
+- [frontend](#frontend)
+- [game](#game)
+- [game-development](#game-development)
+- [gamedev](#gamedev)
+- [games](#games)
+- [git](#git)
+- [github](#github)
+- [github-api](#github-api)
+- [go](#go)
+- [golang](#golang)
+- [good-first-issue](#good-first-issue)
+- [google](#google)
+- [graphql](#graphql)
+- [gulp](#gulp)
+- [hacktoberfest](#hacktoberfest)
+- [html](#html)
+- [html5](#html5)
+- [http](#http)
+- [icon-font](#icon-font)
+- [image-processing](#image-processing)
+- [ios](#ios)
+- [iot](#iot)
+- [java](#java)
+- [javascript](#javascript)
+- [jekyll](#jekyll)
+- [jquery](#jquery)
+- [js](#js)
+- [json](#json)
+- [kotlin](#kotlin)
+- [kubernetes](#kubernetes)
+- [language](#language)
+- [laravel](#laravel)
+- [learning](#learning)
+- [library](#library)
+- [linux](#linux)
+- [localization](#localization)
+- [mac](#mac)
+- [machine-learning](#machine-learning)
+- [macos](#macos)
+- [markdown](#markdown)
+- [material-design](#material-design)
+- [microsoft](#microsoft)
+- [minecraft](#minecraft)
+- [mobile](#mobile)
+- [mongodb](#mongodb)
+- [mongoose](#mongoose)
+- [monitoring](#monitoring)
+- [music](#music)
+- [mysql](#mysql)
+- [neural-network](#neural-network)
+- [nextjs](#nextjs)
+- [nim](#nim)
+- [node](#node)
+- [nodejs](#nodejs)
+- [npm](#npm)
+- [open-source](#open-source)
+- [opengl](#opengl)
+- [others](#others)
+- [package-manager](#package-manager)
+- [php](#php)
+- [postgresql](#postgresql)
+- [powershell](#powershell)
+- [privacy](#privacy)
+- [programming](#programming)
+- [pwa](#pwa)
+- [python](#python)
+- [python3](#python3)
+- [qt](#qt)
+- [rails](#rails)
+- [raspberry-pi](#raspberry-pi)
+- [react](#react)
+- [react-native](#react-native)
+- [reactjs](#reactjs)
+- [redux](#redux)
+- [rest-api](#rest-api)
+- [reverse-engineering](#reverse-engineering)
+- [rust](#rust)
+- [sass](#sass)
+- [security](#security)
+- [self-hosted](#self-hosted)
+- [server](#server)
+- [shell](#shell)
+- [sketch](#sketch)
+- [software](#software)
+- [sql-server](#sql-server)
+- [sqlite](#sqlite)
+- [svelte](#svelte)
+- [swift](#swift)
+- [telegram](#telegram)
+- [tensorflow](#tensorflow)
+- [terminal](#terminal)
+- [termux](#termux)
+- [testing](#testing)
+- [twitter](#twitter)
+- [typescript](#typescript)
+- [ubuntu](#ubuntu)
+- [vim](#vim)
+- [visual-studio-code](#visual-studio-code)
+- [vue](#vue)
+- [vuejs](#vuejs)
+- [web](#web)
+- [web-components](#web-components)
+- [web-development](#web-development)
+- [webapp](#webapp)
+- [webpack](#webpack)
+- [website](#website)
+- [windows](#windows)
 
-## Batchfile 
+## 3d 
 
-- [osm0sis/Android-Image-Kitchen](https://github.com/osm0sis/Android-Image-Kitchen) - Automated scripts to unpack/repack Android kernel/recovery images + ramdisks
-- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
-- [YurinDoctrine/adbloat](https://github.com/YurinDoctrine/adbloat) - Android debloating via debugging
-- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
-- [srnyx/mc-server-templates](https://github.com/srnyx/mc-server-templates) - Use these templates to create your very own Minecraft server(s)!
-- [awesome-windows11/windows11](https://github.com/awesome-windows11/windows11) - 🌎 Windows 11 Settings, Tweaks, Scripts
+- [iNKORE-Public/MCSkinn](https://github.com/iNKORE-Public/MCSkinn) - A modern Minecraft 3D skin manager/editor for Windows by NotYoojun.!
 
-## C 
+## ai 
 
-- [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - "Sigma File Manager" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.
-- [gs-bluraviole/android_kernel_google_gs101](https://github.com/gs-bluraviole/android_kernel_google_gs101) - Pixel 6 series kernel.
-- [maverickjb/linux-6.1.10](https://github.com/maverickjb/linux-6.1.10) - 
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
+- [rocksdanister/lively](https://github.com/rocksdanister/lively) - Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by WinUI 3.
+
+## algorithm 
+
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [Aniket965/Hello-world](https://github.com/Aniket965/Hello-world) - Add any  Program in any language you like or add a hello world Program ❣️ if you like give us :star:
+
+## analytics 
+
+- [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
+
+## android 
+
+- [dabao1955/kernel_build_action](https://github.com/dabao1955/kernel_build_action) - a action to build kernel automatically
 - [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
-- [AOSPA/android_kernel_xiaomi_sm8250](https://github.com/AOSPA/android_kernel_xiaomi_sm8250) - 
-- [map220v/nt36523_win](https://github.com/map220v/nt36523_win) - FocalTech 5x Digitizer driver for Windows
-- [utziacre/android_kernel_xiaomi_nabu](https://github.com/utziacre/android_kernel_xiaomi_nabu) - Compile the kernel with clang
-- [mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd) - 7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard
-- [FuSan21/kernel_xiaomi_nabu](https://github.com/FuSan21/kernel_xiaomi_nabu) - 
-- [WillzenZou/edk2-orangepi5](https://github.com/WillzenZou/edk2-orangepi5) - Windows on  arm64 for rk3588s orange pi 5
-- [SpadesX/SpadesX](https://github.com/SpadesX/SpadesX) - An Ace of Spades server implementation in C
-- [RE800T/kernel_google_bluejay](https://github.com/RE800T/kernel_google_bluejay) - 
-- [map220v/sm8150-mainline](https://github.com/map220v/sm8150-mainline) - WIP Mainline kernel for Xiaomi Pad 5
+- [sunshine0523/Mi-Freeform](https://github.com/sunshine0523/Mi-Freeform) - Mi-Freeform 3 is an Android third-party freeform software that supports Android 8.1-Android 14
+- [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
+- [EtchDroid/EtchDroid](https://github.com/EtchDroid/EtchDroid) - An application to write OS images to USB drives, on Android, no root required.
+- [DeviceFarmer/stf](https://github.com/DeviceFarmer/stf) - Control and manage Android devices from your browser.
+- [canyie/Dreamland](https://github.com/canyie/Dreamland) - A third-party Xposed framework implementation which supports Android 5.0~14.
+- [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+- [h1toru/ANXCameraT](https://github.com/h1toru/ANXCameraT) - ANXCamera Magisk Module for Android 12-14
+- [Kingsman44/Pixelify](https://github.com/Kingsman44/Pixelify) - Magisk module to enables pixel exclusive features and ui
+- [PitchBlackRecoveryProject/android_bootable_recovery](https://github.com/PitchBlackRecoveryProject/android_bootable_recovery) - The heart :heart: of PBRP
+- [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) - Get Android App Updates Directly From the Source.
+- [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) - A full-featured package manager and viewer for Android
+- [DUpdateSystem/UpgradeAll](https://github.com/DUpdateSystem/UpgradeAll) - Check updates for Android apps, Magisk modules and more!
+- [Dr-TSNG/Hide-My-Applist](https://github.com/Dr-TSNG/Hide-My-Applist) - An Xposed module to intercept applist detections
+- [MRepoApp/MRepo](https://github.com/MRepoApp/MRepo) - A Modules Manager for Magisk & KernelSU
+- [ente-io/auth](https://github.com/ente-io/auth) - 2FA app for Android, iOS and web, with free end-to-end encrypted backup and sync
+- [beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - A free, secure and open source app for Android to manage your 2-step verification tokens.
+- [Mahmud0808/Iconify](https://github.com/Mahmud0808/Iconify) - Customize Boring Android UI
 - [Panchajanya1999/kernel-5.10](https://github.com/Panchajanya1999/kernel-5.10) - source code for Google Pixel 6 family || Backported Stuffs can be found here || alert FORCE PUSH ||
-- [v1cont/yad](https://github.com/v1cont/yad) - Yet Another Dialog
-- [lwfinger/rtw88](https://github.com/lwfinger/rtw88) - A backport of the Realtek Wifi 5 drivers from the wireless-next repo.
-- [icebarf/perfmode](https://github.com/icebarf/perfmode) - Fan/Performance Control for ASUS TUF Gaming laptops
-- [lakinduakash/linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) - Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Simil
-- [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
-- [ProjectManticore/Manticore](https://github.com/ProjectManticore/Manticore) - iOS Jailbreak based on cicuta_virosa by ModernPwner and Pattern F's pre-jailbreak's amfid bypass.
-- [GZR-Kernels/Optimus_Drunk_Surya](https://github.com/GZR-Kernels/Optimus_Drunk_Surya) - 
-- [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Free and open source software for live streaming and screen recording
-- [ImVexed/muon](https://github.com/ImVexed/muon) - GPU based Electron on a diet
+- [wacko1805/MagiskGapps](https://github.com/wacko1805/MagiskGapps) - MagiskGApps is a modification of NikGApps that can be flashed in Magisk. It is built using a script that converts the NikGApps package into a MagiskGApps Package.
+- [Coxxs/hide-tablet-taskbar](https://github.com/Coxxs/hide-tablet-taskbar) - A Magisk module to hide tablet gesture bar and more [Android 12.1+]
+- [YurinDoctrine/adbloat](https://github.com/YurinDoctrine/adbloat) - Android debloating via debugging
+- [badabing2005/PixelFlasher](https://github.com/badabing2005/PixelFlasher) - Pixel™ phone flashing GUI utility with features.
+- [OmGodse/Notally](https://github.com/OmGodse/Notally) - A beautiful notes app
+- [downthecrop/checkra1n-twrp](https://github.com/downthecrop/checkra1n-twrp) - Android automation app for checkra1n in TWRP
+- [Aliucord/Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Discord Android App
+- [crystalcommunication/twemoji-systemless](https://github.com/crystalcommunication/twemoji-systemless) - Use the Twitter emojis (aka Twemoji) as the Android system emojis with Magisk!
+- [bevkoski/react-native-android-wear-demo](https://github.com/bevkoski/react-native-android-wear-demo) - Showcase of a two-way communication between React Native and Android Wear apps.
+- [facebook/react-native](https://github.com/facebook/react-native) - A framework for building native applications using React
+- [RadiationX/ForPDA](https://github.com/RadiationX/ForPDA) - Alternative client for 4pda.ru
 - [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
-- [cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial) - How to create an OS from scratch
-- [silent27121984/LineageOS_device_xiaomi_santoni](https://github.com/silent27121984/LineageOS_device_xiaomi_santoni) - 
-- [silent27121984/MK_device_xiaomi_santoni](https://github.com/silent27121984/MK_device_xiaomi_santoni) - 
-- [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) - GoodbyeDPI — Deep Packet Inspection circumvention utility (for Windows)
-- [ClusterM/omega2-pwm](https://github.com/ClusterM/omega2-pwm) - Simple program to control hardware PWM on Omega2
-- [JideTechnology/remixos-kernel](https://github.com/JideTechnology/remixos-kernel) - linux kernel source used in Remix OS
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+- [k0shk0sh/FastHub](https://github.com/k0shk0sh/FastHub) - FastHub the ultimate GitHub client for Android.
 
-## C# # 
+## angular 
 
-- [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram for Windows
-- [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) - Lightweight utility for organizing the taskbar through groups
-- [Metabolix/HackBGRT](https://github.com/Metabolix/HackBGRT) - Windows boot logo changer for UEFI systems
+- [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
+
+## api 
+
+- [CraftCanvasMC/Canvas](https://github.com/CraftCanvasMC/Canvas) - Empowering the impossible within Minecraft
+- [Keyspace-cloud/android](https://github.com/Keyspace-cloud/android) - Official Android client for keyspace.cloud. A beautiful and secure password manager.
+- [krisppurg/dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
+- [Discord4J/Discord4J](https://github.com/Discord4J/Discord4J) - Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API.
+- [trpc/trpc](https://github.com/trpc/trpc) - 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+- [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) - A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations
+- [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
+- [negezor/vk-io](https://github.com/negezor/vk-io) - Modern VK API SDK for Node.js
+
+## aspnet 
+
+- [ElectronNET/Electron.NET](https://github.com/ElectronNET/Electron.NET) - :electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
+
+## atom 
+
+- [HelloWorld017/atom-discord](https://github.com/HelloWorld017/atom-discord) - Integrate with Discord and show Rich Presence information.
+- [atom/atom](https://github.com/atom/atom) - :atom: The hackable text editor
+- [27rogi/flatify-ui](https://github.com/27rogi/flatify-ui) - :atom: Flatify – minimalistic, flat and inspiring interface theme for Atom.
+
+## automation 
+
+- [Skidamek/AutoModpack](https://github.com/Skidamek/AutoModpack) - Enjoy a seamless modpack installation process and effortless updates with a user-friendly solution that simplifies management, making your gaming experience a breeze.
+- [DavidoTek/ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) - Install and manage GE-Proton, Luxtorpeda & more for Steam and Wine-GE & more for Lutris with this graphical user interface.
+
+## awesome 
+
+- [maguowei/starred](https://github.com/maguowei/starred) - creating your own Awesome List by GitHub stars!
+- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)
+- [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) - The best design tools and plugins for everything 👉
+- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
+- [vlang/awesome-v](https://github.com/vlang/awesome-v) - A curated list of awesome V frameworks, libraries, software and resources.
+- [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome) - :computer: 🎉 An awesome & curated list of best applications and tools for Windows.
+- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 😱 Falsehoods Programmers Believe in
+- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) - 🌟 Curated design resources from all over the world.
+- [brabadu/awesome-fonts](https://github.com/brabadu/awesome-fonts) - Curated list of fonts and everything
+- [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) - Typefaces for source code beautification
+- [troxler/awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) - List of awesome CSS frameworks in 2024
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - :zap: Delightful Node.js packages and resources
+- [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
+
+## awesome-list 
+
+- [maguowei/starred](https://github.com/maguowei/starred) - creating your own Awesome List by GitHub stars!
+- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)
+- [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) - The best design tools and plugins for everything 👉
+- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
+- [vlang/awesome-v](https://github.com/vlang/awesome-v) - A curated list of awesome V frameworks, libraries, software and resources.
+- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 😱 Falsehoods Programmers Believe in
+- [Igglybuff/awesome-piracy](https://github.com/Igglybuff/awesome-piracy) - A curated list of awesome warez and piracy links
+- [brabadu/awesome-fonts](https://github.com/brabadu/awesome-fonts) - Curated list of fonts and everything
+- [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) - Typefaces for source code beautification
+- [troxler/awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) - List of awesome CSS frameworks in 2024
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - :zap: Delightful Node.js packages and resources
+- [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
+
+## babel 
+
+- [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) - 🦹‍♂️ Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time.
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+
+## bash 
+
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
+- [enquirer/enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-stag
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - The most customisable and low-latency cross platform/shell prompt renderer
+- [ScriBt/ScriBt](https://github.com/ScriBt/ScriBt) - Building ROMs made understandable
+
+## bootstrap 
+
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+
+## bot 
+
+- [Nachtalb/reverse_image_search_bot](https://github.com/Nachtalb/reverse_image_search_bot) - Image Reverse Search Bot🕵️‍♂️🔍: A handy Telegram bot for reverse image searches on images, videos, and GIFs, supporting multiple search engines. Unleash the power of reverse searching! 🚀🤖
+- [Discord4J/Discord4J](https://github.com/Discord4J/Discord4J) - Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API.
+- [Rapptz/discord.py](https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
+- [PrismarineJS/mineflayer](https://github.com/PrismarineJS/mineflayer) - Create Minecraft bots with a powerful, stable, and high level JavaScript API.
+- [discordjs/discord.js](https://github.com/discordjs/discord.js) - A powerful JavaScript library for interacting with the Discord API
+
+## c 
+
+- [SpadesX/SpadesX](https://github.com/SpadesX/SpadesX) - An Ace of Spades server implementation in C
+- [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Free and open source software for live streaming and screen recording
+- [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
+
+## chatgpt 
+
+- [pandora-next/deploy](https://github.com/pandora-next/deploy) - Pandora Cloud + Pandora Server + Shared Chat + BackendAPI Proxy + Chat2API + Signup Free = PandoraNext. New GPTs(Gizmo) UI, All in one!
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - The official gpt4free repository | various collection of powerful language models
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
+
+## chatgpt-api 
+
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - The official gpt4free repository | various collection of powerful language models
+
+## chrome 
+
+- [zombieFox/nightTab](https://github.com/zombieFox/nightTab) - A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with nightTab.
+- [algolia/github-awesome-autocomplete](https://github.com/algolia/github-awesome-autocomplete) - :octocat: Add instant search capabilities to GitHub's search bar
+- [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+## chrome-extension 
+
+- [KristofferTroncoso/ThemeSong](https://github.com/KristofferTroncoso/ThemeSong) - YouTube Music Enhancer Extension. Available for Chrome and Firefox 🎧🎨  Click the ⭐️ button above!
+- [unbug/codelf](https://github.com/unbug/codelf) - A search tool helps dev to solve the naming things problem.
+- [zombieFox/nightTab](https://github.com/zombieFox/nightTab) - A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with nightTab.
+- [PreMiD/PreMiD](https://github.com/PreMiD/PreMiD) - 🧬 Source code of the PreMiD application.
+- [tabwrangler/tabwrangler](https://github.com/tabwrangler/tabwrangler) - A browser extension that automatically closes your unused tabs so you can focus on the tabs that matter
+
+## cli 
+
+- [dundee/gdu](https://github.com/dundee/gdu) - Fast disk usage analyzer with console interface written in Go
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
+- [ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) - Rust library that's all about cooking up terminal user interfaces (TUIs)
+- [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commits specification
+- [enquirer/enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-stag
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder 📼
+- [charmbracelet/bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🫧
+- [hatoo/oha](https://github.com/hatoo/oha) - Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.
+- [AnderssonPeter/PowerType](https://github.com/AnderssonPeter/PowerType) - Autocomplete for PowerShell
+- [cli-table/cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line
+- [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
+- [chalk/chalk](https://github.com/chalk/chalk) - 🖍 Terminal string styling done right
+- [jpbruinsslot/slack-term](https://github.com/jpbruinsslot/slack-term) - Slack client for your terminal
+- [Pepijn98/discotify](https://github.com/Pepijn98/discotify) - Spotify Rich Presence for Discord (now also has a cli)
+
+## compiler 
+
+- [sveltejs/svelte](https://github.com/sveltejs/svelte) - Cybernetically enhanced web apps
+- [rust-lang/rust](https://github.com/rust-lang/rust) - Empowering everyone to build reliable and efficient software.
+- [nim-lang/Nim](https://github.com/nim-lang/Nim) - Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, an
+- [vlang/v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in &lt;1s with zero library dependencies. Supports automatic C =&gt; V translation. https://vlang.io
+
+## computer-science 
+
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) - Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+
+## computer-vision 
+
+- [phillipi/pix2pix](https://github.com/phillipi/pix2pix) - Image-to-image translation with conditional adversarial nets
+
+## covid-19 
+
+- [ahmadawais/corona-cli](https://github.com/ahmadawais/corona-cli) - 🦠 Track the Coronavirus disease (COVID-19) in the command line. Worldwide for all countries, for one country, and the US States. Fast response time (&lt; 100ms). To chat: https://twitter.com/MrAhmadAw
+
+## cpp 
+
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) - Self-hosted game stream host for Moonlight.
+- [polybar/polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar
+- [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu) - Nintendo Switch emulator
+- [uowuo/abaddon](https://github.com/uowuo/abaddon) - An alternative Discord client with voice support made with C++ and GTK 3
+- [microsoft/calculator](https://github.com/microsoft/calculator) - Windows Calculator: A simple yet powerful calculator that ships with Windows
+
+## csharp 
+
 - [Pdawg-bytes/GyroShell](https://github.com/Pdawg-bytes/GyroShell) - A shell for Windows 11 (and maybe 10) that aims to allow for a much more customizable and streamlined shell experience. Fully written in C# WASDK.
 - [iNKORE-Public/MCSkinn](https://github.com/iNKORE-Public/MCSkinn) - A modern Minecraft 3D skin manager/editor for Windows by NotYoojun.!
 - [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - The stylish yet powerful GitHub client for Windows.
-- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - C# library and console app for using new feature control APIs available in Windows 10 version 2004 and newer
-- [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
 - [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of WinUI.
-- [luandersonn/MyFTP](https://github.com/luandersonn/MyFTP) - A modern FTP client for Windows 11
-- [ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts) - A modern Fluent Design replacement for the old Metro themed flyouts present in Windows.
 - [Alleaxx/RS-2.0](https://github.com/Alleaxx/RS-2.0) - Первый симулятор Румине на WPF'e. Остался как историческое наследие, актуальная версия уже совсем другая.
 - [Alleaxx/RumineActivity](https://github.com/Alleaxx/RumineActivity) - Приложение анализа и визуализации форумной активности ru-minecraft.ru. Теперь и онлайн! Для этого использует Blazor, ASP .NET Core и чуток древних архивов.
 - [rocksdanister/lively](https://github.com/rocksdanister/lively) - Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by WinUI 3.
-- [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) - A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations
-- [samhogan/Minecraft-Unity3D](https://github.com/samhogan/Minecraft-Unity3D) - A basic minecraft clone made with unity in 24 hours
 - [files-community/Files](https://github.com/files-community/Files) - Building the best file manager for Windows
-- [felixse/FluentTerminal](https://github.com/felixse/FluentTerminal) - A Terminal Emulator based on UWP and web technologies.
-- [ElectronNET/Electron.NET](https://github.com/ElectronNET/Electron.NET) - :electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
-- [neowutran/ShinraMeter](https://github.com/neowutran/ShinraMeter) - Tera DPS Meter
+- [microsoft/calculator](https://github.com/microsoft/calculator) - Windows Calculator: A simple yet powerful calculator that ships with Windows
 - [dedepete/Forgefier](https://github.com/dedepete/Forgefier) - Minecraft Forge installer, written in C#.
-- [xyonico/BeatSaberSongLoader](https://github.com/xyonico/BeatSaberSongLoader) - A plugin for adding custom songs into Beat Saber
-- [chocolatey/choco](https://github.com/chocolatey/choco) - Chocolatey - the package manager for Windows
 - [ShareX/ShareX](https://github.com/ShareX/ShareX) - ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of file
-- [ClusterM/hakchi2](https://github.com/ClusterM/hakchi2) - Tool that allows you to add more games to your NES/SNES Classic Mini. WARNING: hakchi2 is no longer supported. Please use hakchi2 CE.
 - [dedepete/FreeLauncher](https://github.com/dedepete/FreeLauncher) - Open source C# Minecraft launcher.
 
-## C++ 
-
-- [HuskyDG/zygisk-maphide](https://github.com/HuskyDG/zygisk-maphide) - Wipe out the traces of mounted files of Magisk module for process on DenyList
-- [moudey/Shell](https://github.com/moudey/Shell) - Powerful context menu manager for Windows File Explorer
-- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) - Self-hosted game stream host for Moonlight.
-- [Yervant7/Qingyue](https://github.com/Yervant7/Qingyue) - zygisknext assistent
-- [Yervant7/ZygiskNext](https://github.com/Yervant7/ZygiskNext) - Standalone implementation of Zygisk For APatch
-- [Droptop-Four/Droptop-Four](https://github.com/Droptop-Four/Droptop-Four) - Popular dropdown menu bar & app launcher for Windows & Rainmeter
-- [stuartore/device_xiaomi_psyche](https://github.com/stuartore/device_xiaomi_psyche) - Device tree of Xiaomi 12X(psyche) - Auto bringup ability
-- [PitchBlackRecoveryProject/android_bootable_recovery](https://github.com/PitchBlackRecoveryProject/android_bootable_recovery) - The heart :heart: of PBRP
-- [sysprogs/WinCDEmu](https://github.com/sysprogs/WinCDEmu) - 
-- [polybar/polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar
-- [map220v/android_device_xiaomi_nabu](https://github.com/map220v/android_device_xiaomi_nabu) - TWRP Device tree for Xiaomi Pad 5
-- [OpenSteamClient/OpenSteamClient](https://github.com/OpenSteamClient/OpenSteamClient) - Partially open-source alternative Steam Client for Linux.
-- [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu) - Nintendo Switch emulator
-- [ArrowOS-Devices/android_device_xiaomi_nabu](https://github.com/ArrowOS-Devices/android_device_xiaomi_nabu) - 
-- [bm0x/twrp_device_xiaomi_nabu](https://github.com/bm0x/twrp_device_xiaomi_nabu) - TWRP (WIP) for Xiaomi Pad 5
-- [rui314/mold](https://github.com/rui314/mold) - Mold: A Modern Linker 🦠
-- [uowuo/abaddon](https://github.com/uowuo/abaddon) - An alternative Discord client with voice support made with C++ and GTK 3
-- [dimensity-twrp-dev/device_xiaomi_rubens-TWRP](https://github.com/dimensity-twrp-dev/device_xiaomi_rubens-TWRP) - TWRP device tree for Redmi K50 (rubens)
-- [fn2006/PollyMC](https://github.com/fn2006/PollyMC) - DRM-free Prism Launcher fork with support for custom auth servers.
-- [typesense/typesense](https://github.com/typesense/typesense) - Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences
-- [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
-- [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) - KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
-- [HerMajestyDrMona/Windows11DragAndDropToTaskbarFix](https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix) - "Windows 11 Drag & Drop to the Taskbar (Fix)" fixes the missing "Drag & Drop to the Taskbar" support in Windows 11. It works with the new Windows 11 taskbar and does not require nasty changes like Und
-- [kaniol-lck/modmanager](https://github.com/kaniol-lck/modmanager) - A Qt-based mod manager for minecraft.
-- [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
-- [kiwibrowser/src.next](https://github.com/kiwibrowser/src.next) - Source-code for Kiwi Next, a Kiwi Browser auto-rebased with latest Chromium
-- [picotorrent/picotorrent](https://github.com/picotorrent/picotorrent) - A tiny, hackable BitTorrent client.
-- [facebook/react-native](https://github.com/facebook/react-native) - A framework for building native applications using React
-- [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
-- [microsoft/terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host, all in the same place!
-- [microsoft/calculator](https://github.com/microsoft/calculator) - Windows Calculator: A simple yet powerful calculator that ships with Windows
-- [dimkanovikov/KITScenarist](https://github.com/dimkanovikov/KITScenarist) - Screenwriting software.
-- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
-- [discord/electron](https://github.com/discord/electron) - Build cross platform desktop apps with web technologies
-- [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
-- [discord/discord-rpc](https://github.com/discord/discord-rpc) - 
-- [aguinet/wannakey](https://github.com/aguinet/wannakey) - Wannacry in-memory key recovery
-- [AdrianEddy/AIMPSoundcloud](https://github.com/AdrianEddy/AIMPSoundcloud) - SoundCloud plugin for AIMP
-- [martin211/aimp_dotnet](https://github.com/martin211/aimp_dotnet) - AIMP DotNet plugin
-
-## CMake 
-
-- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
-
-## CSS 
+## css 
 
 - [Shina-SG/Shina-Fox](https://github.com/Shina-SG/Shina-Fox) - A Minimal, Cozy, Vertical Optimized Firefox Theme
+- [brofrain/unocss-classes-rs](https://github.com/brofrain/unocss-classes-rs) - ⚛️ HTML class builder macro with UnoCSS variant group transformer for Rust web frameworks
 - [SiriusBYT/Flashcord](https://github.com/SiriusBYT/Flashcord) - The world's most advanced, complex and feature rich Discord Theme to ever exist. A complete visual overhaul for Discord with many QoL features and virtually endless customization options.
+- [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
 - [KibSquib48/MicaFox](https://github.com/KibSquib48/MicaFox) - [HIATUS 2] Firefox Windows 11 Theme
-- [NightKosh/MineTrades](https://github.com/NightKosh/MineTrades) - 
-- [AikoMidori/SteamSkins](https://github.com/AikoMidori/SteamSkins) - With Steam's new beta and introduction to full css clients, and the removal of VGUI, means a new era of skins.
-- [vinceliuice/Fluent-gtk-theme](https://github.com/vinceliuice/Fluent-gtk-theme) - Fluent design gtk theme for linux desktops
-- [imarkoff/Marble-shell-theme](https://github.com/imarkoff/Marble-shell-theme) - Shell theme for GNOME DE
-- [witalihirsch/Mono-gtk-theme](https://github.com/witalihirsch/Mono-gtk-theme) - Mono Theme for Gnome
-- [tkashkin/Adwaita-for-Steam](https://github.com/tkashkin/Adwaita-for-Steam) - A skin to make Steam look more like a native GNOME app
-- [TheOld/vscode-fluent-ui](https://github.com/TheOld/vscode-fluent-ui) - 
-- [purogamer/Fluent-for-Steam](https://github.com/purogamer/Fluent-for-Steam) - Fluent for Steam. A simple skin for steam to make it look like windows 11.
-- [discord-extensions-archived/bottom-bar](https://github.com/discord-extensions-archived/bottom-bar) - A nice, simple looking, bottom bar.
+- [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
+- [saadeghi/daisyui](https://github.com/saadeghi/daisyui) - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
+- [Equal-UI/Equal](https://github.com/Equal-UI/Equal) - Equal UI is a Vue 3 UI library empowered by Tailwindcss
+- [iamyoki/transition-hook](https://github.com/iamyoki/transition-hook) - ☄️  An extremely light-weight react transition animation hook which is simpler and easier to use than react-transition-group
+- [tw-in-js/twind](https://github.com/tw-in-js/twind) - The smallest, fastest, most feature complete Tailwind-in-JS solution in existence.
+- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
+- [Tropix126/fluent-svelte](https://github.com/Tropix126/fluent-svelte) - A faithful implementation of Microsoft's Fluent Design System in Svelte.
+- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
+- [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
 - [picturepan2/spectre](https://github.com/picturepan2/spectre) - Spectre.css - A Lightweight, Responsive and Modern CSS Framework
 - [jdan/98.css](https://github.com/jdan/98.css) - A design system for building faithful recreations of old UIs
+- [andybrewer/mvp](https://github.com/andybrewer/mvp) - MVP.css — Minimalist classless CSS stylesheet for HTML elements
+- [primer/css](https://github.com/primer/css) - The CSS design system that powers GitHub
+- [alexcambose/motus](https://github.com/alexcambose/motus) - Animation library that mimics CSS keyframes when scrolling.
 - [troxler/awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) - List of awesome CSS frameworks in 2024
-- [mc-modding/mc-modding-book](https://github.com/mc-modding/mc-modding-book) - Everything about creating Minecraft mods
-- [Edgarware/Threshold-Skin](https://github.com/Edgarware/Threshold-Skin) - A Windows 10 UWP style skin for Steam
+- [nostalgic-css/NES.css](https://github.com/nostalgic-css/NES.css) - NES-style CSS Framework | ファミコン風CSSフレームワーク
+- [RadiationX/ForPDA](https://github.com/RadiationX/ForPDA) - Alternative client for 4pda.ru
+- [postcss/autoprefixer](https://github.com/postcss/autoprefixer) - Parse CSS and add vendor prefixes to rules by Can I Use
 - [Chalarangelo/30-seconds-of-css](https://github.com/Chalarangelo/30-seconds-of-css) - Short CSS code snippets for all your development needs
-- [blivesta/animsition](https://github.com/blivesta/animsition) - A simple and easy jQuery plugin for CSS animated page transitions.
-- [Yummygum/city-lights-ui-atom](https://github.com/Yummygum/city-lights-ui-atom) - 
-- [27rogi/flatify-ui](https://github.com/27rogi/flatify-ui) - :atom: Flatify – minimalistic, flat and inspiring interface theme for Atom.
-- [DirtDiglett/Pressure2](https://github.com/DirtDiglett/Pressure2) - Pressure² - a beautiful theme for your Steam Client.
+- [styled-components/styled-components](https://github.com/styled-components/styled-components) - Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
+- [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+- [juliangarnier/anime](https://github.com/juliangarnier/anime) - JavaScript animation engine
+- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+- [sapic/sapic](https://github.com/sapic/sapic) - A useful tool to crop your Steam profile background for showcases.
+- [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) - The iconic SVG, font, and CSS toolkit
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+- [jmjuanes/siimple](https://github.com/jmjuanes/siimple) - The minimal and themeable CSS toolkit for flat and clean designs
 
-## Dart 
+## dart 
 
-- [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) - Get Android App Updates Directly From the Source.
+- [robertodoering/harpy](https://github.com/robertodoering/harpy) - a Twitter app built with Flutter 🦅
+- [pawlik92/flutter_whirlpool](https://github.com/pawlik92/flutter_whirlpool) - Flutter UI challenge (with Box2D physic)- Smart washing machine app
+
+## data-structures 
+
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [HowProgrammingWorks/Index](https://github.com/HowProgrammingWorks/Index) - Metarhia educational program index 📖
+
+## database 
+
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+
+## deep-learning 
+
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
+- [phillipi/pix2pix](https://github.com/phillipi/pix2pix) - Image-to-image translation with conditional adversarial nets
+
+## deno 
+
+- [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
+
+## design 
+
+- [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) - The best design tools and plugins for everything 👉
+- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) - 🌟 Curated design resources from all over the world.
+- [rsms/inter](https://github.com/rsms/inter) - The Inter font family
+- [BeardDesign1/Material-design-theme](https://github.com/BeardDesign1/Material-design-theme) - 🎨 A ex-theme for Discord according to Google's Material design Guidelines. Now moved to https://github.com/rauenzi/Nox
+
+## discord 
+
+- [SpikeHD/Dorion](https://github.com/SpikeHD/Dorion) - Tiny alternative Discord client with a smaller footprint, themes, plugins and more!
+- [SiriusBYT/Flashcord](https://github.com/SiriusBYT/Flashcord) - The world's most advanced, complex and feature rich Discord Theme to ever exist. A complete visual overhaul for Discord with many QoL features and virtually endless customization options.
+- [TakosThings/Fluent-Discord](https://github.com/TakosThings/Fluent-Discord) - Windows 11 Fluent Discord theme.
+- [eggsy/website](https://github.com/eggsy/website) - 🧬 Source code of my personal website. Everything is included. Written in NuxtJS, TypeScript and Windi CSS!
+- [Vendicated/Vencord](https://github.com/Vendicated/Vencord) - The cutest Discord client mod
+- [ArmCord/ArmCord](https://github.com/ArmCord/ArmCord) - ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+- [uowuo/abaddon](https://github.com/uowuo/abaddon) - An alternative Discord client with voice support made with C++ and GTK 3
+- [krisppurg/dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
+- [Discord4J/Discord4J](https://github.com/Discord4J/Discord4J) - Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API.
+- [discord-extensions-archived/bottom-bar](https://github.com/discord-extensions-archived/bottom-bar) - A nice, simple looking, bottom bar.
+- [hyblocker/pixelcord](https://github.com/hyblocker/pixelcord) - dogshit discord theme with ripple and animations
+- [resucutie/discord-modding-archive](https://github.com/resucutie/discord-modding-archive) - List of all drama in Discord's unstable modding community
+- [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
+- [Aliucord/Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Discord Android App
+- [DiscordStyles/Slate](https://github.com/DiscordStyles/Slate) - An optimized, consistent, and functional theme for @discord based on GitHub's design language.
+- [MrZillaGold/VK2Discord](https://github.com/MrZillaGold/VK2Discord) - 🔧 Автоматическая публикация записей из группы или профиля ВКонтакте в канал Discord
+- [PreMiD/Website](https://github.com/PreMiD/Website) - 📂 All our website insides for free.
+- [Rapptz/discord.py](https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
+- [BetterDiscord/BetterDiscord](https://github.com/BetterDiscord/BetterDiscord) - Better Discord enhances Discord desktop app with new features.
+- [PreMiD/PreMiD](https://github.com/PreMiD/PreMiD) - 🧬 Source code of the PreMiD application.
+- [Discord-Datamining/Discord-Datamining](https://github.com/Discord-Datamining/Discord-Datamining) - Datamining Discord changes from the JS files
+- [demaisj/soundcloud-rp](https://github.com/demaisj/soundcloud-rp) - Adds Discord Rich Presence support to Soundcloud.
+- [iCrawl/discord-vscode](https://github.com/iCrawl/discord-vscode) - 🖋️ Update your discord status with a rich presence
+- [BeardDesign1/Material-design-theme](https://github.com/BeardDesign1/Material-design-theme) - 🎨 A ex-theme for Discord according to Google's Material design Guidelines. Now moved to https://github.com/rauenzi/Nox
+- [7coil/dmail](https://github.com/7coil/dmail) - Receive your emails from within Discord, with Dmail
+- [Pepijn98/discotify](https://github.com/Pepijn98/discotify) - Spotify Rich Presence for Discord (now also has a cli)
+- [HelloWorld017/atom-discord](https://github.com/HelloWorld017/atom-discord) - Integrate with Discord and show Rich Presence information.
+- [spec-tacles/discord.js-redis](https://github.com/spec-tacles/discord.js-redis) - Connects Discord.js with Redis.
+- [discordjs/discord.js](https://github.com/discordjs/discord.js) - A powerful JavaScript library for interacting with the Discord API
+
+## docker 
+
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) - Self-hosted game stream host for Moonlight.
+- [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+
+## documentation 
+
+- [intergrav/devins-badges](https://github.com/intergrav/devins-badges) - Beautifully designed badges for many services
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+
+## dotnet 
+
+- [Pdawg-bytes/GyroShell](https://github.com/Pdawg-bytes/GyroShell) - A shell for Windows 11 (and maybe 10) that aims to allow for a much more customizable and streamlined shell experience. Fully written in C# WASDK.
+- [iNKORE-Public/MCSkinn](https://github.com/iNKORE-Public/MCSkinn) - A modern Minecraft 3D skin manager/editor for Windows by NotYoojun.!
+- [files-community/Files](https://github.com/files-community/Files) - Building the best file manager for Windows
+- [ElectronNET/Electron.NET](https://github.com/ElectronNET/Electron.NET) - :electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
+- [martin211/aimp_dotnet](https://github.com/martin211/aimp_dotnet) - AIMP DotNet plugin
+
+## education 
+
+- [Chalarangelo/30-seconds-of-css](https://github.com/Chalarangelo/30-seconds-of-css) - Short CSS code snippets for all your development needs
+
+## electron 
+
+- [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - "Sigma File Manager" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+- [staniel359/muffon](https://github.com/staniel359/muffon) - Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
+- [ArmCord/ArmCord](https://github.com/ArmCord/ArmCord) - ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+- [ImVexed/muon](https://github.com/ImVexed/muon) - GPU based Electron on a diet
+- [wexond/browser-base](https://github.com/wexond/browser-base) - Modern and feature-rich web browser base based on Electron
+- [gillesdemey/Cumulus](https://github.com/gillesdemey/Cumulus) - ☁️  A SoundCloud player that lives in your menubar.
+- [ElectronNET/Electron.NET](https://github.com/ElectronNET/Electron.NET) - :electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
+- [electron/electronjs.org-old](https://github.com/electron/electronjs.org-old) - Electron website
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+- [herber/cargo](https://github.com/herber/cargo) - 🚂🚋🚋 A browser with almost no UI.
+- [scholtzm/punk](https://github.com/scholtzm/punk) - ⚡ Alternative cross-platform Steam client for desktop
+- [denysdovhan/inboxer](https://github.com/denysdovhan/inboxer) - Unofficial, free and open-source Inbox by Gmail Desktop App
+- [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+- [HelloWorld017/atom-discord](https://github.com/HelloWorld017/atom-discord) - Integrate with Discord and show Rich Presence information.
+- [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
+- [atom/atom](https://github.com/atom/atom) - :atom: The hackable text editor
+- [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
+
+## emoji 
+
+- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - A collection of familiar, friendly, and modern emoji from Microsoft
+- [crystalcommunication/twemoji-systemless](https://github.com/crystalcommunication/twemoji-systemless) - Use the Twitter emojis (aka Twemoji) as the Android system emojis with Magisk!
+- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - An emoji guide for your commit messages. 😜
+
+## emulator 
+
+- [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu) - Nintendo Switch emulator
+
+## es6 
+
+- [hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate) - A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose
+
+## eslint 
+
+- [xojs/xo](https://github.com/xojs/xo) - ❤️ JavaScript/TypeScript linter (ESLint wrapper) with great defaults
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+
+## express 
+
+- [jonluca/vite-typescript-ssr-react](https://github.com/jonluca/vite-typescript-ssr-react) - 🚀 A Vite Typescript SSR React boilerplate!
+- [hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate) - A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose
+- [express-validator/express-validator](https://github.com/express-validator/express-validator) - An express.js middleware for validator.js.
+
+## firebase 
+
+- [eggsy/website](https://github.com/eggsy/website) - 🧬 Source code of my personal website. Everything is included. Written in NuxtJS, TypeScript and Windi CSS!
+
+## firefox 
+
+- [Shina-SG/Shina-Fox](https://github.com/Shina-SG/Shina-Fox) - A Minimal, Cozy, Vertical Optimized Firefox Theme
+- [KibSquib48/MicaFox](https://github.com/KibSquib48/MicaFox) - [HIATUS 2] Firefox Windows 11 Theme
+- [zombieFox/nightTab](https://github.com/zombieFox/nightTab) - A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with nightTab.
+- [algolia/github-awesome-autocomplete](https://github.com/algolia/github-awesome-autocomplete) - :octocat: Add instant search capabilities to GitHub's search bar
+
+## flutter 
+
 - [ente-io/auth](https://github.com/ente-io/auth) - 2FA app for Android, iOS and web, with free end-to-end encrypted backup and sync
 - [robertodoering/harpy](https://github.com/robertodoering/harpy) - a Twitter app built with Flutter 🦅
 - [pawlik92/flutter_whirlpool](https://github.com/pawlik92/flutter_whirlpool) - Flutter UI challenge (with Box2D physic)- Smart washing machine app
 
-## Dockerfile 
+## flutter-apps 
 
-- [kelseyhightower/nocode](https://github.com/kelseyhightower/nocode) - The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+- [pawlik92/flutter_whirlpool](https://github.com/pawlik92/flutter_whirlpool) - Flutter UI challenge (with Box2D physic)- Smart washing machine app
 
-## GLSL 
+## font 
 
-- [ashie404/MelonShaders](https://github.com/ashie404/MelonShaders) - minecraft shaders!
+- [github/hubot-sans](https://github.com/github/hubot-sans) - Hubot Sans, a variable font from GitHub
+- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) - 🌟 Curated design resources from all over the world.
+- [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) - Typefaces for source code beautification
+- [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans) - A font family with a great monospaced variant for programmers.
+- [uswds/public-sans](https://github.com/uswds/public-sans) - A strong, neutral, principles-driven, open source typeface for text or display
+- [googlefonts/amstelvar](https://github.com/googlefonts/amstelvar) - a parametric variable font by David Berlow
+- [weiweihuanghuang/Work-Sans](https://github.com/weiweihuanghuang/Work-Sans) - A grotesque sans.
+- [rsms/inter](https://github.com/rsms/inter) - The Inter font family
+- [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) - The iconic SVG, font, and CSS toolkit
 
-## Go 
+## framework 
+
+- [flosse/rust-web-framework-comparison](https://github.com/flosse/rust-web-framework-comparison) - A comparison of some web frameworks and libs written in Rust
+- [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans
+- [Equal-UI/Equal](https://github.com/Equal-UI/Equal) - Equal UI is a Vue 3 UI library empowered by Tailwindcss
+- [primer/css](https://github.com/primer/css) - The CSS design system that powers GitHub
+- [troxler/awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) - List of awesome CSS frameworks in 2024
+- [vuejs/vue](https://github.com/vuejs/vue) - This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core
+- [laravel/laravel](https://github.com/laravel/laravel) - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.
+
+## frontend 
+
+- [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
+- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)
+- [Equal-UI/Equal](https://github.com/Equal-UI/Equal) - Equal UI is a Vue 3 UI library empowered by Tailwindcss
+- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
+- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
+- [facebook/react](https://github.com/facebook/react) - The library for web and native user interfaces.
+- [thedaviddias/Front-End-Design-Checklist](https://github.com/thedaviddias/Front-End-Design-Checklist) - 💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers
+- [vuejs/vue](https://github.com/vuejs/vue) - This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core
+
+## game 
+
+- [iNKORE-Public/MCSkinn](https://github.com/iNKORE-Public/MCSkinn) - A modern Minecraft 3D skin manager/editor for Windows by NotYoojun.!
+- [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) - A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations
+
+## game-development 
+
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+
+## gamedev 
+
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+
+## games 
+
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+
+## git 
+
+- [TriPSs/conventional-changelog-action](https://github.com/TriPSs/conventional-changelog-action) - Github Action that generates a changelog with the Conventional Changelog CLI
+- [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commits specification
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - The most customisable and low-latency cross platform/shell prompt renderer
+- [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) - 📓 Lint commit messages
+- [conventional-commits/conventionalcommits.org](https://github.com/conventional-commits/conventionalcommits.org) - The conventional commits specification
+- [files-community/Files](https://github.com/files-community/Files) - Building the best file manager for Windows
+
+## github 
+
+- [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) - Get Android App Updates Directly From the Source.
+- [giscus/giscus](https://github.com/giscus/giscus) - A comment system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - The stylish yet powerful GitHub client for Windows.
+- [algolia/github-awesome-autocomplete](https://github.com/algolia/github-awesome-autocomplete) - :octocat: Add instant search capabilities to GitHub's search bar
+
+## github-api 
+
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - The stylish yet powerful GitHub client for Windows.
+
+## go 
+
+- [Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) - Spoof TLS/JA3 fingerprints in GO and Javascript
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+- [jpbruinsslot/slack-term](https://github.com/jpbruinsslot/slack-term) - Slack client for your terminal
+
+## golang 
 
 - [dundee/gdu](https://github.com/dundee/gdu) - Fast disk usage analyzer with console interface written in Go
 - [Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) - Spoof TLS/JA3 fingerprints in GO and Javascript
-- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder 📼
-- [charmbracelet/bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🫧
 - [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
 - [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
 - [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - The most customisable and low-latency cross platform/shell prompt renderer
 - [himidori/golang-vk-api](https://github.com/himidori/golang-vk-api) - Methods for VK API
 - [jpbruinsslot/slack-term](https://github.com/jpbruinsslot/slack-term) - Slack client for your terminal
 
-## HTML 
+## good-first-issue 
 
-- [resucutie/discord-modding-archive](https://github.com/resucutie/discord-modding-archive) - List of all drama in Discord's unstable modding community
-- [alpinejs/alpine](https://github.com/alpinejs/alpine) - A rugged, minimal framework for composing JavaScript behavior in your markup.
-- [Igglybuff/awesome-piracy](https://github.com/Igglybuff/awesome-piracy) - A curated list of awesome warez and piracy links
-- [andybrewer/mvp](https://github.com/andybrewer/mvp) - MVP.css — Minimalist classless CSS stylesheet for HTML elements
-- [uswds/public-sans](https://github.com/uswds/public-sans) - A strong, neutral, principles-driven, open source typeface for text or display
-- [weiweihuanghuang/Work-Sans](https://github.com/weiweihuanghuang/Work-Sans) - A grotesque sans.
-- [parcel-bundler/website](https://github.com/parcel-bundler/website) - 🌎 Parcel website
-- [Guichaguri/guichaguri.github.io](https://github.com/Guichaguri/guichaguri.github.io) - 
-- [kristoferjoseph/flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid) - Grid based on CSS3 flexbox
-- [uikit/uikit](https://github.com/uikit/uikit) - A lightweight and modular front-end framework for developing fast and powerful web interfaces
+- [files-community/Files](https://github.com/files-community/Files) - Building the best file manager for Windows
+- [microsoft/terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host, all in the same place!
 
-## Handlebars 
+## google 
 
-- [microsoft/vscode-codicons](https://github.com/microsoft/vscode-codicons) - The icon font for Visual Studio Code
-- [electron/electronjs.org-old](https://github.com/electron/electronjs.org-old) - Electron website
+- [Nachtalb/reverse_image_search_bot](https://github.com/Nachtalb/reverse_image_search_bot) - Image Reverse Search Bot🕵️‍♂️🔍: A handy Telegram bot for reverse image searches on images, videos, and GIFs, supporting multiple search engines. Unleash the power of reverse searching! 🚀🤖
+- [Panchajanya1999/kernel-5.10](https://github.com/Panchajanya1999/kernel-5.10) - source code for Google Pixel 6 family || Backported Stuffs can be found here || alert FORCE PUSH ||
+- [wacko1805/MagiskGapps](https://github.com/wacko1805/MagiskGapps) - MagiskGApps is a modification of NikGApps that can be flashed in Magisk. It is built using a script that converts the NikGApps package into a MagiskGApps Package.
 
-## Java 
+## graphql 
 
-- [pumPCin/LSPosed](https://github.com/pumPCin/LSPosed) - LSPosed Framework
-- [FTBTeam/FTB-Quests](https://github.com/FTBTeam/FTB-Quests) - Quests is one of the best Questing mods for Minecraft out there. It has a highly customisable questing system and an easy to use interface.
-- [Patbox/sgui](https://github.com/Patbox/sgui) - Library for creating custom, server side guis on Fabric
-- [CraftCanvasMC/Canvas](https://github.com/CraftCanvasMC/Canvas) - Empowering the impossible within Minecraft
-- [mickaelmendes50/android_device_xiaomi_psyche](https://github.com/mickaelmendes50/android_device_xiaomi_psyche) - Minimal CLO Device Tree to Xiaomi 12X
-- [Polyfrost/OneConfig](https://github.com/Polyfrost/OneConfig) - Next generation configuration library for Minecraft
-- [SHsuperCM/Stonecutter](https://github.com/SHsuperCM/Stonecutter) - 
-- [isXander/YetAnotherConfigLib](https://github.com/isXander/YetAnotherConfigLib) - YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.
-- [canyie/Dreamland](https://github.com/canyie/Dreamland) - A third-party Xposed framework implementation which supports Android 5.0~14.
-- [KhoalaS/Infinity-For-Reddit](https://github.com/KhoalaS/Infinity-For-Reddit) - A Reddit client for Android
-- [Tfarcenim/CIT-Reforged](https://github.com/Tfarcenim/CIT-Reforged) - CIT mod ported to forge
-- [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) - A full-featured package manager and viewer for Android
-- [Sinytra/Connector](https://github.com/Sinytra/Connector) - A compatibility layer that allows running Fabric mods on MinecraftForge
-- [Noryea/fast-items-fabric](https://github.com/Noryea/fast-items-fabric) - Make items always face to the camera
-- [emilyploszaj/emi](https://github.com/emilyploszaj/emi) - A featureful and accessible item and recipe viewer
-- [Low-Drag-MC/Photon](https://github.com/Low-Drag-MC/Photon) - 
-- [Team-Resourceful/ResourcefulBees](https://github.com/Team-Resourceful/ResourcefulBees) - Minecraft Mod for creating highly customized bees
-- [PojavLauncherTeam/PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) - A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. This repository contains source code for Android platform.
-- [MohistMC/Banner](https://github.com/MohistMC/Banner) - The Bukkit/Spigot/Paper API implementation for Fabric
-- [Hidoni/Transmog](https://github.com/Hidoni/Transmog) - A Minecraft mod to solve the long-standing issue of not looking cool enough.
-- [MiniPlaceholders/MiniPlaceholders](https://github.com/MiniPlaceholders/MiniPlaceholders) - MiniMessage Component-based Placeholders for Paper, Fabric, Sponge, Folia and Velocity platforms
-- [ZsoltMolnarrr/DungeonDifficulty](https://github.com/ZsoltMolnarrr/DungeonDifficulty) - ☠️ Increase the power of enemies and rewards
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - The stylish yet powerful GitHub client for Windows.
+- [DamianOsipiuk/vue-query](https://github.com/DamianOsipiuk/vue-query) - Hooks for fetching, caching and updating asynchronous data in Vue
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
+
+## gulp 
+
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+
+## hacktoberfest 
+
+- [dundee/gdu](https://github.com/dundee/gdu) - Fast disk usage analyzer with console interface written in Go
+- [DeviceFarmer/adbkit](https://github.com/DeviceFarmer/adbkit) - A pure Node.js client for the Android Debug Bridge.
+- [DeviceFarmer/stf](https://github.com/DeviceFarmer/stf) - Control and manage Android devices from your browser.
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
+- [causal-agent/scraper](https://github.com/causal-agent/scraper) - HTML parsing and querying with CSS selectors
+- [SpadesX/SpadesX](https://github.com/SpadesX/SpadesX) - An Ace of Spades server implementation in C
+- [polybar/polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar
+- [1337kid/NoiceGRUB](https://github.com/1337kid/NoiceGRUB) - NoiceGRUB is a collection of linear gradient based GRUB2 themes that can be customised.
+- [twilight-games/modpack-installer](https://github.com/twilight-games/modpack-installer) - Installer to easily install fabric/quilt, mods, configs and more into the vanilla Minecraft launcher, with minimal input from users. Making use of the mrpack format
+- [ente-io/auth](https://github.com/ente-io/auth) - 2FA app for Android, iOS and web, with free end-to-end encrypted backup and sync
 - [beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - A free, secure and open source app for Android to manage your 2-step verification tokens.
-- [MCRcortex/nvidium](https://github.com/MCRcortex/nvidium) - Fast minecraft rendering backend for sodium (nvidia only)
-- [umerov1999/Fenrir-for-VK](https://github.com/umerov1999/Fenrir-for-VK) - Первый языческий
-- [Skidamek/AutoModpack](https://github.com/Skidamek/AutoModpack) - Enjoy a seamless modpack installation process and effortless updates with a user-friendly solution that simplifies management, making your gaming experience a breeze.
-- [Z0rdak/Yet-Another-World-Protector](https://github.com/Z0rdak/Yet-Another-World-Protector) - Yet Another World Protector is a server-side protection mod which allows you to protect your creations against various different events/actions of players, mobs and the environment. It was inspired by
+- [giscus/giscus-component](https://github.com/giscus/giscus-component) - Component library for giscus, a comment system powered by GitHub Discussions.
+- [giscus/giscus](https://github.com/giscus/giscus) - A comment system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
 - [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito
-- [Mahmud0808/Iconify](https://github.com/Mahmud0808/Iconify) - Customize Boring Android UI
-- [cobrex1/MyPetGUI2](https://github.com/cobrex1/MyPetGUI2) - 
-- [FrankHeijden/ServerUtils](https://github.com/FrankHeijden/ServerUtils) - Reload plugins - Unload unused commands - PluginWatcher - Command/PluginInfo - Automatic Updater - "Plugman Alternative"
-- [TwrpBuilder/twrpbuilder_tree_generator](https://github.com/TwrpBuilder/twrpbuilder_tree_generator) - Device Tree Generator for TWRP compilation
-- [MrTronMan/Amend](https://github.com/MrTronMan/Amend) - A plugin that auto updates purpur or paper to the newest version based on the Minecraft version.
-- [Lortseam/completeconfig](https://github.com/Lortseam/completeconfig) - A flexible, all-in-one configuration library for Minecraft Fabric mods
-- [Owen1212055/BiomeVisuals](https://github.com/Owen1212055/BiomeVisuals) - A plugin that allows server owners to override sent biome to clients.
-- [oddlama/vane](https://github.com/oddlama/vane) - Immersive and lore friendly enhancements for vanilla Minecraft
-- [Phoenix616/MineDown](https://github.com/Phoenix616/MineDown) - A MarkDown inspired markup library for Minecraft chat components
-- [samolego/ClientStorage](https://github.com/samolego/ClientStorage) - AE2 / Refined Storage like **clientside** mod, featuring crafting terminal search, inventory layout presets and more!
-- [tr7zw/3d-Skin-Layers](https://github.com/tr7zw/3d-Skin-Layers) - Renders the player skin layer in 3d
-- [exteraSquad/exteraGram](https://github.com/exteraSquad/exteraGram) - Telegram client based on Android sources with new features
-- [himekifee/MCMTFabric](https://github.com/himekifee/MCMTFabric) - Minecraft Multi-Threading Mod Fabric Version
-- [FxMorin/MoreCulling](https://github.com/FxMorin/MoreCulling) - Stop rendering things you can't see. A mod that changes how multiple types of culling are handled in order to improve performance
-- [starfish-studios/Naturalist-Archive](https://github.com/starfish-studios/Naturalist-Archive) - 🦌 Enhances the overworld by adding new wildlife with unique behavior!
-- [Discord4J/Discord4J](https://github.com/Discord4J/Discord4J) - Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API.
-- [Reimnop/Discord4Fabric](https://github.com/Reimnop/Discord4Fabric) - A beautiful Discord bot client for Fabric
-- [Queerbric/Inspecio](https://github.com/Queerbric/Inspecio) - A Minecraft mod which adds more tooltip components to items.
-- [SigmundGranaas/forgero](https://github.com/SigmundGranaas/forgero) - Tool creation and customization mod for Minecraft
-- [ClusterM/wear-os-hex-editor-watchface](https://github.com/ClusterM/wear-os-hex-editor-watchface) - Hex Editor Watch Face for Wear OS
-- [AsyncBanana/better-keepinventory](https://github.com/AsyncBanana/better-keepinventory) - 
-- [Patbox/Holograms](https://github.com/Patbox/Holograms) - Simple mod that allows to create of server side holograms (Fabric)
-- [IzzelAliz/Arclight](https://github.com/IzzelAliz/Arclight) - A Bukkit(1.19/1.20) server implementation in modding environment using Mixin. ⚡
+- [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) - Xplorer, a customizable, modern file manager
+- [rust-lang/rust](https://github.com/rust-lang/rust) - Empowering everyone to build reliable and efficient software.
+- [catppuccin/grub](https://github.com/catppuccin/grub) - 🌕 Soothing pastel theme for Grub2
+- [charmbracelet/bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🫧
+- [lakinduakash/linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) - Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Simil
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - The stylish yet powerful GitHub client for Windows.
+- [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+- [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) - Internationalization plugin for Vue.js
+- [nim-lang/Nim](https://github.com/nim-lang/Nim) - Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, an
+- [YouHaveTrouble/minecraft-optimization](https://github.com/YouHaveTrouble/minecraft-optimization) - Minecraft server optimization guide
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
+- [verlok/vanilla-lazyload](https://github.com/verlok/vanilla-lazyload) - LazyLoad is a lightweight, flexible script that speeds up your website by deferring the loading of your below-the-fold images, backgrounds, videos, iframes and scripts to when they will enter the view
+- [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) - KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
 - [Aliucord/Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Discord Android App
-- [Juby210/Aliucord](https://github.com/Juby210/Aliucord) - Discord Android app mod inspired by desktop Discord client mods.
 - [IrisShaders/Iris](https://github.com/IrisShaders/Iris) - A modern shaders mod for Minecraft compatible with existing OptiFine shader packs
-- [HalogenMods/Chlorine](https://github.com/HalogenMods/Chlorine) - 
-- [bevkoski/react-native-android-wear-demo](https://github.com/bevkoski/react-native-android-wear-demo) - Showcase of a two-way communication between React Native and Android Wear apps.
-- [MohistMC/Mohist](https://github.com/MohistMC/Mohist) - Minecraft Forge Hybrid server implementing the Spigot/Bukkit API, formerly known as Thermos/Cauldron/MCPC+
-- [MCreator/MCreator](https://github.com/MCreator/MCreator) - MCreator is software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using visual graphical programming or integrated IDE. It is used worldwide by Minecraft players, 
-- [KlemenDEV/MCreator](https://github.com/KlemenDEV/MCreator) - MCreator is a software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using visual graphical programming or integrated IDE.
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - The most customisable and low-latency cross platform/shell prompt renderer
 - [ViaVersion/ViaFabric](https://github.com/ViaVersion/ViaFabric) - Client-side and server-side ViaVersion implementation for Fabric
 - [CardboardPowered/cardboard](https://github.com/CardboardPowered/cardboard) - The Bukkit/Spigot/Paper API implementation for Fabric
-- [FlashyReese/sodium-fabric](https://github.com/FlashyReese/sodium-fabric) - A Minecraft mod designed to improve frame rates and reduce micro-stutter
-- [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) - A Fabric mod designed to improve frame rates and reduce micro-stutter
+- [ImVexed/muon](https://github.com/ImVexed/muon) - GPU based Electron on a diet
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+- [StrikerRockers-Mods/VanillaTweaks](https://github.com/StrikerRockers-Mods/VanillaTweaks) - A Vanilla enhancing mod without going overboard
+- [microsoft/terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host, all in the same place!
+- [Aniket965/Hello-world](https://github.com/Aniket965/Hello-world) - Add any  Program in any language you like or add a hello world Program ❣️ if you like give us :star:
+- [mui/material-ui](https://github.com/mui/material-ui) - MUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.
+- [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) - A JavaScript library to position floating elements and create interactions for them.
+- [betterlockscreen/betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) - 🍀 sweet looking lockscreen for linux system
+- [chocolatey/choco](https://github.com/chocolatey/choco) - Chocolatey - the package manager for Windows
+- [flarum/framework](https://github.com/flarum/framework) - Simple forum software for building great communities.
+- [discordjs/discord.js](https://github.com/discordjs/discord.js) - A powerful JavaScript library for interacting with the Discord API
+- [PaperMC/Paper](https://github.com/PaperMC/Paper) - The most widely used, high performance Minecraft server that aims to fix gameplay and mechanics inconsistencies
+
+## html 
+
+- [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
+- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
+- [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+
+## html5 
+
+- [redom/redom](https://github.com/redom/redom) - Tiny (2 KB) turboboosted JavaScript library for creating user interfaces.
+
+## http 
+
+- [Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) - Spoof TLS/JA3 fingerprints in GO and Javascript
+- [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans
+- [hatoo/oha](https://github.com/hatoo/oha) - Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+
+## icon-font 
+
+- [akveo/eva-icons](https://github.com/akveo/eva-icons) - A pack of more than 480 beautifully crafted Open Source icons. SVG, Sketch, Web Font and Animations support.
+- [brabadu/awesome-fonts](https://github.com/brabadu/awesome-fonts) - Curated list of fonts and everything
+
+## image-processing 
+
+- [pqina/vue-filepond](https://github.com/pqina/vue-filepond) - 🔌 A handy FilePond adapter component for Vue
+
+## ios 
+
+- [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+- [ente-io/auth](https://github.com/ente-io/auth) - 2FA app for Android, iOS and web, with free end-to-end encrypted backup and sync
+- [downthecrop/checkra1n-twrp](https://github.com/downthecrop/checkra1n-twrp) - Android automation app for checkra1n in TWRP
+- [facebook/react-native](https://github.com/facebook/react-native) - A framework for building native applications using React
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+
+## iot 
+
+- [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+
+## java 
+
+- [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+- [MohistMC/Banner](https://github.com/MohistMC/Banner) - The Bukkit/Spigot/Paper API implementation for Fabric
+- [MiniPlaceholders/MiniPlaceholders](https://github.com/MiniPlaceholders/MiniPlaceholders) - MiniMessage Component-based Placeholders for Paper, Fabric, Sponge, Folia and Velocity platforms
+- [Z0rdak/Yet-Another-World-Protector](https://github.com/Z0rdak/Yet-Another-World-Protector) - Yet Another World Protector is a server-side protection mod which allows you to protect your creations against various different events/actions of players, mobs and the environment. It was inspired by
+- [supertokens/supertokens-core](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito
+- [brucethemoose/Minecraft-Performance-Flags-Benchmarks](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) - Sane, Benchmarked Java Flags and Tweaks for Minecraft
+- [FrankHeijden/ServerUtils](https://github.com/FrankHeijden/ServerUtils) - Reload plugins - Unload unused commands - PluginWatcher - Command/PluginInfo - Automatic Updater - "Plugman Alternative"
+- [exteraSquad/exteraGram](https://github.com/exteraSquad/exteraGram) - Telegram client based on Android sources with new features
+- [Discord4J/Discord4J](https://github.com/Discord4J/Discord4J) - Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API.
+- [SigmundGranaas/forgero](https://github.com/SigmundGranaas/forgero) - Tool creation and customization mod for Minecraft
+- [IzzelAliz/Arclight](https://github.com/IzzelAliz/Arclight) - A Bukkit(1.19/1.20) server implementation in modding environment using Mixin. ⚡
+- [Aliucord/Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Discord Android App
+- [MohistMC/Mohist](https://github.com/MohistMC/Mohist) - Minecraft Forge Hybrid server implementing the Spigot/Bukkit API, formerly known as Thermos/Cauldron/MCPC+
 - [Flo56958/MineTinker](https://github.com/Flo56958/MineTinker) - A TinkersConstruct-inspired Spigot plugin
 - [timbru31/SilkSpawners](https://github.com/timbru31/SilkSpawners) - ⛏ 🐷 👾 SilkSpawners plugin for CraftBukkit/Spigot
-- [vini2003/Spinnery](https://github.com/vini2003/Spinnery) - A Java-based GUI library for Minecraft.
+- [Keksuccino/FancyMenu](https://github.com/Keksuccino/FancyMenu) - Source code for FancyMenu.
 - [MyPetORG/MyPet](https://github.com/MyPetORG/MyPet) - 🐕 Extensive pet plugin for Bukkit/Spigot
 - [MinecraftForge/MinecraftForge](https://github.com/MinecraftForge/MinecraftForge) - Modifications to the Minecraft base files to assist in compatibility between mods. New Discord: https://discord.minecraftforge.net/
 - [StrikerRockers-Mods/VanillaTweaks](https://github.com/StrikerRockers-Mods/VanillaTweaks) - A Vanilla enhancing mod without going overboard
+- [RadiationX/ForPDA](https://github.com/RadiationX/ForPDA) - Alternative client for 4pda.ru
+- [CloudburstMC/Nukkit](https://github.com/CloudburstMC/Nukkit) - Cloudburst Nukkit - Nuclear-Powered Minecraft: Bedrock Edition Server Software
+- [PaperMC/Paper](https://github.com/PaperMC/Paper) - The most widely used, high performance Minecraft server that aims to fix gameplay and mechanics inconsistencies
+
+## javascript 
+
+- [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - A block-style editor with clean JSON output
+- [giscus/giscus](https://github.com/giscus/giscus) - A comment system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
+- [staniel359/muffon](https://github.com/staniel359/muffon) - Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
+- [boringdesigners/boring-avatars](https://github.com/boringdesigners/boring-avatars) - Boring avatars is a tiny JavaScript React library that generates custom, SVG-based avatars from any username and color palette.
+- [Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) - Spoof TLS/JA3 fingerprints in GO and Javascript
+- [beholdr/maska](https://github.com/beholdr/maska) - Simple zero-dependency input mask for Vue.js and vanilla JS.
+- [svelte-society/sveltesociety.dev](https://github.com/svelte-society/sveltesociety.dev) - The Svelte Society website
+- [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
+- [JLyne/LiveAtlas](https://github.com/JLyne/LiveAtlas) - A Dynmap, Squaremap, Pl3xmap and Overviewer frontend for the modern web
+- [oven-sh/bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+- [jonluca/vite-typescript-ssr-react](https://github.com/jonluca/vite-typescript-ssr-react) - 🚀 A Vite Typescript SSR React boilerplate!
+- [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) - Internationalization plugin for Vue.js
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
+- [Tropix126/fluent-svelte](https://github.com/Tropix126/fluent-svelte) - A faithful implementation of Microsoft's Fluent Design System in Svelte.
+- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
+- [HowProgrammingWorks/Index](https://github.com/HowProgrammingWorks/Index) - Metarhia educational program index 📖
+- [feathericons/feather](https://github.com/feathericons/feather) - Simply beautiful open-source icons
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+- [express-validator/express-validator](https://github.com/express-validator/express-validator) - An express.js middleware for validator.js.
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+- [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) - 🤪 A list of funny and tricky JavaScript examples
+- [alexcambose/motus](https://github.com/alexcambose/motus) - Animation library that mimics CSS keyframes when scrolling.
+- [PreMiD/Website](https://github.com/PreMiD/Website) - 📂 All our website insides for free.
+- [azat-io/you-dont-know-js-ru](https://github.com/azat-io/you-dont-know-js-ru) - :books: Russian translation of "You Don't Know JS" book series
+- [egodigital/vscode-powertools](https://github.com/egodigital/vscode-powertools) - A swiss army knife with lots of tools, extensions and (scriptable) enhancements for Visual Studio Code.
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+- [wexond/browser-base](https://github.com/wexond/browser-base) - Modern and feature-rich web browser base based on Electron
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - :zap: Delightful Node.js packages and resources
+- [facebook/react](https://github.com/facebook/react) - The library for web and native user interfaces.
+- [redom/redom](https://github.com/redom/redom) - Tiny (2 KB) turboboosted JavaScript library for creating user interfaces.
+- [RadiationX/ForPDA](https://github.com/RadiationX/ForPDA) - Alternative client for 4pda.ru
+- [Discord-Datamining/Discord-Datamining](https://github.com/Discord-Datamining/Discord-Datamining) - Datamining Discord changes from the JS files
+- [t4t5/sweetalert](https://github.com/t4t5/sweetalert) - A beautiful replacement for JavaScript's "alert"
+- [mui/material-ui](https://github.com/mui/material-ui) - MUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.
+- [socketio/socket.io](https://github.com/socketio/socket.io) - Realtime application framework (Node.JS server)
+- [chalk/chalk](https://github.com/chalk/chalk) - 🖍 Terminal string styling done right
+- [ParticleCore/Iridium](https://github.com/ParticleCore/Iridium) - Iridium is an extension built to improve your YouTube experience
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+- [alvarotrigo/pagePiling.js](https://github.com/alvarotrigo/pagePiling.js) - pagePiling plugin by Alvaro Trigo. Create a scrolling pile of sections. http://alvarotrigo.com/pagePiling/
+- [vuejs/vue](https://github.com/vuejs/vue) - This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
+- [denysdovhan/inboxer](https://github.com/denysdovhan/inboxer) - Unofficial, free and open-source Inbox by Gmail Desktop App
+- [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+- [juliangarnier/anime](https://github.com/juliangarnier/anime) - JavaScript animation engine
+- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+- [flarum/framework](https://github.com/flarum/framework) - Simple forum software for building great communities.
+- [atom/atom](https://github.com/atom/atom) - :atom: The hackable text editor
+- [sapic/sapic](https://github.com/sapic/sapic) - A useful tool to crop your Steam profile background for showcases.
+- [alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js) - fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple
+- [brackets-beautify/brackets-beautify](https://github.com/brackets-beautify/brackets-beautify) - Beautify HTML, CSS, and Javascript in Adobe Brackets
+- [rndtrash/nushdiki.js](https://github.com/rndtrash/nushdiki.js) - Решил написать библиотеку, а она мне как раз! Фьить-ха!
+- [samgozman/YoptaScript](https://github.com/samgozman/YoptaScript) - Joke programming language for 'gopniks' in Russia. Back from 2016!
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+
+## jekyll 
+
+- [primer/octicons](https://github.com/primer/octicons) - A scalable set of icons handcrafted with &lt;3 by GitHub
+
+## jquery 
+
+- [egodigital/vscode-powertools](https://github.com/egodigital/vscode-powertools) - A swiss army knife with lots of tools, extensions and (scriptable) enhancements for Visual Studio Code.
+- [alvarotrigo/pagePiling.js](https://github.com/alvarotrigo/pagePiling.js) - pagePiling plugin by Alvaro Trigo. Create a scrolling pile of sections. http://alvarotrigo.com/pagePiling/
+- [alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js) - fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple
+
+## js 
+
+- [Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) - Spoof TLS/JA3 fingerprints in GO and Javascript
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) - 🤪 A list of funny and tricky JavaScript examples
+- [PreMiD/Website](https://github.com/PreMiD/Website) - 📂 All our website insides for free.
+- [rndtrash/nushdiki.js](https://github.com/rndtrash/nushdiki.js) - Решил написать библиотеку, а она мне как раз! Фьить-ха!
+
+## json 
+
+- [codex-team/editor.js](https://github.com/codex-team/editor.js) - A block-style editor with clean JSON output
+- [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
+
+## kotlin 
+
+- [otomir23/SootyChimneysFabric](https://github.com/otomir23/SootyChimneysFabric) - Unofficial port of Sooty Chimneys over to Fabric.
+- [EtchDroid/EtchDroid](https://github.com/EtchDroid/EtchDroid) - An application to write OS images to USB drives, on Android, no root required.
+- [Keyspace-cloud/android](https://github.com/Keyspace-cloud/android) - Official Android client for keyspace.cloud. A beautiful and secure password manager.
+- [DUpdateSystem/UpgradeAll](https://github.com/DUpdateSystem/UpgradeAll) - Check updates for Android apps, Magisk modules and more!
+- [MRepoApp/MRepo](https://github.com/MRepoApp/MRepo) - A Modules Manager for Magisk & KernelSU
+- [MiniPlaceholders/MiniPlaceholders](https://github.com/MiniPlaceholders/MiniPlaceholders) - MiniMessage Component-based Placeholders for Paper, Fabric, Sponge, Folia and Velocity platforms
+- [OmGodse/Notally](https://github.com/OmGodse/Notally) - A beautiful notes app
+- [Aliucord/Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Discord Android App
+
+## kubernetes 
+
+- [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
+
+## language 
+
+- [rust-lang/rust](https://github.com/rust-lang/rust) - Empowering everyone to build reliable and efficient software.
+- [nim-lang/Nim](https://github.com/nim-lang/Nim) - Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, an
+- [vlang/v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in &lt;1s with zero library dependencies. Supports automatic C =&gt; V translation. https://vlang.io
+- [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+- [samgozman/YoptaScript](https://github.com/samgozman/YoptaScript) - Joke programming language for 'gopniks' in Russia. Back from 2016!
+
+## laravel 
+
+- [laravel/laravel](https://github.com/laravel/laravel) - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.
+- [flarum/flarum](https://github.com/flarum/flarum) - Simple forum software for building great communities.
+- [flarum/framework](https://github.com/flarum/framework) - Simple forum software for building great communities.
+
+## learning 
+
+- [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) - 🤪 A list of funny and tricky JavaScript examples
+
+## library 
+
+- [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
+- [facebook/react](https://github.com/facebook/react) - The library for web and native user interfaces.
+- [rndtrash/nushdiki.js](https://github.com/rndtrash/nushdiki.js) - Решил написать библиотеку, а она мне как раз! Фьить-ха!
+
+## linux 
+
+- [Locietta/xanmod-kernel-WSL2](https://github.com/Locietta/xanmod-kernel-WSL2) - Xanmod kernel for WSL2, built by clang with ThinLTO enabled. Build & Release are automated by Github Action.
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+- [EtchDroid/EtchDroid](https://github.com/EtchDroid/EtchDroid) - An application to write OS images to USB drives, on Android, no root required.
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
+- [Vysp3r/ProtonPlus](https://github.com/Vysp3r/ProtonPlus) - A simple Wine and Proton-based compatibility tools manager
+- [jeffshee/hidamari](https://github.com/jeffshee/hidamari) - Video wallpaper for Linux. Written in Python. 🐍
+- [polybar/polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar
+- [SuperCuber/dotter](https://github.com/SuperCuber/dotter) - A dotfile manager and templater written in rust 🦀
+- [twilight-games/modpack-installer](https://github.com/twilight-games/modpack-installer) - Installer to easily install fabric/quilt, mods, configs and more into the vanilla Minecraft launcher, with minimal input from users. Making use of the mrpack format
+- [staniel359/muffon](https://github.com/staniel359/muffon) - Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
+- [Panchajanya1999/kernel-5.10](https://github.com/Panchajanya1999/kernel-5.10) - source code for Google Pixel 6 family || Backported Stuffs can be found here || alert FORCE PUSH ||
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
+- [YurinDoctrine/adbloat](https://github.com/YurinDoctrine/adbloat) - Android debloating via debugging
+- [badabing2005/PixelFlasher](https://github.com/badabing2005/PixelFlasher) - Pixel™ phone flashing GUI utility with features.
+- [witalihirsch/Mono-gtk-theme](https://github.com/witalihirsch/Mono-gtk-theme) - Mono Theme for Gnome
+- [powenn/AltServer-Linux-ShellScript](https://github.com/powenn/AltServer-Linux-ShellScript) - Make easier to use AltServer-Linux
+- [bcook254/apex-legends-cache](https://github.com/bcook254/apex-legends-cache) - A community sourced dxvk-cache file for Apex Legends on Linux
+- [catppuccin/grub](https://github.com/catppuccin/grub) - 🌕 Soothing pastel theme for Grub2
+- [powenn/AltServer-LinuxGUI](https://github.com/powenn/AltServer-LinuxGUI) - GUI for AltServerLinux
+- [lakinduakash/linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) - Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Simil
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+- [DavidoTek/ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) - Install and manage GE-Proton, Luxtorpeda & more for Steam and Wine-GE & more for Lutris with this graphical user interface.
+- [oddlama/minecraft-server](https://github.com/oddlama/minecraft-server) - A simple but fully-featured minecraft server installer for linux. Comes with autostart, 3d online map, vane, account multiplexing, update script and more.
+- [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
+- [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) - KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [PreMiD/PreMiD](https://github.com/PreMiD/PreMiD) - 🧬 Source code of the PreMiD application.
+- [betterlockscreen/betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) - 🍀 sweet looking lockscreen for linux system
+- [denysdovhan/inboxer](https://github.com/denysdovhan/inboxer) - Unofficial, free and open-source Inbox by Gmail Desktop App
+- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+- [atom/atom](https://github.com/atom/atom) - :atom: The hackable text editor
+
+## localization 
+
+- [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) - Internationalization plugin for Vue.js
+- [liuderchi/atom-i18n](https://github.com/liuderchi/atom-i18n) - :atom: One Atom i18n Package for Any Locale :earth_asia: :earth_americas: :earth_africa:
+
+## mac 
+
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+
+## machine-learning 
+
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
+
+## macos 
+
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
+- [twilight-games/modpack-installer](https://github.com/twilight-games/modpack-installer) - Installer to easily install fabric/quilt, mods, configs and more into the vanilla Minecraft launcher, with minimal input from users. Making use of the mrpack format
+- [staniel359/muffon](https://github.com/staniel359/muffon) - Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+- [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) - KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [PreMiD/PreMiD](https://github.com/PreMiD/PreMiD) - 🧬 Source code of the PreMiD application.
+- [denysdovhan/inboxer](https://github.com/denysdovhan/inboxer) - Unofficial, free and open-source Inbox by Gmail Desktop App
+- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+- [atom/atom](https://github.com/atom/atom) - :atom: The hackable text editor
+
+## markdown 
+
+- [Phoenix616/MineDown](https://github.com/Phoenix616/MineDown) - A MarkDown inspired markup library for Minecraft chat components
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - Presentation Slides for Developers
+- [DavidWells/markdown-magic](https://github.com/DavidWells/markdown-magic) - 💫  Automatically format markdown files using comment blocks. Update contents via custom transforms, external data sources & your source code.
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
+
+## material-design 
+
+- [Keyspace-cloud/android](https://github.com/Keyspace-cloud/android) - Official Android client for keyspace.cloud. A beautiful and secure password manager.
+- [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) - A full-featured package manager and viewer for Android
+- [OmGodse/Notally](https://github.com/OmGodse/Notally) - A beautiful notes app
+- [mui/material-ui](https://github.com/mui/material-ui) - MUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+
+## microsoft 
+
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
+- [Tropix126/fluent-svelte](https://github.com/Tropix126/fluent-svelte) - A faithful implementation of Microsoft's Fluent Design System in Svelte.
+- [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome) - :computer: 🎉 An awesome & curated list of best applications and tools for Windows.
+- [microsoft/fluentui](https://github.com/microsoft/fluentui) - Fluent UI web represents a collection of utilities, React components, and web components for building web applications.
+- [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
+
+## minecraft 
+
+- [FTBTeam/FTB-Quests](https://github.com/FTBTeam/FTB-Quests) - Quests is one of the best Questing mods for Minecraft out there. It has a highly customisable questing system and an easy to use interface.
+- [otomir23/SootyChimneysFabric](https://github.com/otomir23/SootyChimneysFabric) - Unofficial port of Sooty Chimneys over to Fabric.
+- [CraftCanvasMC/Canvas](https://github.com/CraftCanvasMC/Canvas) - Empowering the impossible within Minecraft
+- [Sinytra/Connector](https://github.com/Sinytra/Connector) - A compatibility layer that allows running Fabric mods on MinecraftForge
+- [iNKORE-Public/MCSkinn](https://github.com/iNKORE-Public/MCSkinn) - A modern Minecraft 3D skin manager/editor for Windows by NotYoojun.!
+- [Team-Resourceful/ResourcefulBees](https://github.com/Team-Resourceful/ResourcefulBees) - Minecraft Mod for creating highly customized bees
+- [PojavLauncherTeam/PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) - A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. This repository contains source code for Android platform.
+- [MohistMC/Banner](https://github.com/MohistMC/Banner) - The Bukkit/Spigot/Paper API implementation for Fabric
+- [twilight-games/modpack-installer](https://github.com/twilight-games/modpack-installer) - Installer to easily install fabric/quilt, mods, configs and more into the vanilla Minecraft launcher, with minimal input from users. Making use of the mrpack format
+- [TheUsefulLists/UsefulMods](https://github.com/TheUsefulLists/UsefulMods) - Just a list of useful mods
+- [ZsoltMolnarrr/DungeonDifficulty](https://github.com/ZsoltMolnarrr/DungeonDifficulty) - ☠️ Increase the power of enemies and rewards
+- [Lxtharia/minegrub-theme](https://github.com/Lxtharia/minegrub-theme) - A Grub Theme in the style of Minecraft!
+- [Skidamek/AutoModpack](https://github.com/Skidamek/AutoModpack) - Enjoy a seamless modpack installation process and effortless updates with a user-friendly solution that simplifies management, making your gaming experience a breeze.
+- [Z0rdak/Yet-Another-World-Protector](https://github.com/Z0rdak/Yet-Another-World-Protector) - Yet Another World Protector is a server-side protection mod which allows you to protect your creations against various different events/actions of players, mobs and the environment. It was inspired by
+- [brucethemoose/Minecraft-Performance-Flags-Benchmarks](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) - Sane, Benchmarked Java Flags and Tweaks for Minecraft
+- [FrankHeijden/ServerUtils](https://github.com/FrankHeijden/ServerUtils) - Reload plugins - Unload unused commands - PluginWatcher - Command/PluginInfo - Automatic Updater - "Plugman Alternative"
+- [JLyne/LiveAtlas](https://github.com/JLyne/LiveAtlas) - A Dynmap, Squaremap, Pl3xmap and Overviewer frontend for the modern web
+- [MrTronMan/Amend](https://github.com/MrTronMan/Amend) - A plugin that auto updates purpur or paper to the newest version based on the Minecraft version.
+- [oddlama/vane](https://github.com/oddlama/vane) - Immersive and lore friendly enhancements for vanilla Minecraft
+- [Phoenix616/MineDown](https://github.com/Phoenix616/MineDown) - A MarkDown inspired markup library for Minecraft chat components
+- [samolego/ClientStorage](https://github.com/samolego/ClientStorage) - AE2 / Refined Storage like **clientside** mod, featuring crafting terminal search, inventory layout presets and more!
+- [bs-community/skinview3d](https://github.com/bs-community/skinview3d) - Three.js powered Minecraft skin viewer.
+- [tr7zw/3d-Skin-Layers](https://github.com/tr7zw/3d-Skin-Layers) - Renders the player skin layer in 3d
+- [FxMorin/MoreCulling](https://github.com/FxMorin/MoreCulling) - Stop rendering things you can't see. A mod that changes how multiple types of culling are handled in order to improve performance
+- [oddlama/minecraft-server](https://github.com/oddlama/minecraft-server) - A simple but fully-featured minecraft server installer for linux. Comes with autostart, 3d online map, vane, account multiplexing, update script and more.
+- [srnyx/mc-server-templates](https://github.com/srnyx/mc-server-templates) - Use these templates to create your very own Minecraft server(s)!
+- [Queerbric/Inspecio](https://github.com/Queerbric/Inspecio) - A Minecraft mod which adds more tooltip components to items.
+- [SigmundGranaas/forgero](https://github.com/SigmundGranaas/forgero) - Tool creation and customization mod for Minecraft
+- [4JX/mCubed](https://github.com/4JX/mCubed) - A GUI Minecraft mod manager
+- [YouHaveTrouble/minecraft-optimization](https://github.com/YouHaveTrouble/minecraft-optimization) - Minecraft server optimization guide
+- [comp500/quilt-serverside-mods](https://github.com/comp500/quilt-serverside-mods) - A list of server-side mods for the Quilt mod loader; including many Fabric mods (which are compatible with Quilt) and some Quilt-only mods.
+- [kaniol-lck/modmanager](https://github.com/kaniol-lck/modmanager) - A Qt-based mod manager for minecraft.
+- [IzzelAliz/Arclight](https://github.com/IzzelAliz/Arclight) - A Bukkit(1.19/1.20) server implementation in modding environment using Mixin. ⚡
+- [IrisShaders/Iris](https://github.com/IrisShaders/Iris) - A modern shaders mod for Minecraft compatible with existing OptiFine shader packs
+- [MohistMC/Mohist](https://github.com/MohistMC/Mohist) - Minecraft Forge Hybrid server implementing the Spigot/Bukkit API, formerly known as Thermos/Cauldron/MCPC+
+- [MCreator/MCreator](https://github.com/MCreator/MCreator) - MCreator is software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using visual graphical programming or integrated IDE. It is used worldwide by Minecraft players, 
+- [calloatti/modrobot](https://github.com/calloatti/modrobot) - Updates Minecraft mods
+- [ViaVersion/ViaFabric](https://github.com/ViaVersion/ViaFabric) - Client-side and server-side ViaVersion implementation for Fabric
+- [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) - A Fabric mod designed to improve frame rates and reduce micro-stutter
+- [Flo56958/MineTinker](https://github.com/Flo56958/MineTinker) - A TinkersConstruct-inspired Spigot plugin
+- [timbru31/SilkSpawners](https://github.com/timbru31/SilkSpawners) - ⛏ 🐷 👾 SilkSpawners plugin for CraftBukkit/Spigot
+- [Keksuccino/FancyMenu](https://github.com/Keksuccino/FancyMenu) - Source code for FancyMenu.
+- [Amulet-Team/Amulet-Map-Editor](https://github.com/Amulet-Team/Amulet-Map-Editor) - A new Minecraft world editor and converter that supports all versions since Java 1.12 and Bedrock 1.7.
+- [MinecraftForge/MinecraftForge](https://github.com/MinecraftForge/MinecraftForge) - Modifications to the Minecraft base files to assist in compatibility between mods. New Discord: https://discord.minecraftforge.net/
+- [ejektaflex/Bountiful](https://github.com/ejektaflex/Bountiful) - A Minecraft mod adding bounties for specific items.
 - [gamerforEA/Minecraft-ClientFixer](https://github.com/gamerforEA/Minecraft-ClientFixer) - Minecraft ASM Patcher
-- [ThunderModder/bionisation3](https://github.com/ThunderModder/bionisation3) - Minecraft mod about viruses and bacteria
 - [mchorse/aperture](https://github.com/mchorse/aperture) - Advanced Minecraft camera mod
 - [mezz/JustEnoughItems](https://github.com/mezz/JustEnoughItems) - Item and Recipe viewing mod for Minecraft
-- [ZendalMinecraft/TradingPlatform](https://github.com/ZendalMinecraft/TradingPlatform) - Plugin for bukkit/spigot 1.12.2
-- [aosp-mirror/platform_frameworks_base](https://github.com/aosp-mirror/platform_frameworks_base) - 
-- [shubhchan/Launcher3](https://github.com/shubhchan/Launcher3) - Launcher3 with Pixel Launcher features
+- [dedepete/Forgefier](https://github.com/dedepete/Forgefier) - Minecraft Forge installer, written in C#.
 - [CloudburstMC/Nukkit](https://github.com/CloudburstMC/Nukkit) - Cloudburst Nukkit - Nuclear-Powered Minecraft: Bedrock Edition Server Software
-- [substratum/substratum](https://github.com/substratum/substratum) - An advanced theming manager designed to be used with RRO, OMS and Dynamic Overlays
-- [wanam/YouTubeAdAway](https://github.com/wanam/YouTubeAdAway) - Xposed module to block YouTube ads on the official YouTube Android App
-- [cSploit/android](https://github.com/cSploit/android) - cSploit - The most complete and advanced IT security professional toolkit on Android.
+- [PrismarineJS/mineflayer](https://github.com/PrismarineJS/mineflayer) - Create Minecraft bots with a powerful, stable, and high level JavaScript API.
+- [PrismarineJS/node-minecraft-protocol](https://github.com/PrismarineJS/node-minecraft-protocol) - Parse and serialize minecraft packets, plus authentication and encryption.
 - [LuckPerms/LuckPerms](https://github.com/LuckPerms/LuckPerms) - A permissions plugin for Minecraft servers.
-- [Team-RTG/Passable-Leaves](https://github.com/Team-RTG/Passable-Leaves) - Minecraft core mod that makes leaves passable.
-- [PEXPlugins/PermissionsEx](https://github.com/PEXPlugins/PermissionsEx) - A powerful permissions plugin for Minecraft
 - [MrMicky-FR/WorldEditSelectionVisualizer](https://github.com/MrMicky-FR/WorldEditSelectionVisualizer) - Visualize your WorldEdit selection with particles and without any mod.
 - [PaperMC/Paper](https://github.com/PaperMC/Paper) - The most widely used, high performance Minecraft server that aims to fix gameplay and mechanics inconsistencies
-- [Exsite123/ExsiteStatus](https://github.com/Exsite123/ExsiteStatus) - 
-- [k0shk0sh/FastHub](https://github.com/k0shk0sh/FastHub) - FastHub the ultimate GitHub client for Android.
 - [Nukkit/Nukkit](https://github.com/Nukkit/Nukkit) - Nukkit is a Nuclear-Powered Server Software For Minecraft: Pocket Edition
 - [rutgerkok/Pokkit](https://github.com/rutgerkok/Pokkit) - Nukkit plugin that is able to load Bukkit plugins. Bring your Bukkit plugins to Minecraft PE!
-- [voxelwind/voxelwind](https://github.com/voxelwind/voxelwind) - The high-performance Minecraft: Pocket Edition server (in development)
-- [TehNut-Mods/HWYLA](https://github.com/TehNut-Mods/HWYLA) - A fork of Waila maintaining it for new MC versions
-- [cubex2/BetterFonts](https://github.com/cubex2/BetterFonts) - Adds TrueType/OpenType font support for Minecraft.
+- [dedepete/FreeLauncher](https://github.com/dedepete/FreeLauncher) - Open source C# Minecraft launcher.
 
-## JavaScript 
+## mobile 
 
-- [KristofferTroncoso/ThemeSong](https://github.com/KristofferTroncoso/ThemeSong) - YouTube Music Enhancer Extension. Available for Chrome and Firefox 🎧🎨  Click the ⭐️ button above!
-- [awslabs/llrt](https://github.com/awslabs/llrt) - LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.
-- [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
-- [lukejacksonn/perflink](https://github.com/lukejacksonn/perflink) - Low friction JavaScript benchmarks that you can share via URL
-- [catdadcode/svelte-adapter-bun](https://github.com/catdadcode/svelte-adapter-bun) - A SvelteKit adapter for Bun
-- [TriPSs/conventional-changelog-action](https://github.com/TriPSs/conventional-changelog-action) - Github Action that generates a changelog with the Conventional Changelog CLI
-- [DeviceFarmer/stf](https://github.com/DeviceFarmer/stf) - Control and manage Android devices from your browser.
-- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
-- [Rectify11/Installer](https://github.com/Rectify11/Installer) - A Windows 11 modification to make it more consistent.
+- [robertodoering/harpy](https://github.com/robertodoering/harpy) - a Twitter app built with Flutter 🦅
+- [facebook/react-native](https://github.com/facebook/react-native) - A framework for building native applications using React
+
+## mongodb 
+
+- [Automattic/mongoose](https://github.com/Automattic/mongoose) - MongoDB object modeling designed to work in an asynchronous environment.
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate) - A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose
+
+## mongoose 
+
+- [nodkz/mongoose-plugin-autoinc](https://github.com/nodkz/mongoose-plugin-autoinc) - Mongoose plugin that auto-increments any ID field on your schema every time a document is saved
+- [hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate) - A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose
+
+## monitoring 
+
+- [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
+
+## music 
+
 - [wukko/cobalt](https://github.com/wukko/cobalt) - save what you love
-- [sveltejs/svelte](https://github.com/sveltejs/svelte) - Cybernetically enhanced web apps
+- [staniel359/muffon](https://github.com/staniel359/muffon) - Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
+- [Rise-Software/Rise-Media-Player](https://github.com/Rise-Software/Rise-Media-Player) - One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of WinUI.
+- [Igglybuff/awesome-piracy](https://github.com/Igglybuff/awesome-piracy) - A curated list of awesome warez and piracy links
+- [demaisj/soundcloud-rp](https://github.com/demaisj/soundcloud-rp) - Adds Discord Rich Presence support to Soundcloud.
+- [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) - A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos.
+
+## mysql 
+
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+
+## neural-network 
+
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
+
+## nextjs 
+
+- [otomir23/dotme](https://github.com/otomir23/dotme) - My personal website rewritten from scratch. Made using Next.js and TailwindCSS.
+- [giscus/giscus](https://github.com/giscus/giscus) - A comment system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
+- [trpc/trpc](https://github.com/trpc/trpc) - 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
+- [thedevs-network/kutt](https://github.com/thedevs-network/kutt) - Free Modern URL Shortener.
+
+## nim 
+
+- [krisppurg/dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
+- [nim-lang/Nim](https://github.com/nim-lang/Nim) - Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, an
+
+## node 
+
+- [enquirer/enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-stag
+- [nuxt/framework](https://github.com/nuxt/framework) - Old repo of Nuxt 3 framework, now on nuxt/nuxt
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - :zap: Delightful Node.js packages and resources
+
+## nodejs 
+
+- [ArmCord/ArmCord](https://github.com/ArmCord/ArmCord) - ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+- [Automattic/mongoose](https://github.com/Automattic/mongoose) - MongoDB object modeling designed to work in an asynchronous environment.
+- [enquirer/enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-stag
+- [xojs/xo](https://github.com/xojs/xo) - ❤️ JavaScript/TypeScript linter (ESLint wrapper) with great defaults
+- [oven-sh/bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
+- [hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate) - A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose
+- [HowProgrammingWorks/Index](https://github.com/HowProgrammingWorks/Index) - Metarhia educational program index 📖
+- [primer/octicons](https://github.com/primer/octicons) - A scalable set of icons handcrafted with &lt;3 by GitHub
+- [express-validator/express-validator](https://github.com/express-validator/express-validator) - An express.js middleware for validator.js.
+- [cli-table/cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [egodigital/vscode-powertools](https://github.com/egodigital/vscode-powertools) - A swiss army knife with lots of tools, extensions and (scriptable) enhancements for Visual Studio Code.
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - :zap: Delightful Node.js packages and resources
+- [socketio/socket.io](https://github.com/socketio/socket.io) - Realtime application framework (Node.JS server)
+- [scholtzm/punk](https://github.com/scholtzm/punk) - ⚡ Alternative cross-platform Steam client for desktop
+- [denysdovhan/inboxer](https://github.com/denysdovhan/inboxer) - Unofficial, free and open-source Inbox by Gmail Desktop App
+- [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+- [PrismarineJS/mineflayer](https://github.com/PrismarineJS/mineflayer) - Create Minecraft bots with a powerful, stable, and high level JavaScript API.
+- [discordjs/discord.js](https://github.com/discordjs/discord.js) - A powerful JavaScript library for interacting with the Discord API
+
+## npm 
+
+- [oven-sh/bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+- [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
+
+## open-source 
+
+- [ente-io/auth](https://github.com/ente-io/auth) - 2FA app for Android, iOS and web, with free end-to-end encrypted backup and sync
+- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+
+## opengl 
+
+- [iNKORE-Public/MCSkinn](https://github.com/iNKORE-Public/MCSkinn) - A modern Minecraft 3D skin manager/editor for Windows by NotYoojun.!
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+- [IrisShaders/Iris](https://github.com/IrisShaders/Iris) - A modern shaders mod for Minecraft compatible with existing OptiFine shader packs
+- [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) - A Fabric mod designed to improve frame rates and reduce micro-stutter
+
+## others 
+
+- [googlefonts/lexend](https://github.com/googlefonts/lexend) - A variable font family designed to aid in reading proficiency.
+- [HuskyDG/zygisk-maphide](https://github.com/HuskyDG/zygisk-maphide) - Wipe out the traces of mounted files of Magisk module for process on DenyList
+- [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Windows Battery Indicator replacement
+- [ravindu644/Kitchen](https://github.com/ravindu644/Kitchen) - Boot image unpacker and repacker while keeping Android Verified Boot.
+- [moudey/Shell](https://github.com/moudey/Shell) - Powerful context menu manager for Windows File Explorer
+- [gs-bluraviole/android_kernel_google_gs101](https://github.com/gs-bluraviole/android_kernel_google_gs101) - Pixel 6 series kernel.
+- [5t-RawBeRry/Raven_KurnelSU](https://github.com/5t-RawBeRry/Raven_KurnelSU) - 5.10 - 6.1 KernelSU
+- [maverickjb/linux-6.1.10](https://github.com/maverickjb/linux-6.1.10) - 
+- [awslabs/llrt](https://github.com/awslabs/llrt) - LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.
+- [AOSPA/android_kernel_xiaomi_sm8250](https://github.com/AOSPA/android_kernel_xiaomi_sm8250) - 
+- [map220v/nt36523_win](https://github.com/map220v/nt36523_win) - FocalTech 5x Digitizer driver for Windows
+- [Yervant7/kpatch-zip-flashable](https://github.com/Yervant7/kpatch-zip-flashable) - KernelPatch flashable zip in recovery
+- [Yervant7/Qingyue](https://github.com/Yervant7/Qingyue) - zygisknext assistent
+- [lukejacksonn/perflink](https://github.com/lukejacksonn/perflink) - Low friction JavaScript benchmarks that you can share via URL
+- [ajayyy/DeArrow](https://github.com/ajayyy/DeArrow) - Crowdsourcing better titles and thumbnails on YouTube
+- [fork-maintainers/iceraven-browser](https://github.com/fork-maintainers/iceraven-browser) - Iceraven Browser
+- [Zenlua/Overlayfs](https://github.com/Zenlua/Overlayfs) - Overlayfs RW allows editor system, product, vendor, system_ext files
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
+- [utziacre/android_kernel_xiaomi_nabu](https://github.com/utziacre/android_kernel_xiaomi_nabu) - Compile the kernel with clang
+- [daboynb/Android-Builder](https://github.com/daboynb/Android-Builder) - Automatically build android kernel by github actions.
+- [axel358/smartdock](https://github.com/axel358/smartdock) - A user-friendly desktop mode launcher that offers a modern and customizable user interface
+- [pumPCin/LSPosed](https://github.com/pumPCin/LSPosed) - LSPosed Framework
+- [mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd) - 7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard
+- [catdadcode/svelte-adapter-bun](https://github.com/catdadcode/svelte-adapter-bun) - A SvelteKit adapter for Bun
+- [IvanGreen/Xiaomi-Mi-Pad5-Linux-Install](https://github.com/IvanGreen/Xiaomi-Mi-Pad5-Linux-Install) - Эта инструкция предоставляет подробные шаги по установке различных версий Linux, включая Arch Linux и Ubuntu, на устройство Mi Pad 5. В документе описаны версии системы, особенности установки и рекоме
+- [FuSan21/kernel_xiaomi_nabu](https://github.com/FuSan21/kernel_xiaomi_nabu) - 
+- [Yervant7/ZygiskNext](https://github.com/Yervant7/ZygiskNext) - Standalone implementation of Zygisk For APatch
+- [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) - Lightweight utility for organizing the taskbar through groups
+- [andrewz1/pixel-mdm-patch](https://github.com/andrewz1/pixel-mdm-patch) - Pixel Modem Patch Magisk Module for Google Tensor devices
+- [stuartore/device_xiaomi_psyche](https://github.com/stuartore/device_xiaomi_psyche) - Device tree of Xiaomi 12X(psyche) - Auto bringup ability
+- [Patbox/sgui](https://github.com/Patbox/sgui) - Library for creating custom, server side guis on Fabric
+- [mickaelmendes50/android_device_xiaomi_psyche](https://github.com/mickaelmendes50/android_device_xiaomi_psyche) - Minimal CLO Device Tree to Xiaomi 12X
+- [Vencord/builds](https://github.com/Vencord/builds) - Build Archive for https://github.com/Vendicated/Vencord, not much to see here
+- [Polyfrost/OneConfig](https://github.com/Polyfrost/OneConfig) - Next generation configuration library for Minecraft
+- [SHsuperCM/Stonecutter](https://github.com/SHsuperCM/Stonecutter) - 
+- [isXander/YetAnotherConfigLib](https://github.com/isXander/YetAnotherConfigLib) - YetAnotherConfigLib (yacl) is just that. A builder-based configuration library for Minecraft.
+- [CHNJohnHK/Material-You-App-Repository](https://github.com/CHNJohnHK/Material-You-App-Repository) - A simple but intact and frequent-updated Material You App collection project creating with love and persistence.
+- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 
+- [KhoalaS/Infinity-For-Reddit](https://github.com/KhoalaS/Infinity-For-Reddit) - A Reddit client for Android
+- [Metabolix/HackBGRT](https://github.com/Metabolix/HackBGRT) - Windows boot logo changer for UEFI systems
+- [WillzenZou/edk2-orangepi5](https://github.com/WillzenZou/edk2-orangepi5) - Windows on  arm64 for rk3588s orange pi 5
+- [Tfarcenim/CIT-Reforged](https://github.com/Tfarcenim/CIT-Reforged) - CIT mod ported to forge
+- [iamr0s/InstallerX](https://github.com/iamr0s/InstallerX) - A modern and functional Android app installer. (You know some birds are not meant to be caged, their feathers are just too bright.)
+- [Noryea/fast-items-fabric](https://github.com/Noryea/fast-items-fabric) - Make items always face to the camera
+- [Rectify11/Installer](https://github.com/Rectify11/Installer) - A Windows 11 modification to make it more consistent.
+- [sysprogs/WinCDEmu](https://github.com/sysprogs/WinCDEmu) - 
+- [emilyploszaj/emi](https://github.com/emilyploszaj/emi) - A featureful and accessible item and recipe viewer
+- [Low-Drag-MC/Photon](https://github.com/Low-Drag-MC/Photon) - 
+- [NightKosh/MineTrades](https://github.com/NightKosh/MineTrades) - 
+- [PerchunPak/superhub-fuck-ups-counter](https://github.com/PerchunPak/superhub-fuck-ups-counter) - We basically track the stability of their nodes, so you can know which is the stablest one.
+- [vendetta-mod/Vendetta](https://github.com/vendetta-mod/Vendetta) - A mod for Discord's mobile apps.
+- [BlackMesa123/KnoxPatch](https://github.com/BlackMesa123/KnoxPatch) - LSPosed module to get Samsung apps/features working again in your rooted Galaxy device.
+- [osm0sis/Android-Image-Kitchen](https://github.com/osm0sis/Android-Image-Kitchen) - Automated scripts to unpack/repack Android kernel/recovery images + ramdisks
+- [RE800T/kernel_google_bluejay](https://github.com/RE800T/kernel_google_bluejay) - 
+- [map220v/android_device_xiaomi_nabu](https://github.com/map220v/android_device_xiaomi_nabu) - TWRP Device tree for Xiaomi Pad 5
+- [AikoMidori/SteamSkins](https://github.com/AikoMidori/SteamSkins) - With Steam's new beta and introduction to full css clients, and the removal of VGUI, means a new era of skins.
+- [vinceliuice/Fluent-gtk-theme](https://github.com/vinceliuice/Fluent-gtk-theme) - Fluent design gtk theme for linux desktops
+- [an-anime-team/the-honkers-railway-launcher](https://github.com/an-anime-team/the-honkers-railway-launcher) - The Honkers Railway launcher for Linux with automatic patching and telemetry disabling
+- [Hidoni/Transmog](https://github.com/Hidoni/Transmog) - A Minecraft mod to solve the long-standing issue of not looking cool enough.
+- [SlippingGittys-Discord-Themes/surCord](https://github.com/SlippingGittys-Discord-Themes/surCord) - A Discord Theme inspired by macOS & Human Interface Guidelines.
+- [OpenSteamClient/OpenSteamClient](https://github.com/OpenSteamClient/OpenSteamClient) - Partially open-source alternative Steam Client for Linux.
+- [iamlooper/Seeker](https://github.com/iamlooper/Seeker) - A app which can help you seek customization.
+- [imarkoff/Marble-shell-theme](https://github.com/imarkoff/Marble-shell-theme) - Shell theme for GNOME DE
+- [MCRcortex/nvidium](https://github.com/MCRcortex/nvidium) - Fast minecraft rendering backend for sodium (nvidia only)
 - [jeffshee/gnome-ext-hanabi](https://github.com/jeffshee/gnome-ext-hanabi) - Live Wallpaper for GNOME
-- [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commits specification
+- [umerov1999/Fenrir-for-VK](https://github.com/umerov1999/Fenrir-for-VK) - Первый языческий
+- [chaotic-aur/chaotic-uptimes](https://github.com/chaotic-aur/chaotic-uptimes) - GitHub Actions driven uptime monitoring 🕵🏻‍♀️
+- [VegaBobo/DSU-Sideloader](https://github.com/VegaBobo/DSU-Sideloader) - A simple app made to help users easily install GSIs via DSU's Android feature.
+- [woa-msmnile/Nabu](https://github.com/woa-msmnile/Nabu) - Drivers Submodule For Xiaomi Pad 5.
+- [twofas/2fas-android](https://github.com/twofas/2fas-android) - Source code for 2FAS Android app
+- [bikass/kora](https://github.com/bikass/kora) - Kora icon theme for GNU/Linux os
+- [ryanraposo/codeui](https://github.com/ryanraposo/codeui) - Customize your color theme for VS Code.
+- [nuxt/devtools](https://github.com/nuxt/devtools) - Unleash Nuxt Developer Experience
 - [qwreey/quick-settings-tweaks](https://github.com/qwreey/quick-settings-tweaks) - Let's tweak gnome 43's quick settings! You can add Media Controls, Notifications, Volume Mixer on quick settings and remove useless buttons!
 - [home-sweet-gnome/dash-to-panel](https://github.com/home-sweet-gnome/dash-to-panel) - An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found i
-- [Automattic/mongoose](https://github.com/Automattic/mongoose) - MongoDB object modeling designed to work in an asynchronous environment.
-- [boringdesigners/boring-avatars](https://github.com/boringdesigners/boring-avatars) - Boring avatars is a tiny JavaScript React library that generates custom, SVG-based avatars from any username and color palette.
+- [map220v/sm8150-mainline](https://github.com/map220v/sm8150-mainline) - WIP Mainline kernel for Xiaomi Pad 5
+- [serdeliuk/xiaomi-nabu-postmarketos](https://github.com/serdeliuk/xiaomi-nabu-postmarketos) - Porting PostmarketOS to Xiaomi Pad 5 (nabu)
+- [IcyStarFrost/Zeta-Players](https://github.com/IcyStarFrost/Zeta-Players) - Repo for the Zeta Players
+- [vinceliuice/Jasper-gtk-theme](https://github.com/vinceliuice/Jasper-gtk-theme) - Jasper gtk theme for linux
+- [cobrex1/MyPetGUI2](https://github.com/cobrex1/MyPetGUI2) - 
+- [ArrowOS-Devices/android_device_xiaomi_nabu](https://github.com/ArrowOS-Devices/android_device_xiaomi_nabu) - 
+- [serdeliuk/xiaomi-nabu-orangefox](https://github.com/serdeliuk/xiaomi-nabu-orangefox) - UNOFFICIAL Xiaomi Pad 5 nabu OrangeFox recovery
+- [qnblackcat/uYouPlus](https://github.com/qnblackcat/uYouPlus) - uYou+ is a modified version of uYou (made by @MiRO92) with additional features and mainly made for non jailbroken users!
 - [malko/battery-indicator-upower](https://github.com/malko/battery-indicator-upower) - gnome-shell extension to display connected devices battery level as reported by upower
+- [TwrpBuilder/twrpbuilder_tree_generator](https://github.com/TwrpBuilder/twrpbuilder_tree_generator) - Device Tree Generator for TWRP compilation
+- [bm0x/twrp_device_xiaomi_nabu](https://github.com/bm0x/twrp_device_xiaomi_nabu) - TWRP (WIP) for Xiaomi Pad 5
+- [Mods-Center/Miui_Launcher_Mod](https://github.com/Mods-Center/Miui_Launcher_Mod) - By 🅺🅰️🆂🅷🅸
+- [farag2/ADB-Debloating](https://github.com/farag2/ADB-Debloating) - Debloat MIUI/HyperOS, One UI, and Pixel Launcher via ADB
+- [erdilS/Port-Windows-11-Xiaomi-Pad-5](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5) - Based on POCO X3 Pro tutorial.
+- [ReplayMod/preprocessor](https://github.com/ReplayMod/preprocessor) - A Java+Kotlin source file preprocessor used in the RM to support multiple MC versions
+- [Lortseam/completeconfig](https://github.com/Lortseam/completeconfig) - A flexible, all-in-one configuration library for Minecraft Fabric mods
+- [Owen1212055/BiomeVisuals](https://github.com/Owen1212055/BiomeVisuals) - A plugin that allows server owners to override sent biome to clients.
 - [htmlacademy/intensive-nodejs-api-samples](https://github.com/htmlacademy/intensive-nodejs-api-samples) - Репозиторий для примеров учебника курса «Node.js. Профессиональная разработка REST API».
-- [enquirer/enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-stag
-- [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) - The best design tools and plugins for everything 👉
-- [xojs/xo](https://github.com/xojs/xo) - ❤️ JavaScript/TypeScript linter (ESLint wrapper) with great defaults
+- [rui314/mold](https://github.com/rui314/mold) - Mold: A Modern Linker 🦠
+- [the8055u/No-way-repo](https://github.com/the8055u/No-way-repo) - 
+- [lisonge/vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey) - A vite plugin server and build your.user.js for userscript engine like Tampermonkey, Violentmonkey, Greasemonkey, ScriptCat
+- [Foldex/AdwSteamGtk](https://github.com/Foldex/AdwSteamGtk) - A simple Gtk wrapper for Adwaita-for-Steam
+- [v1cont/yad](https://github.com/v1cont/yad) - Yet Another Dialog
+- [gajus/liqe](https://github.com/gajus/liqe) - Lightweight and performant Lucene-like parser, serializer and search engine.
+- [sakutaapp/sakuta-web](https://github.com/sakutaapp/sakuta-web) - 🌐 Sakuta Web App | Simple AniList Client
+- [himekifee/MCMTFabric](https://github.com/himekifee/MCMTFabric) - Minecraft Multi-Threading Mod Fabric Version
+- [opa334/TrollStore](https://github.com/opa334/TrollStore) - Jailed iOS app that can install IPAs permanently with arbitary entitlements and root helpers because it trolls Apple
+- [Mercateo/rust-for-node-developers](https://github.com/Mercateo/rust-for-node-developers) - An introduction to the Rust programming language for Node developers.
+- [tkashkin/Adwaita-for-Steam](https://github.com/tkashkin/Adwaita-for-Steam) - A skin to make Steam look more like a native GNOME app
+- [lwfinger/rtw88](https://github.com/lwfinger/rtw88) - A backport of the Realtek Wifi 5 drivers from the wireless-next repo.
+- [icebarf/perfmode](https://github.com/icebarf/perfmode) - Fan/Performance Control for ASUS TUF Gaming laptops
+- [marlonrichert/zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete) - 🤖 Real-time type-ahead completion for Zsh. Asynchronous find-as-you-type autocompletion.
+- [dimensity-twrp-dev/device_xiaomi_rubens-TWRP](https://github.com/dimensity-twrp-dev/device_xiaomi_rubens-TWRP) - TWRP device tree for Redmi K50 (rubens)
+- [o-az/awesome-bun](https://github.com/o-az/awesome-bun) - A list of awesome Bun tools and resources.
+- [zfkdnop/apex-legends-dxvk-cache](https://github.com/zfkdnop/apex-legends-dxvk-cache) - A compilation of pre-compiled DXKV shaders for use with Apex Legends on Linux via Steam/Proton
+- [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe) - C# library and console app for using new feature control APIs available in Windows 10 version 2004 and newer
+- [TheOld/vscode-fluent-ui](https://github.com/TheOld/vscode-fluent-ui) - 
+- [nuxtbase/nuxt3-starter](https://github.com/nuxtbase/nuxt3-starter) - 💚 A Better Nuxt 3 Starter Template，generate by nuxi.
+- [starfish-studios/Naturalist-Archive](https://github.com/starfish-studios/Naturalist-Archive) - 🦌 Enhances the overworld by adding new wildlife with unique behavior!
+- [fn2006/PollyMC](https://github.com/fn2006/PollyMC) - DRM-free Prism Launcher fork with support for custom auth servers.
+- [Reimnop/Discord4Fabric](https://github.com/Reimnop/Discord4Fabric) - A beautiful Discord bot client for Fabric
 - [GooseMod/topaz](https://github.com/GooseMod/topaz) - A "next-gen" mod bundling client-side in web, designed for wide compat and with no limits.
-- [unbug/codelf](https://github.com/unbug/codelf) - A search tool helps dev to solve the naming things problem.
+- [shmoobalizer/developer_art_plus](https://github.com/shmoobalizer/developer_art_plus) - For those who like the older Minecraft textures.
+- [antfu/taze](https://github.com/antfu/taze) - 🥦 A modern cli tool that keeps your deps fresh
+- [purogamer/Fluent-for-Steam](https://github.com/purogamer/Fluent-for-Steam) - Fluent for Steam. A simple skin for steam to make it look like windows 11.
+- [enmity-mod/tweak](https://github.com/enmity-mod/tweak) - Theos jailbreak tweak to handle filesystem changes, addon management and bundle loading for Enmity.
+- [enmity-mod/enmity](https://github.com/enmity-mod/enmity) - The power of addons, all in your hand.
+- [Galactic-Dev/iSponsorBlock](https://github.com/Galactic-Dev/iSponsorBlock) - A jailbreak tweak that implements the sponsorblock api to skip sponsorships in youtube videos.
+- [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse for Nuxt 3 🏔💚⚡️
+- [typesense/typesense](https://github.com/typesense/typesense) - Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences
 - [hakimel/reveal.js](https://github.com/hakimel/reveal.js) - The HTML Presentation Framework
-- [tw-in-js/twind](https://github.com/tw-in-js/twind) - The smallest, fastest, most feature complete Tailwind-in-JS solution in existence.
-- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
+- [ClusterM/wear-os-hex-editor-watchface](https://github.com/ClusterM/wear-os-hex-editor-watchface) - Hex Editor Watch Face for Wear OS
+- [intlify/nuxt3](https://github.com/intlify/nuxt3) - Nuxt 3 Module for vue-i18n-next
 - [SortableJS/Sortable](https://github.com/SortableJS/Sortable) - Reorderable drag-and-drop lists for modern browsers and touch devices. No jQuery or framework required.
 - [GooseMod/OpenAsar](https://github.com/GooseMod/OpenAsar) - Open-source alternative of Discord desktop's app.asar
 - [Cumcord/Cumcord](https://github.com/Cumcord/Cumcord) - A Discord client mod for your Discord client mod.
 - [GooseMod/GooseMod](https://github.com/GooseMod/GooseMod) - GooseMod is a new, store-driven Discord mod.
-- [verlok/vanilla-lazyload](https://github.com/verlok/vanilla-lazyload) - LazyLoad is a lightweight, flexible script that speeds up your website by deferring the loading of your below-the-fold images, backgrounds, videos, iframes and scripts to when they will enter the view
-- [nodkz/mongoose-plugin-autoinc](https://github.com/nodkz/mongoose-plugin-autoinc) - Mongoose plugin that auto-increments any ID field on your schema every time a document is saved
-- [comp500/quilt-serverside-mods](https://github.com/comp500/quilt-serverside-mods) - A list of server-side mods for the Quilt mod loader; including many Fabric mods (which are compatible with Quilt) and some Quilt-only mods.
-- [hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate) - A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose
-- [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe) - Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter.
-- [pqina/vue-filepond](https://github.com/pqina/vue-filepond) - 🔌 A handy FilePond adapter component for Vue
+- [web-standards-ru/dictionary](https://github.com/web-standards-ru/dictionary) - Словари по фронтенду
+- [alpinejs/alpine](https://github.com/alpinejs/alpine) - A rugged, minimal framework for composing JavaScript behavior in your markup.
+- [Paisseon/Satella](https://github.com/Paisseon/Satella) - Modern in-app purchase cracker (iOS 12-16)
+- [DiscordStyles/Fluent](https://github.com/DiscordStyles/Fluent) - Brings the look of Windows 11 to Discord.
+- [fakundo/preact-transitioning](https://github.com/fakundo/preact-transitioning) - Preact components for easily implementing basic CSS animations and transitions
+- [rollup/awesome](https://github.com/rollup/awesome) - ⚡️ Delightful Rollup Plugins, Packages, and Resources
+- [AsyncBanana/better-keepinventory](https://github.com/AsyncBanana/better-keepinventory) - 
+- [HerMajestyDrMona/Windows11DragAndDropToTaskbarFix](https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix) - "Windows 11 Drag & Drop to the Taskbar (Fix)" fixes the missing "Drag & Drop to the Taskbar" support in Windows 11. It works with the new Windows 11 taskbar and does not require nasty changes like Und
+- [Patbox/Holograms](https://github.com/Patbox/Holograms) - Simple mod that allows to create of server side holograms (Fabric)
+- [yoksel/common-words](https://github.com/yoksel/common-words) - 🧐 Слова, часто используемые в CSS-классах
+- [antfu/vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - 🏕 Vitesse experience for Nuxt 2 and Vue 2
+- [Paisseon/Satella_ObjC](https://github.com/Paisseon/Satella_ObjC) - A somewhat modern in-app purchase cracker for iOS 13.0-14.8.1
+- [ProjectManticore/Manticore](https://github.com/ProjectManticore/Manticore) - iOS Jailbreak based on cicuta_virosa by ModernPwner and Pattern F's pre-jailbreak's amfid bypass.
+- [kdrag0n/android12-extensions](https://github.com/kdrag0n/android12-extensions) - Enable and customize hidden features on Android 12.
+- [Juby210/Aliucord](https://github.com/Juby210/Aliucord) - Discord Android app mod inspired by desktop Discord client mods.
+- [MaBeuLux88/docker](https://github.com/MaBeuLux88/docker) - Some useful docker stuff for me :-).
+- [kiwibrowser/src.next](https://github.com/kiwibrowser/src.next) - Source-code for Kiwi Next, a Kiwi Browser auto-rebased with latest Chromium
+- [AtlanPrime/customromguide](https://github.com/AtlanPrime/customromguide) - ROM Build Guide | PR's Welcome! | Technically its a blind Buildbot friendly guide | But don't be a Buildbot
+- [HalogenMods/Chlorine](https://github.com/HalogenMods/Chlorine) - 
+- [DiscordStyles/MinimalCord](https://github.com/DiscordStyles/MinimalCord) - Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
+- [MadeBaruna/paimon-moe-api](https://github.com/MadeBaruna/paimon-moe-api) - A REST API service for paimon.moe
+- [picotorrent/picotorrent](https://github.com/picotorrent/picotorrent) - A tiny, hackable BitTorrent client.
+- [GZR-Kernels/Optimus_Drunk_Surya](https://github.com/GZR-Kernels/Optimus_Drunk_Surya) - 
+- [Magisk-Modules-Repo/G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod) - Systemlessy customize your Android's Visual
+- [KlemenDEV/MCreator](https://github.com/KlemenDEV/MCreator) - MCreator is a software used to make Minecraft Java Edition mods, Bedrock Edition Add-Ons, and data packs using visual graphical programming or integrated IDE.
+- [sargunv/modsman](https://github.com/sargunv/modsman) - Minecraft mod manager and updater for the CLI
 - [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) - A set of free MIT-licensed high-quality SVG icons for UI development.
+- [FlashyReese/sodium-fabric](https://github.com/FlashyReese/sodium-fabric) - A Minecraft mod designed to improve frame rates and reduce micro-stutter
+- [TeamVanced/VancedManager](https://github.com/TeamVanced/VancedManager) - Vanced Installer
+- [microsoft/vscode-codicons](https://github.com/microsoft/vscode-codicons) - The icon font for Visual Studio Code
 - [sindresorhus/dot-prop](https://github.com/sindresorhus/dot-prop) - Get, set, or delete a property from a nested object using a dot path
-- [feathericons/feather](https://github.com/feathericons/feather) - Simply beautiful open-source icons
-- [primer/octicons](https://github.com/primer/octicons) - A scalable set of icons handcrafted with &lt;3 by GitHub
-- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
-- [cli-table/cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line
-- [ahmadawais/corona-cli](https://github.com/ahmadawais/corona-cli) - 🦠 Track the Coronavirus disease (COVID-19) in the command line. Worldwide for all countries, for one country, and the US States. Fast response time (&lt; 100ms). To chat: https://twitter.com/MrAhmadAw
+- [bgirard/Minecraft-Unity3D](https://github.com/bgirard/Minecraft-Unity3D) - Unity Voxel Community Project
+- [samhogan/Minecraft-Unity3D](https://github.com/samhogan/Minecraft-Unity3D) - A basic minecraft clone made with unity in 24 hours
+- [vini2003/Spinnery](https://github.com/vini2003/Spinnery) - A Java-based GUI library for Minecraft.
+- [alievk/avatarify-python](https://github.com/alievk/avatarify-python) - Avatars for Zoom, Skype and other video-conferencing apps.
+- [ashie404/MelonShaders](https://github.com/ashie404/MelonShaders) - minecraft shaders!
 - [lrsjng/h5ai](https://github.com/lrsjng/h5ai) - HTTP web server index for Apache httpd, lighttpd and nginx.
-- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
-- [zombieFox/nightTab](https://github.com/zombieFox/nightTab) - A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with nightTab.
-- [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) - 🤪 A list of funny and tricky JavaScript examples
+- [oakes/vim_cubed](https://github.com/oakes/vim_cubed) - Vim rendered on a cube for no reason
+- [sp614x/optifine](https://github.com/sp614x/optifine) - 
+- [ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
+- [christiannaths/redacted-font](https://github.com/christiannaths/redacted-font) - Keep your wireframes free of distracting Lorem Ipsum.
 - [cmiscm/leonsans](https://github.com/cmiscm/leonsans) - Leon Sans is a geometric sans-serif typeface made with code in 2019 by Jongmin Kim.
-- [vgshenoy/vue-scrollama](https://github.com/vgshenoy/vue-scrollama) - Vue component to setup scroll-driven interactions (aka scrollytelling)
-- [alexcambose/motus](https://github.com/alexcambose/motus) - Animation library that mimics CSS keyframes when scrolling.
-- [preactjs/preact](https://github.com/preactjs/preact) - ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.
+- [baowenbo/DAIN](https://github.com/baowenbo/DAIN) - Depth-Aware Video Frame Interpolation (CVPR 2019)
+- [googlefonts/spacemono](https://github.com/googlefonts/spacemono) - Original monospace display typeface family
+- [sharanda/manrope](https://github.com/sharanda/manrope) - Manrope font – modern geometric sans-serif
+- [jpt/barlow](https://github.com/jpt/barlow) - Barlow: a straight-sided sans-serif superfamily
 - [taniarascia/taniarascia.com](https://github.com/taniarascia/taniarascia.com) - 💾 ‎  Personal website running on Gatsby, React, and Node.js.
-- [egodigital/vscode-powertools](https://github.com/egodigital/vscode-powertools) - A swiss army knife with lots of tools, extensions and (scriptable) enhancements for Visual Studio Code.
+- [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) - This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
+- [TTT-2/TTT2](https://github.com/TTT-2/TTT2) - Trouble in Terrorist Town 2 for Garry's Mod (gmod)
+- [dannyfritz/commit-message-emoji](https://github.com/dannyfritz/commit-message-emoji) - Every commit is important. So let's celebrate each and every commit with a corresponding emoji! :smile:
 - [node-cron/node-cron](https://github.com/node-cron/node-cron) - A simple cron-like job scheduler for Node.js
+- [parcel-bundler/website](https://github.com/parcel-bundler/website) - 🌎 Parcel website
+- [gothinkster/realworld](https://github.com/gothinkster/realworld) - "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more
 - [mathdroid/crop-github-images-cli](https://github.com/mathdroid/crop-github-images-cli) - Crop image/gif into swag for your Github profile
-- [facebook/create-react-app](https://github.com/facebook/create-react-app) - Set up a modern web app by running one command.
-- [facebook/react](https://github.com/facebook/react) - The library for web and native user interfaces.
-- [redom/redom](https://github.com/redom/redom) - Tiny (2 KB) turboboosted JavaScript library for creating user interfaces.
-- [BetterDiscord/BetterDiscord](https://github.com/BetterDiscord/BetterDiscord) - Better Discord enhances Discord desktop app with new features.
-- [DavidWells/markdown-magic](https://github.com/DavidWells/markdown-magic) - 💫  Automatically format markdown files using comment blocks. Update contents via custom transforms, external data sources & your source code.
+- [Guichaguri/guichaguri.github.io](https://github.com/Guichaguri/guichaguri.github.io) - 
+- [ThunderModder/bionisation3](https://github.com/ThunderModder/bionisation3) - Minecraft mod about viruses and bacteria
 - [lllyasviel/style2paints](https://github.com/lllyasviel/style2paints) - sketch + style = paints :art: (TOG2018/SIGGRAPH2018ASIA)
-- [gillesdemey/Cumulus](https://github.com/gillesdemey/Cumulus) - ☁️  A SoundCloud player that lives in your menubar.
 - [bchiang7/v4](https://github.com/bchiang7/v4) - Fourth iteration of my personal website built with Gatsby
-- [Discord-Datamining/Discord-Datamining](https://github.com/Discord-Datamining/Discord-Datamining) - Datamining Discord changes from the JS files
+- [Wallpaper-Engine-Team/wallpaper-engine-translations](https://github.com/Wallpaper-Engine-Team/wallpaper-engine-translations) - http://store.steampowered.com/app/431960
+- [cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial) - How to create an OS from scratch
+- [ZendalMinecraft/TradingPlatform](https://github.com/ZendalMinecraft/TradingPlatform) - Plugin for bukkit/spigot 1.12.2
+- [isaacs/github](https://github.com/isaacs/github) - Just a place to track issues and feature requests that I have for github
 - [jakiestfu/Ripple.js](https://github.com/jakiestfu/Ripple.js) - Adds Material style ripple to anything
-- [demaisj/soundcloud-rp](https://github.com/demaisj/soundcloud-rp) - Adds Discord Rich Presence support to Soundcloud.
+- [felixse/FluentTerminal](https://github.com/felixse/FluentTerminal) - A Terminal Emulator based on UWP and web technologies.
+- [felixrieseberg/windows95](https://github.com/felixrieseberg/windows95) - 💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows.
+- [electron/i18n](https://github.com/electron/i18n) - 🌍 The home of Electron's translated documentation
+- [gearbot/GearBot](https://github.com/gearbot/GearBot) - Helps you to keep the gears turning smoothly
+- [Facepunch/garrysmod](https://github.com/Facepunch/garrysmod) - Sandbox mod for the Source Engine
+- [Tampermonkey/tampermonkey-i18n](https://github.com/Tampermonkey/tampermonkey-i18n) - Tampermonkey's locale files
+- [mc-modding/mc-modding-book](https://github.com/mc-modding/mc-modding-book) - Everything about creating Minecraft mods
+- [chromium/chromium](https://github.com/chromium/chromium) - The official GitHub mirror of the Chromium source
+- [MiCode/Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource) - Xiaomi Mobile Phone Kernel OpenSource
+- [Edgarware/Threshold-Skin](https://github.com/Edgarware/Threshold-Skin) - A Windows 10 UWP style skin for Steam
+- [23phy/ewc](https://github.com/23phy/ewc) - Native window composition on Windows for Electron apps.
+- [aosp-mirror/platform_frameworks_base](https://github.com/aosp-mirror/platform_frameworks_base) - 
 - [jspenguin2017/uBlockProtector](https://github.com/jspenguin2017/uBlockProtector) - An anti-adblock defuser for Nano Adblocker and uBlock Origin
+- [xyonico/BeatSaberSongLoader](https://github.com/xyonico/BeatSaberSongLoader) - A plugin for adding custom songs into Beat Saber
+- [dimkanovikov/KITScenarist](https://github.com/dimkanovikov/KITScenarist) - Screenwriting software.
+- [suphon-t/AndroidP-ify](https://github.com/suphon-t/AndroidP-ify) - [Xposed] Use features introduced in Android P on your O+ Device!
+- [shubhchan/Launcher3](https://github.com/shubhchan/Launcher3) - Launcher3 with Pixel Launcher features
 - [rubenspgcavalcante/leaflet-ant-path](https://github.com/rubenspgcavalcante/leaflet-ant-path) - 🌿🐜 Creates a leaflet polyline with a 'ant-path' animated flux
 - [atomiks/tippyjs](https://github.com/atomiks/tippyjs) - Tooltip, popover, dropdown, and menu library
-- [chalk/chalk](https://github.com/chalk/chalk) - 🖍 Terminal string styling done right
-- [ParticleCore/Iridium](https://github.com/ParticleCore/Iridium) - Iridium is an extension built to improve your YouTube experience
-- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
-- [devanandb/webpack-mix](https://github.com/devanandb/webpack-mix) - Elegant wrapper around Webpack for more than 80% use cases.
-- [postcss/autoprefixer](https://github.com/postcss/autoprefixer) - Parse CSS and add vendor prefixes to rules by Can I Use
-- [algolia/github-awesome-autocomplete](https://github.com/algolia/github-awesome-autocomplete) - :octocat: Add instant search capabilities to GitHub's search bar
-- [alvarotrigo/pagePiling.js](https://github.com/alvarotrigo/pagePiling.js) - pagePiling plugin by Alvaro Trigo. Create a scrolling pile of sections. http://alvarotrigo.com/pagePiling/
+- [rainglow/vscode](https://github.com/rainglow/vscode) - 320+ color themes for Visual Studio Code.
+- [darkk/where-is-resolver](https://github.com/darkk/where-is-resolver) - Попытка ответить на вопрос о резольверах, проверяющих домены из списка РКН
+- [ValdikSS/blockcheck](https://github.com/ValdikSS/blockcheck) - Russian ISP blocking type checker NOTE: NOT WORKING CURRENTLY. ВНИМАНИЕ: НЕ РАБОТАЕТ НА ТЕКУЩИЙ МОМЕНТ
+- [negezor/hybrid-torrent-tracker](https://github.com/negezor/hybrid-torrent-tracker) - Hybrid torrent tracker for Node.js
+- [shikimori/shikimori](https://github.com/shikimori/shikimori) - 
+- [atom-archive/xray](https://github.com/atom-archive/xray) - An experimental next-generation Electron-based text editor
 - [m4l3vich/sBot](https://github.com/m4l3vich/sBot) - Легкий и функциональный бот для ВКонтакте
-- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
-- [herber/cargo](https://github.com/herber/cargo) - 🚂🚋🚋 A browser with almost no UI.
-- [octref/polacode](https://github.com/octref/polacode) - 📸 Polaroid for your code
+- [substratum/substratum](https://github.com/substratum/substratum) - An advanced theming manager designed to be used with RRO, OMS and Dynamic Overlays
+- [blivesta/animsition](https://github.com/blivesta/animsition) - A simple and easy jQuery plugin for CSS animated page transitions.
+- [NVIDIA/FastPhotoStyle](https://github.com/NVIDIA/FastPhotoStyle) - Style transfer, deep learning, feature transform
+- [kelseyhightower/nocode](https://github.com/kelseyhightower/nocode) - The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+- [wanam/YouTubeAdAway](https://github.com/wanam/YouTubeAdAway) - Xposed module to block YouTube ads on the official YouTube Android App
 - [lokesh/color-thief](https://github.com/lokesh/color-thief) - Grab the color palette from an image using just Javascript.  Works in the browser and in Node.
-- [scholtzm/punk](https://github.com/scholtzm/punk) - ⚡ Alternative cross-platform Steam client for desktop
-- [denysdovhan/inboxer](https://github.com/denysdovhan/inboxer) - Unofficial, free and open-source Inbox by Gmail Desktop App
 - [yioyo3/modexplorer](https://github.com/yioyo3/modexplorer) - Mod explorer for CurseForge &gt;_&gt;
 - [yioyo3/ruminepp](https://github.com/yioyo3/ruminepp) - 
 - [m4l3vich/spotify2vk](https://github.com/m4l3vich/spotify2vk) - Tiny Node.js script that shows currently playing Spotify track in VK status
-- [juliangarnier/anime](https://github.com/juliangarnier/anime) - JavaScript animation engine
-- [HelloWorld017/atom-discord](https://github.com/HelloWorld017/atom-discord) - Integrate with Discord and show Rich Presence information.
+- [kristoferjoseph/flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid) - Grid based on CSS3 flexbox
+- [discord/electron](https://github.com/discord/electron) - Build cross platform desktop apps with web technologies
+- [discord/discord-rpc](https://github.com/discord/discord-rpc) - 
+- [roginvs/space-rangers-quest](https://github.com/roginvs/space-rangers-quest) - Онлайн плеер .qm и .qmm квестов из Космических Рейнжеров
 - [macsmac/modexplorer](https://github.com/macsmac/modexplorer) - Mod explorer for CurseForge &gt;_&gt;
+- [LTD-Beget/sprutio](https://github.com/LTD-Beget/sprutio) - Beget File Manager App
+- [sindrets/atom-title-bar-replacer](https://github.com/sindrets/atom-title-bar-replacer) - Adds an alternative, theme-aware title bar and application menu that is more inline with Atom's UI design.
+- [silent27121984/LineageOS_device_xiaomi_santoni](https://github.com/silent27121984/LineageOS_device_xiaomi_santoni) - 
+- [Yummygum/city-lights-ui-atom](https://github.com/Yummygum/city-lights-ui-atom) - 
 - [zachwlewis/projectcodename](https://github.com/zachwlewis/projectcodename) - PROJECT: CODENAME — For when you need a codename.
-- [atom/atom](https://github.com/atom/atom) - :atom: The hackable text editor
-- [PrismarineJS/mineflayer](https://github.com/PrismarineJS/mineflayer) - Create Minecraft bots with a powerful, stable, and high level JavaScript API.
-- [PrismarineJS/node-minecraft-protocol](https://github.com/PrismarineJS/node-minecraft-protocol) - Parse and serialize minecraft packets, plus authentication and encryption.
-- [spec-tacles/discord.js-redis](https://github.com/spec-tacles/discord.js-redis) - Connects Discord.js with Redis.
-- [brianc/node-postgres](https://github.com/brianc/node-postgres) - PostgreSQL client for node.js.
-- [liuderchi/atom-i18n](https://github.com/liuderchi/atom-i18n) - :atom: One Atom i18n Package for Any Locale :earth_asia: :earth_americas: :earth_africa:
-- [alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js) - fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple
-- [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) - The iconic SVG, font, and CSS toolkit
+- [dsixda/Android-Kitchen](https://github.com/dsixda/Android-Kitchen) - A text-based kitchen for Android ROM customization.  Uses shell scripts and works with Cygwin/OS X/Linux.
+- [madmonkey1907/hakchi](https://github.com/madmonkey1907/hakchi) - 
+- [silent27121984/MK_device_xiaomi_santoni](https://github.com/silent27121984/MK_device_xiaomi_santoni) - 
+- [uikit/uikit](https://github.com/uikit/uikit) - A lightweight and modular front-end framework for developing fast and powerful web interfaces
+- [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) - GoodbyeDPI — Deep Packet Inspection circumvention utility (for Windows)
+- [cSploit/android](https://github.com/cSploit/android) - cSploit - The most complete and advanced IT security professional toolkit on Android.
+- [ClusterM/omega2-pwm](https://github.com/ClusterM/omega2-pwm) - Simple program to control hardware PWM on Omega2
+- [ClusterM/hakchi2](https://github.com/ClusterM/hakchi2) - Tool that allows you to add more games to your NES/SNES Classic Mini. WARNING: hakchi2 is no longer supported. Please use hakchi2 CE.
+- [Team-RTG/Passable-Leaves](https://github.com/Team-RTG/Passable-Leaves) - Minecraft core mod that makes leaves passable.
+- [PEXPlugins/PermissionsEx](https://github.com/PEXPlugins/PermissionsEx) - A powerful permissions plugin for Minecraft
+- [DirtDiglett/Pressure2](https://github.com/DirtDiglett/Pressure2) - Pressure² - a beautiful theme for your Steam Client.
+- [aguinet/wannakey](https://github.com/aguinet/wannakey) - Wannacry in-memory key recovery
 - [reddit-archive/reddit-plugin-place-opensource](https://github.com/reddit-archive/reddit-plugin-place-opensource) - place
+- [Exsite123/ExsiteStatus](https://github.com/Exsite123/ExsiteStatus) - 
+- [AdrianEddy/AIMPSoundcloud](https://github.com/AdrianEddy/AIMPSoundcloud) - SoundCloud plugin for AIMP
 - [mikaeljorhult/brackets-autoprefixer](https://github.com/mikaeljorhult/brackets-autoprefixer) - Brackets/Edge Code extension that parses CSS documents and add vendor prefixes automatically.
-- [brackets-beautify/brackets-beautify](https://github.com/brackets-beautify/brackets-beautify) - Beautify HTML, CSS, and Javascript in Adobe Brackets
+- [altocms/altocms](https://github.com/altocms/altocms) - Alto CMS - Perfect Content Management System & Advanced Community Engine
 - [VkOpt/VkOpt](https://github.com/VkOpt/VkOpt) - VkOpt
-- [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 - [adobe/brackets](https://github.com/adobe/brackets) - An open source code editor for the web, written in JavaScript, HTML and CSS.
-- [dhowe/AdNauseam](https://github.com/dhowe/AdNauseam) - AdNauseam: Fight back against advertising surveillance
-- [jmjuanes/siimple](https://github.com/jmjuanes/siimple) - The minimal and themeable CSS toolkit for flat and clean designs
-- [arielsalminen/ResponsiveSlides.js](https://github.com/arielsalminen/ResponsiveSlides.js) - Simple & lightweight responsive slider plugin (in 1kb)
-
-## Jupyter Notebook 
-
-- [Aniket965/Hello-world](https://github.com/Aniket965/Hello-world) - Add any  Program in any language you like or add a hello world Program ❣️ if you like give us :star:
-
-## Kotlin 
-
-- [fork-maintainers/iceraven-browser](https://github.com/fork-maintainers/iceraven-browser) - Iceraven Browser
-- [axel358/smartdock](https://github.com/axel358/smartdock) - A user-friendly desktop mode launcher that offers a modern and customizable user interface
-- [sunshine0523/Mi-Freeform](https://github.com/sunshine0523/Mi-Freeform) - Mi-Freeform 3 is an Android third-party freeform software that supports Android 8.1-Android 14
-- [otomir23/SootyChimneysFabric](https://github.com/otomir23/SootyChimneysFabric) - Unofficial port of Sooty Chimneys over to Fabric.
-- [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
-- [EtchDroid/EtchDroid](https://github.com/EtchDroid/EtchDroid) - An application to write OS images to USB drives, on Android, no root required.
-- [Keyspace-cloud/android](https://github.com/Keyspace-cloud/android) - Official Android client for keyspace.cloud. A beautiful and secure password manager.
-- [iamr0s/InstallerX](https://github.com/iamr0s/InstallerX) - A modern and functional Android app installer. (You know some birds are not meant to be caged, their feathers are just too bright.)
-- [DUpdateSystem/UpgradeAll](https://github.com/DUpdateSystem/UpgradeAll) - Check updates for Android apps, Magisk modules and more!
-- [BlackMesa123/KnoxPatch](https://github.com/BlackMesa123/KnoxPatch) - LSPosed module to get Samsung apps/features working again in your rooted Galaxy device.
-- [Dr-TSNG/Hide-My-Applist](https://github.com/Dr-TSNG/Hide-My-Applist) - An Xposed module to intercept applist detections
-- [MRepoApp/MRepo](https://github.com/MRepoApp/MRepo) - A Modules Manager for Magisk & KernelSU
-- [VegaBobo/DSU-Sideloader](https://github.com/VegaBobo/DSU-Sideloader) - A simple app made to help users easily install GSIs via DSU's Android feature.
-- [twofas/2fas-android](https://github.com/twofas/2fas-android) - Source code for 2FAS Android app
-- [ReplayMod/preprocessor](https://github.com/ReplayMod/preprocessor) - A Java+Kotlin source file preprocessor used in the RM to support multiple MC versions
-- [OmGodse/Notally](https://github.com/OmGodse/Notally) - A beautiful notes app
-- [downthecrop/checkra1n-twrp](https://github.com/downthecrop/checkra1n-twrp) - Android automation app for checkra1n in TWRP
-- [kdrag0n/android12-extensions](https://github.com/kdrag0n/android12-extensions) - Enable and customize hidden features on Android 12.
-- [sargunv/modsman](https://github.com/sargunv/modsman) - Minecraft mod manager and updater for the CLI
-- [TeamVanced/VancedManager](https://github.com/TeamVanced/VancedManager) - Vanced Installer
-- [ejektaflex/Bountiful](https://github.com/ejektaflex/Bountiful) - A Minecraft mod adding bounties for specific items.
-- [RadiationX/ForPDA](https://github.com/RadiationX/ForPDA) - Alternative client for 4pda.ru
-- [suphon-t/AndroidP-ify](https://github.com/suphon-t/AndroidP-ify) - [Xposed] Use features introduced in Android P on your O+ Device!
-
-## Logos 
-
-- [qnblackcat/uYouPlus](https://github.com/qnblackcat/uYouPlus) - uYou+ is a modified version of uYou (made by @MiRO92) with additional features and mainly made for non jailbroken users!
-- [enmity-mod/tweak](https://github.com/enmity-mod/tweak) - Theos jailbreak tweak to handle filesystem changes, addon management and bundle loading for Enmity.
-
-## Lua 
-
-- [IcyStarFrost/Zeta-Players](https://github.com/IcyStarFrost/Zeta-Players) - Repo for the Zeta Players
-- [TTT-2/TTT2](https://github.com/TTT-2/TTT2) - Trouble in Terrorist Town 2 for Garry's Mod (gmod)
-- [Facepunch/garrysmod](https://github.com/Facepunch/garrysmod) - Sandbox mod for the Source Engine
-- [darkk/where-is-resolver](https://github.com/darkk/where-is-resolver) - Попытка ответить на вопрос о резольверах, проверяющих домены из списка РКН
-- [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) - A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos.
-- [phillipi/pix2pix](https://github.com/phillipi/pix2pix) - Image-to-image translation with conditional adversarial nets
-
-## Makefile 
-
-- [sharanda/manrope](https://github.com/sharanda/manrope) - Manrope font – modern geometric sans-serif
-- [FlymeOS/build](https://github.com/FlymeOS/build) - 
-
-## Markdown 
-
-- [chaotic-aur/chaotic-uptimes](https://github.com/chaotic-aur/chaotic-uptimes) - GitHub Actions driven uptime monitoring 🕵🏻‍♀️
-
-## Nim 
-
-- [krisppurg/dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
-- [nim-lang/Nim](https://github.com/nim-lang/Nim) - Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, an
-- [oakes/vim_cubed](https://github.com/oakes/vim_cubed) - Vim rendered on a cube for no reason
-
-## Objective-C 
-
-- [opa334/TrollStore](https://github.com/opa334/TrollStore) - Jailed iOS app that can install IPAs permanently with arbitary entitlements and root helpers because it trolls Apple
-- [Galactic-Dev/iSponsorBlock](https://github.com/Galactic-Dev/iSponsorBlock) - A jailbreak tweak that implements the sponsorblock api to skip sponsorships in youtube videos.
-- [Paisseon/Satella_ObjC](https://github.com/Paisseon/Satella_ObjC) - A somewhat modern in-app purchase cracker for iOS 13.0-14.8.1
-
-## Others 
-
-- [5t-RawBeRry/Raven_KurnelSU](https://github.com/5t-RawBeRry/Raven_KurnelSU) - 5.10 - 6.1 KernelSU
-- [daboynb/Android-Builder](https://github.com/daboynb/Android-Builder) - Automatically build android kernel by github actions.
-- [IvanGreen/Xiaomi-Mi-Pad5-Linux-Install](https://github.com/IvanGreen/Xiaomi-Mi-Pad5-Linux-Install) - Эта инструкция предоставляет подробные шаги по установке различных версий Linux, включая Arch Linux и Ubuntu, на устройство Mi Pad 5. В документе описаны версии системы, особенности установки и рекоме
-- [Vencord/builds](https://github.com/Vencord/builds) - Build Archive for https://github.com/Vendicated/Vencord, not much to see here
-- [CHNJohnHK/Material-You-App-Repository](https://github.com/CHNJohnHK/Material-You-App-Repository) - A simple but intact and frequent-updated Material You App collection project creating with love and persistence.
-- [TheUsefulLists/UsefulMods](https://github.com/TheUsefulLists/UsefulMods) - Just a list of useful mods
-- [iamlooper/Seeker](https://github.com/iamlooper/Seeker) - A app which can help you seek customization.
-- [intergrav/devins-badges](https://github.com/intergrav/devins-badges) - Beautifully designed badges for many services
-- [woa-msmnile/Nabu](https://github.com/woa-msmnile/Nabu) - Drivers Submodule For Xiaomi Pad 5.
-- [serdeliuk/xiaomi-nabu-postmarketos](https://github.com/serdeliuk/xiaomi-nabu-postmarketos) - Porting PostmarketOS to Xiaomi Pad 5 (nabu)
-- [serdeliuk/xiaomi-nabu-orangefox](https://github.com/serdeliuk/xiaomi-nabu-orangefox) - UNOFFICIAL Xiaomi Pad 5 nabu OrangeFox recovery
-- [erdilS/Port-Windows-11-Xiaomi-Pad-5](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5) - Based on POCO X3 Pro tutorial.
-- [github/hubot-sans](https://github.com/github/hubot-sans) - Hubot Sans, a variable font from GitHub
-- [the8055u/No-way-repo](https://github.com/the8055u/No-way-repo) - 
-- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)
-- [nuxt/framework](https://github.com/nuxt/framework) - Old repo of Nuxt 3 framework, now on nuxt/nuxt
-- [catppuccin/grub](https://github.com/catppuccin/grub) - 🌕 Soothing pastel theme for Grub2
-- [o-az/awesome-bun](https://github.com/o-az/awesome-bun) - A list of awesome Bun tools and resources.
-- [zfkdnop/apex-legends-dxvk-cache](https://github.com/zfkdnop/apex-legends-dxvk-cache) - A compilation of pre-compiled DXKV shaders for use with Apex Legends on Linux via Steam/Proton
-- [shmoobalizer/developer_art_plus](https://github.com/shmoobalizer/developer_art_plus) - For those who like the older Minecraft textures.
-- [YouHaveTrouble/minecraft-optimization](https://github.com/YouHaveTrouble/minecraft-optimization) - Minecraft server optimization guide
-- [nepaul/awesome-web-development](https://github.com/nepaul/awesome-web-development) - 🧡 A curated list of awesome web development resources.
-- [web-standards-ru/dictionary](https://github.com/web-standards-ru/dictionary) - Словари по фронтенду
-- [rollup/awesome](https://github.com/rollup/awesome) - ⚡️ Delightful Rollup Plugins, Packages, and Resources
-- [yoksel/common-words](https://github.com/yoksel/common-words) - 🧐 Слова, часто используемые в CSS-классах
-- [AtlanPrime/customromguide](https://github.com/AtlanPrime/customromguide) - ROM Build Guide | PR's Welcome! | Technically its a blind Buildbot friendly guide | But don't be a Buildbot
-- [vlang/awesome-v](https://github.com/vlang/awesome-v) - A curated list of awesome V frameworks, libraries, software and resources.
-- [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome) - :computer: 🎉 An awesome & curated list of best applications and tools for Windows.
-- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
-- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 😱 Falsehoods Programmers Believe in
-- [Keksuccino/FancyMenu](https://github.com/Keksuccino/FancyMenu) - Source code for FancyMenu.
-- [HowProgrammingWorks/Index](https://github.com/HowProgrammingWorks/Index) - Metarhia educational program index 📖
-- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) - 🌟 Curated design resources from all over the world.
-- [sp614x/optifine](https://github.com/sp614x/optifine) - 
-- [christiannaths/redacted-font](https://github.com/christiannaths/redacted-font) - Keep your wireframes free of distracting Lorem Ipsum.
-- [brabadu/awesome-fonts](https://github.com/brabadu/awesome-fonts) - Curated list of fonts and everything
-- [azat-io/you-dont-know-js-ru](https://github.com/azat-io/you-dont-know-js-ru) - :books: Russian translation of "You Don't Know JS" book series
-- [googlefonts/spacemono](https://github.com/googlefonts/spacemono) - Original monospace display typeface family
-- [googlefonts/amstelvar](https://github.com/googlefonts/amstelvar) - a parametric variable font by David Berlow
-- [dannyfritz/commit-message-emoji](https://github.com/dannyfritz/commit-message-emoji) - Every commit is important. So let's celebrate each and every commit with a corresponding emoji! :smile:
-- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - :zap: Delightful Node.js packages and resources
-- [isaacs/github](https://github.com/isaacs/github) - Just a place to track issues and feature requests that I have for github
-- [Tampermonkey/tampermonkey-i18n](https://github.com/Tampermonkey/tampermonkey-i18n) - Tampermonkey's locale files
-- [chromium/chromium](https://github.com/chromium/chromium) - The official GitHub mirror of the Chromium source
-- [MiCode/Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource) - Xiaomi Mobile Phone Kernel OpenSource
-- [thedaviddias/Front-End-Design-Checklist](https://github.com/thedaviddias/Front-End-Design-Checklist) - 💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers
-- [BeardDesign1/Material-design-theme](https://github.com/BeardDesign1/Material-design-theme) - 🎨 A ex-theme for Discord according to Google's Material design Guidelines. Now moved to https://github.com/rauenzi/Nox
-- [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
-- [rndtrash/nushdiki.js](https://github.com/rndtrash/nushdiki.js) - Решил написать библиотеку, а она мне как раз! Фьить-ха!
+- [voxelwind/voxelwind](https://github.com/voxelwind/voxelwind) - The high-performance Minecraft: Pocket Edition server (in development)
+- [TehNut-Mods/HWYLA](https://github.com/TehNut-Mods/HWYLA) - A fork of Waila maintaining it for new MC versions
 - [fromgate/TranslationsMCPE](https://github.com/fromgate/TranslationsMCPE) - 
+- [google/recaptcha](https://github.com/google/recaptcha) - PHP client library for reCAPTCHA, a free service to protect your website from spam and abuse.
+- [JideTechnology/remixos-kernel](https://github.com/JideTechnology/remixos-kernel) - linux kernel source used in Remix OS
+- [arielsalminen/ResponsiveSlides.js](https://github.com/arielsalminen/ResponsiveSlides.js) - Simple & lightweight responsive slider plugin (in 1kb)
+- [FlymeOS/build](https://github.com/FlymeOS/build) - 
 - [FlymeOS/flyme-release](https://github.com/FlymeOS/flyme-release) - 
+- [cubex2/BetterFonts](https://github.com/cubex2/BetterFonts) - Adds TrueType/OpenType font support for Minecraft.
 
-## PHP 
+## package-manager 
 
-- [pandora-next/deploy](https://github.com/pandora-next/deploy) - Pandora Cloud + Pandora Server + Shared Chat + BackendAPI Proxy + Chat2API + Signup Free = PandoraNext. New GPTs(Gizmo) UI, All in one!
-- [Wallpaper-Engine-Team/wallpaper-engine-translations](https://github.com/Wallpaper-Engine-Team/wallpaper-engine-translations) - http://store.steampowered.com/app/431960
+- [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) - A full-featured package manager and viewer for Android
+- [chocolatey/choco](https://github.com/chocolatey/choco) - Chocolatey - the package manager for Windows
+
+## php 
+
 - [laravel/laravel](https://github.com/laravel/laravel) - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.
 - [flarum/flarum](https://github.com/flarum/flarum) - Simple forum software for building great communities.
 - [flarum/framework](https://github.com/flarum/framework) - Simple forum software for building great communities.
-- [altocms/altocms](https://github.com/altocms/altocms) - Alto CMS - Perfect Content Management System & Advanced Community Engine
-- [google/recaptcha](https://github.com/google/recaptcha) - PHP client library for reCAPTCHA, a free service to protect your website from spam and abuse.
 
-## Pascal 
+## postgresql 
 
-- [tarcode-apps/BatteryMode](https://github.com/tarcode-apps/BatteryMode) - Windows Battery Indicator replacement
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+- [brianc/node-postgres](https://github.com/brianc/node-postgres) - PostgreSQL client for node.js.
 
-## PowerShell 
+## powershell 
 
-- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
-- [semazurek/ET-Optimizer](https://github.com/semazurek/ET-Optimizer) - ET is a Batch/PowerShell GUI script to improve performance, debloat, optimize and enhance privacy for Windows 10/11.
-- [farag2/ADB-Debloating](https://github.com/farag2/ADB-Debloating) - Debloat MIUI/HyperOS, One UI, and Pixel Launcher via ADB
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
 - [AnderssonPeter/PowerType](https://github.com/AnderssonPeter/PowerType) - Autocomplete for PowerShell
+- [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
+- [awesome-windows11/windows11](https://github.com/awesome-windows11/windows11) - 🌎 Windows 11 Settings, Tweaks, Scripts
+- [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - The most customisable and low-latency cross platform/shell prompt renderer
+- [chocolatey/choco](https://github.com/chocolatey/choco) - Chocolatey - the package manager for Windows
 
-## Python 
+## privacy 
 
-- [maguowei/starred](https://github.com/maguowei/starred) - creating your own Awesome List by GitHub stars!
-- [ravindu644/Kitchen](https://github.com/ravindu644/Kitchen) - Boot image unpacker and repacker while keeping Android Verified Boot.
-- [tfeldmann/organize](https://github.com/tfeldmann/organize) - The file management automation tool.
-- [father-bot/chatgpt_telegram_bot](https://github.com/father-bot/chatgpt_telegram_bot) - 
-- [jeffshee/hidamari](https://github.com/jeffshee/hidamari) - Video wallpaper for Linux. Written in Python. 🐍
-- [1337kid/NoiceGRUB](https://github.com/1337kid/NoiceGRUB) - NoiceGRUB is a collection of linear gradient based GRUB2 themes that can be customised.
+- [Keyspace-cloud/android](https://github.com/Keyspace-cloud/android) - Official Android client for keyspace.cloud. A beautiful and secure password manager.
+- [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) - Get Android App Updates Directly From the Source.
+- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
+- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+- [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) - KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
+- [wexond/browser-base](https://github.com/wexond/browser-base) - Modern and feature-rich web browser base based on Electron
+- [dhowe/AdNauseam](https://github.com/dhowe/AdNauseam) - AdNauseam: Fight back against advertising surveillance
+
+## programming 
+
+- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 😱 Falsehoods Programmers Believe in
+- [HowProgrammingWorks/Index](https://github.com/HowProgrammingWorks/Index) - Metarhia educational program index 📖
+- [Chalarangelo/30-seconds-of-css](https://github.com/Chalarangelo/30-seconds-of-css) - Short CSS code snippets for all your development needs
+
+## pwa 
+
+- [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+
+## python 
+
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) - Self-hosted game stream host for Moonlight.
 - [Nachtalb/reverse_image_search_bot](https://github.com/Nachtalb/reverse_image_search_bot) - Image Reverse Search Bot🕵️‍♂️🔍: A handy Telegram bot for reverse image searches on images, videos, and GIFs, supporting multiple search engines. Unleash the power of reverse searching! 🚀🤖
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - The official gpt4free repository | various collection of powerful language models
-- [Lxtharia/minegrub-theme](https://github.com/Lxtharia/minegrub-theme) - A Grub Theme in the style of Minecraft!
-- [brucethemoose/Minecraft-Performance-Flags-Benchmarks](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) - Sane, Benchmarked Java Flags and Tweaks for Minecraft
 - [badabing2005/PixelFlasher](https://github.com/badabing2005/PixelFlasher) - Pixel™ phone flashing GUI utility with features.
-- [Foldex/AdwSteamGtk](https://github.com/Foldex/AdwSteamGtk) - A simple Gtk wrapper for Adwaita-for-Steam
-- [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - A collection of familiar, friendly, and modern emoji from Microsoft
-- [powenn/AltServer-LinuxGUI](https://github.com/powenn/AltServer-LinuxGUI) - GUI for AltServerLinux
 - [DavidoTek/ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) - Install and manage GE-Proton, Luxtorpeda & more for Steam and Wine-GE & more for Lutris with this graphical user interface.
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
 - [Amulet-Team/Amulet-Map-Editor](https://github.com/Amulet-Team/Amulet-Map-Editor) - A new Minecraft world editor and converter that supports all versions since Java 1.12 and Bedrock 1.7.
-- [alievk/avatarify-python](https://github.com/alievk/avatarify-python) - Avatars for Zoom, Skype and other video-conferencing apps.
-- [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) - Typefaces for source code beautification
-- [baowenbo/DAIN](https://github.com/baowenbo/DAIN) - Depth-Aware Video Frame Interpolation (CVPR 2019)
-- [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans) - A font family with a great monospaced variant for programmers.
-- [jpt/barlow](https://github.com/jpt/barlow) - Barlow: a straight-sided sans-serif superfamily
-- [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) - This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
 - [Rapptz/discord.py](https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
-- [rsms/inter](https://github.com/rsms/inter) - The Inter font family
-- [gearbot/GearBot](https://github.com/gearbot/GearBot) - Helps you to keep the gears turning smoothly
-- [ValdikSS/blockcheck](https://github.com/ValdikSS/blockcheck) - Russian ISP blocking type checker NOTE: NOT WORKING CURRENTLY. ВНИМАНИЕ: НЕ РАБОТАЕТ НА ТЕКУЩИЙ МОМЕНТ
-- [NVIDIA/FastPhotoStyle](https://github.com/NVIDIA/FastPhotoStyle) - Style transfer, deep learning, feature transform
-- [LTD-Beget/sprutio](https://github.com/LTD-Beget/sprutio) - Beget File Manager App
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
 
-## Ruby 
+## python3 
 
-- [shikimori/shikimori](https://github.com/shikimori/shikimori) - 
+- [tfeldmann/organize](https://github.com/tfeldmann/organize) - The file management automation tool.
+- [Nachtalb/reverse_image_search_bot](https://github.com/Nachtalb/reverse_image_search_bot) - Image Reverse Search Bot🕵️‍♂️🔍: A handy Telegram bot for reverse image searches on images, videos, and GIFs, supporting multiple search engines. Unleash the power of reverse searching! 🚀🤖
+- [Amulet-Team/Amulet-Map-Editor](https://github.com/Amulet-Team/Amulet-Map-Editor) - A new Minecraft world editor and converter that supports all versions since Java 1.12 and Bedrock 1.7.
 
-## Rust 
+## qt 
+
+- [kaniol-lck/modmanager](https://github.com/kaniol-lck/modmanager) - A Qt-based mod manager for minecraft.
+
+## rails 
+
+- [primer/octicons](https://github.com/primer/octicons) - A scalable set of icons handcrafted with &lt;3 by GitHub
+
+## raspberry-pi 
+
+- [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
+
+## react 
+
+- [otomir23/dotme](https://github.com/otomir23/dotme) - My personal website rewritten from scratch. Made using Next.js and TailwindCSS.
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
+- [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
+- [giscus/giscus-component](https://github.com/giscus/giscus-component) - Component library for giscus, a comment system powered by GitHub Discussions.
+- [giscus/giscus](https://github.com/giscus/giscus) - A comment system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
+- [boringdesigners/boring-avatars](https://github.com/boringdesigners/boring-avatars) - Boring avatars is a tiny JavaScript React library that generates custom, SVG-based avatars from any username and color palette.
+- [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
+- [oven-sh/bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+- [jonluca/vite-typescript-ssr-react](https://github.com/jonluca/vite-typescript-ssr-react) - 🚀 A Vite Typescript SSR React boilerplate!
+- [trpc/trpc](https://github.com/trpc/trpc) - 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
+- [iamyoki/transition-hook](https://github.com/iamyoki/transition-hook) - ☄️  An extremely light-weight react transition animation hook which is simpler and easier to use than react-transition-group
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
+- [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) - 🦹‍♂️ Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time.
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+- [facebook/react-native](https://github.com/facebook/react-native) - A framework for building native applications using React
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+- [preactjs/preact](https://github.com/preactjs/preact) - ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.
+- [microsoft/fluentui](https://github.com/microsoft/fluentui) - Fluent UI web represents a collection of utilities, React components, and web components for building web applications.
+- [wexond/browser-base](https://github.com/wexond/browser-base) - Modern and feature-rich web browser base based on Electron
+- [facebook/create-react-app](https://github.com/facebook/create-react-app) - Set up a modern web app by running one command.
+- [facebook/react](https://github.com/facebook/react) - The library for web and native user interfaces.
+- [mui/material-ui](https://github.com/mui/material-ui) - MUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.
+- [styled-components/styled-components](https://github.com/styled-components/styled-components) - Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
+- [thedevs-network/kutt](https://github.com/thedevs-network/kutt) - Free Modern URL Shortener.
+- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+
+## react-native 
+
+- [bevkoski/react-native-android-wear-demo](https://github.com/bevkoski/react-native-android-wear-demo) - Showcase of a two-way communication between React Native and Android Wear apps.
+- [facebook/react-native](https://github.com/facebook/react-native) - A framework for building native applications using React
+
+## reactjs 
+
+- [KristofferTroncoso/ThemeSong](https://github.com/KristofferTroncoso/ThemeSong) - YouTube Music Enhancer Extension. Available for Chrome and Firefox 🎧🎨  Click the ⭐️ button above!
+- [giscus/giscus](https://github.com/giscus/giscus) - A comment system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
+- [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) - 🦹‍♂️ Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time.
+
+## redux 
+
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+
+## rest-api 
+
+- [Discord4J/Discord4J](https://github.com/Discord4J/Discord4J) - Discord4J is a fast, powerful, unopinionated, reactive library to enable quick and easy development of Discord bots for Java, Kotlin, and other JVM languages using the official Discord Bot API.
+- [hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate) - A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose
+
+## reverse-engineering 
+
+- [xtekky/gpt4free](https://github.com/xtekky/gpt4free) - The official gpt4free repository | various collection of powerful language models
+- [neowutran/ShinraMeter](https://github.com/neowutran/ShinraMeter) - Tera DPS Meter
+
+## rust 
 
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
 - [clap-rs/clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust
-- [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 - [flosse/rust-web-framework-comparison](https://github.com/flosse/rust-web-framework-comparison) - A comparison of some web frameworks and libs written in Rust
 - [Synphonyte/leptos-use](https://github.com/Synphonyte/leptos-use) - Collection of essential Leptos utilities inspired by React-Use / VueUse / SolidJS-USE
 - [Eugeny/rust-sinner](https://github.com/Eugeny/rust-sinner) - Easy c̵̰͠r̵̛̠ö̴̪s̶̩̒s̵̭̀-t̶̲͝h̶̯̚r̵̺͐e̷̖̽ḁ̴̍d̶̖̔ ȓ̵͙ė̶͎ḟ̴͙e̸̖͛r̶̖͗ë̶̱́ṉ̵̒ĉ̷̥e̷͚̍ s̷̹͌h̷̲̉a̵̭͋r̷̫̊ḭ̵̊n̷̬͂g̵̦̃ f̶̻̊ơ̵̜ṟ̸̈́ R̵̞̋ù̵̺s̷̖̅ţ̸͗!̸̼͋
 - [brofrain/unocss-classes-rs](https://github.com/brofrain/unocss-classes-rs) - ⚛️ HTML class builder macro with UnoCSS variant group transformer for Rust web frameworks
 - [leptos-rs/leptos](https://github.com/leptos-rs/leptos) - Build fast web applications with Rust.
-- [SpikeHD/Dorion](https://github.com/SpikeHD/Dorion) - Tiny alternative Discord client with a smaller footprint, themes, plugins and more!
 - [causal-agent/scraper](https://github.com/causal-agent/scraper) - HTML parsing and querying with CSS selectors
 - [ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) - Rust library that's all about cooking up terminal user interfaces (TUIs)
 - [SuperCuber/dotter](https://github.com/SuperCuber/dotter) - A dotfile manager and templater written in rust 🦀
-- [an-anime-team/the-honkers-railway-launcher](https://github.com/an-anime-team/the-honkers-railway-launcher) - The Honkers Railway launcher for Linux with automatic patching and telemetry disabling
-- [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
 - [DvorakDwarf/Infinite-Storage-Glitch](https://github.com/DvorakDwarf/Infinite-Storage-Glitch) - ISG lets you use YouTube as cloud storage for ANY files, not just video
 - [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
 - [lapce/lapce](https://github.com/lapce/lapce) - Lightning-fast and Powerful Code Editor written in Rust
-- [Mercateo/rust-for-node-developers](https://github.com/Mercateo/rust-for-node-developers) - An introduction to the Rust programming language for Node developers.
+- [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
 - [rust-lang/rust](https://github.com/rust-lang/rust) - Empowering everyone to build reliable and efficient software.
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
 - [hatoo/oha](https://github.com/hatoo/oha) - Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.
-- [4JX/mCubed](https://github.com/4JX/mCubed) - A GUI Minecraft mod manager
 - [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
-- [atom-archive/xray](https://github.com/atom-archive/xray) - An experimental next-generation Electron-based text editor
 
-## SCSS 
+## sass 
 
-- [TakosThings/Fluent-Discord](https://github.com/TakosThings/Fluent-Discord) - Windows 11 Fluent Discord theme.
-- [SlippingGittys-Discord-Themes/surCord](https://github.com/SlippingGittys-Discord-Themes/surCord) - A Discord Theme inspired by macOS & Human Interface Guidelines.
-- [vinceliuice/Jasper-gtk-theme](https://github.com/vinceliuice/Jasper-gtk-theme) - Jasper gtk theme for linux
-- [hyblocker/pixelcord](https://github.com/hyblocker/pixelcord) - dogshit discord theme with ripple and animations
-- [DiscordStyles/Fluent](https://github.com/DiscordStyles/Fluent) - Brings the look of Windows 11 to Discord.
-- [DiscordStyles/MinimalCord](https://github.com/DiscordStyles/MinimalCord) - Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
-- [DiscordStyles/Slate](https://github.com/DiscordStyles/Slate) - An optimized, consistent, and functional theme for @discord based on GitHub's design language.
-- [conventional-commits/conventionalcommits.org](https://github.com/conventional-commits/conventionalcommits.org) - The conventional commits specification
-- [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
 - [primer/css](https://github.com/primer/css) - The CSS design system that powers GitHub
-- [nostalgic-css/NES.css](https://github.com/nostalgic-css/NES.css) - NES-style CSS Framework | ファミコン風CSSフレームワーク
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 
-## ShaderLab 
+## security 
 
-- [bgirard/Minecraft-Unity3D](https://github.com/bgirard/Minecraft-Unity3D) - Unity Voxel Community Project
+- [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) - Get Android App Updates Directly From the Source.
+- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+- [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) - KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
 
-## Shell 
+## self-hosted 
 
-- [googlefonts/lexend](https://github.com/googlefonts/lexend) - A variable font family designed to aid in reading proficiency.
+- [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
+- [pawelmalak/flame](https://github.com/pawelmalak/flame) - Flame is self-hosted startpage for your server. Easily manage your apps and bookmarks with built-in editors.
+- [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+
+## server 
+
+- [CraftCanvasMC/Canvas](https://github.com/CraftCanvasMC/Canvas) - Empowering the impossible within Minecraft
+- [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans
+- [srnyx/mc-server-templates](https://github.com/srnyx/mc-server-templates) - Use these templates to create your very own Minecraft server(s)!
+- [PrismarineJS/node-minecraft-protocol](https://github.com/PrismarineJS/node-minecraft-protocol) - Parse and serialize minecraft packets, plus authentication and encryption.
+
+## shell 
+
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) - ✨ Magical shell history
 - [pure-fish/pure](https://github.com/pure-fish/pure) - Pretty, minimal, and fast prompt for Fish shell inspired by sindresorhus/pure
-- [Locietta/xanmod-kernel-WSL2](https://github.com/Locietta/xanmod-kernel-WSL2) - Xanmod kernel for WSL2, built by clang with ThinLTO enabled. Build & Release are automated by Github Action.
-- [dabao1955/kernel_build_action](https://github.com/dabao1955/kernel_build_action) - a action to build kernel automatically
-- [Yervant7/kpatch-zip-flashable](https://github.com/Yervant7/kpatch-zip-flashable) - KernelPatch flashable zip in recovery
-- [Zenlua/Overlayfs](https://github.com/Zenlua/Overlayfs) - Overlayfs RW allows editor system, product, vendor, system_ext files
-- [andrewz1/pixel-mdm-patch](https://github.com/andrewz1/pixel-mdm-patch) - Pixel Modem Patch Magisk Module for Google Tensor devices
-- [h1toru/ANXCameraT](https://github.com/h1toru/ANXCameraT) - ANXCamera Magisk Module for Android 12-14
-- [Kingsman44/Pixelify](https://github.com/Kingsman44/Pixelify) - Magisk module to enables pixel exclusive features and ui
-- [bikass/kora](https://github.com/bikass/kora) - Kora icon theme for GNU/Linux os
-- [wacko1805/MagiskGapps](https://github.com/wacko1805/MagiskGapps) - MagiskGApps is a modification of NikGApps that can be flashed in Magisk. It is built using a script that converts the NikGApps package into a MagiskGApps Package.
-- [Coxxs/hide-tablet-taskbar](https://github.com/Coxxs/hide-tablet-taskbar) - A Magisk module to hide tablet gesture bar and more [Android 12.1+]
-- [Mods-Center/Miui_Launcher_Mod](https://github.com/Mods-Center/Miui_Launcher_Mod) - By 🅺🅰️🆂🅷🅸
-- [powenn/AltServer-Linux-ShellScript](https://github.com/powenn/AltServer-Linux-ShellScript) - Make easier to use AltServer-Linux
-- [bcook254/apex-legends-cache](https://github.com/bcook254/apex-legends-cache) - A community sourced dxvk-cache file for Apex Legends on Linux
-- [marlonrichert/zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete) - 🤖 Real-time type-ahead completion for Zsh. Asynchronous find-as-you-type autocompletion.
-- [oddlama/minecraft-server](https://github.com/oddlama/minecraft-server) - A simple but fully-featured minecraft server installer for linux. Comes with autostart, 3d online map, vane, account multiplexing, update script and more.
-- [MaBeuLux88/docker](https://github.com/MaBeuLux88/docker) - Some useful docker stuff for me :-).
-- [crystalcommunication/twemoji-systemless](https://github.com/crystalcommunication/twemoji-systemless) - Use the Twitter emojis (aka Twemoji) as the Android system emojis with Magisk!
-- [Magisk-Modules-Repo/G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod) - Systemlessy customize your Android's Visual
-- [ScriBt/ScriBt](https://github.com/ScriBt/ScriBt) - Building ROMs made understandable
-- [rainglow/vscode](https://github.com/rainglow/vscode) - 320+ color themes for Visual Studio Code.
-- [betterlockscreen/betterlockscreen](https://github.com/betterlockscreen/betterlockscreen) - 🍀 sweet looking lockscreen for linux system
-- [dsixda/Android-Kitchen](https://github.com/dsixda/Android-Kitchen) - A text-based kitchen for Android ROM customization.  Uses shell scripts and works with Cygwin/OS X/Linux.
-- [madmonkey1907/hakchi](https://github.com/madmonkey1907/hakchi) - 
+- [Pdawg-bytes/GyroShell](https://github.com/Pdawg-bytes/GyroShell) - A shell for Windows 11 (and maybe 10) that aims to allow for a much more customizable and streamlined shell experience. Fully written in C# WASDK.
+- [enquirer/enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-stag
 
-## Svelte 
+## sketch 
 
+- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) - 🌟 Curated design resources from all over the world.
+
+## software 
+
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+- [chocolatey/choco](https://github.com/chocolatey/choco) - Chocolatey - the package manager for Windows
+
+## sql-server 
+
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+
+## sqlite 
+
+- [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+
+## svelte 
+
+- [giscus/giscus-component](https://github.com/giscus/giscus-component) - Component library for giscus, a comment system powered by GitHub Discussions.
 - [vaheqelyan/svelte-grid](https://github.com/vaheqelyan/svelte-grid) - A responsive, draggable and resizable grid layout, for Svelte.
 - [svelte-society/sveltesociety.dev](https://github.com/svelte-society/sveltesociety.dev) - The Svelte Society website
+- [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
 - [saadeghi/daisyui](https://github.com/saadeghi/daisyui) - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
+- [Dan6erbond/sk-auth](https://github.com/Dan6erbond/sk-auth) - Authentication library for use with SvelteKit featuring built-in OAuth providers and zero restriction customization!
 - [Tropix126/fluent-svelte](https://github.com/Tropix126/fluent-svelte) - A faithful implementation of Microsoft's Fluent Design System in Svelte.
+- [MadeBaruna/paimon-moe](https://github.com/MadeBaruna/paimon-moe) - Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter.
 
-## Swift 
+## swift 
 
-- [Paisseon/Satella](https://github.com/Paisseon/Satella) - Modern in-app purchase cracker (iOS 12-16)
-
-## TypeScript 
-
-- [ajayyy/DeArrow](https://github.com/ajayyy/DeArrow) - Crowdsourcing better titles and thumbnails on YouTube
-- [una-ui/una-ui](https://github.com/una-ui/una-ui) - 🚧 The Atomic UI framework for Nuxt, powered by Unocss engine 💛
-- [otomir23/dotme](https://github.com/otomir23/dotme) - My personal website rewritten from scratch. Made using Next.js and TailwindCSS.
-- [DeviceFarmer/adbkit](https://github.com/DeviceFarmer/adbkit) - A pure Node.js client for the Android Debug Bridge.
-- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
 - [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+
+## telegram 
+
+- [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram for Windows
+- [Nachtalb/reverse_image_search_bot](https://github.com/Nachtalb/reverse_image_search_bot) - Image Reverse Search Bot🕵️‍♂️🔍: A handy Telegram bot for reverse image searches on images, videos, and GIFs, supporting multiple search engines. Unleash the power of reverse searching! 🚀🤖
+- [exteraSquad/exteraGram](https://github.com/exteraSquad/exteraGram) - Telegram client based on Android sources with new features
+- [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
+
+## tensorflow 
+
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - An Open Source Machine Learning Framework for Everyone
+
+## terminal 
+
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
+- [ratatui-org/ratatui](https://github.com/ratatui-org/ratatui) - Rust library that's all about cooking up terminal user interfaces (TUIs)
+- [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
+- [DvorakDwarf/Infinite-Storage-Glitch](https://github.com/DvorakDwarf/Infinite-Storage-Glitch) - ISG lets you use YouTube as cloud storage for ANY files, not just video
+- [enquirer/enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-stag
+- [charmbracelet/vhs](https://github.com/charmbracelet/vhs) - Your CLI home video recorder 📼
+- [charmbracelet/bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🫧
+- [AnderssonPeter/PowerType](https://github.com/AnderssonPeter/PowerType) - Autocomplete for PowerShell
+- [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
+- [microsoft/terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host, all in the same place!
+- [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
+- [chalk/chalk](https://github.com/chalk/chalk) - 🖍 Terminal string styling done right
+- [jpbruinsslot/slack-term](https://github.com/jpbruinsslot/slack-term) - Slack client for your terminal
+- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+
+## termux 
+
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+
+## testing 
+
+- [DeviceFarmer/stf](https://github.com/DeviceFarmer/stf) - Control and manage Android devices from your browser.
+
+## twitter 
+
+- [wukko/cobalt](https://github.com/wukko/cobalt) - save what you love
+- [robertodoering/harpy](https://github.com/robertodoering/harpy) - a Twitter app built with Flutter 🦅
+- [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) - Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)
+
+## typescript 
+
+- [una-ui/una-ui](https://github.com/una-ui/una-ui) - 🚧 The Atomic UI framework for Nuxt, powered by Unocss engine 💛
 - [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
-- [PerchunPak/superhub-fuck-ups-counter](https://github.com/PerchunPak/superhub-fuck-ups-counter) - We basically track the stability of their nodes, so you can know which is the stablest one.
-- [vendetta-mod/Vendetta](https://github.com/vendetta-mod/Vendetta) - A mod for Discord's mobile apps.
 - [codex-team/editor.js](https://github.com/codex-team/editor.js) - A block-style editor with clean JSON output
-- [giscus/giscus-component](https://github.com/giscus/giscus-component) - Component library for giscus, a comment system powered by GitHub Discussions.
-- [giscus/giscus](https://github.com/giscus/giscus) - A comment system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
-- [ryanraposo/codeui](https://github.com/ryanraposo/codeui) - Customize your color theme for VS Code.
-- [Vendicated/Vencord](https://github.com/Vendicated/Vencord) - The cutest Discord client mod
-- [ArmCord/ArmCord](https://github.com/ArmCord/ArmCord) - ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+- [Everduin94/better-commits](https://github.com/Everduin94/better-commits) - A CLI for creating better commits following the conventional commits specification
+- [eggsy/website](https://github.com/eggsy/website) - 🧬 Source code of my personal website. Everything is included. Written in NuxtJS, TypeScript and Windi CSS!
 - [typestack/class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes.
-- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
-- [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
-- [beholdr/maska](https://github.com/beholdr/maska) - Simple zero-dependency input mask for Vue.js and vanilla JS.
+- [Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) - Spoof TLS/JA3 fingerprints in GO and Javascript
 - [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
 - [JLyne/LiveAtlas](https://github.com/JLyne/LiveAtlas) - A Dynmap, Squaremap, Pl3xmap and Overviewer frontend for the modern web
 - [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans
-- [bs-community/skinview3d](https://github.com/bs-community/skinview3d) - Three.js powered Minecraft skin viewer.
 - [lucia-auth/lucia](https://github.com/lucia-auth/lucia) - Authentication, simple and clean
-- [lisonge/vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey) - A vite plugin server and build your.user.js for userscript engine like Tampermonkey, Violentmonkey, Greasemonkey, ScriptCat
-- [gajus/liqe](https://github.com/gajus/liqe) - Lightweight and performant Lucene-like parser, serializer and search engine.
-- [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) - Xplorer, a customizable, modern file manager
 - [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
+- [oven-sh/bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
 - [jonluca/vite-typescript-ssr-react](https://github.com/jonluca/vite-typescript-ssr-react) - 🚀 A Vite Typescript SSR React boilerplate!
-- [DamianOsipiuk/vue-query](https://github.com/DamianOsipiuk/vue-query) - Hooks for fetching, caching and updating asynchronous data in Vue
-- [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) - Internationalization plugin for Vue.js
-- [antfu/taze](https://github.com/antfu/taze) - 🥦 A modern cli tool that keeps your deps fresh
 - [trpc/trpc](https://github.com/trpc/trpc) - 🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
+- [indielayer/ui](https://github.com/indielayer/ui) - Vue 3 & Nuxt 3 UI Library with Tailwind CSS 3. 🚀 Build and prototype fast web applications.
 - [Equal-UI/Equal](https://github.com/Equal-UI/Equal) - Equal UI is a Vue 3 UI library empowered by Tailwindcss
 - [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
-- [slidevjs/slidev](https://github.com/slidevjs/slidev) - Presentation Slides for Developers
-- [enmity-mod/enmity](https://github.com/enmity-mod/enmity) - The power of addons, all in your hand.
-- [iamyoki/transition-hook](https://github.com/iamyoki/transition-hook) - ☄️  An extremely light-weight react transition animation hook which is simpler and easier to use than react-transition-group
-- [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse for Nuxt 3 🏔💚⚡️
-- [remotion-dev/remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React
-- [intlify/nuxt3](https://github.com/intlify/nuxt3) - Nuxt 3 Module for vue-i18n-next
-- [Dan6erbond/sk-auth](https://github.com/Dan6erbond/sk-auth) - Authentication library for use with SvelteKit featuring built-in OAuth providers and zero restriction customization!
-- [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) - 🦹‍♂️ Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time.
-- [pawelmalak/flame](https://github.com/pawelmalak/flame) - Flame is self-hosted startpage for your server. Easily manage your apps and bookmarks with built-in editors.
-- [fakundo/preact-transitioning](https://github.com/fakundo/preact-transitioning) - Preact components for easily implementing basic CSS animations and transitions
-- [vueuse/vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
-- [MadeBaruna/paimon-moe-api](https://github.com/MadeBaruna/paimon-moe-api) - A REST API service for paimon.moe
-- [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) - 📓 Lint commit messages
-- [akveo/eva-icons](https://github.com/akveo/eva-icons) - A pack of more than 480 beautifully crafted Open Source icons. SVG, Sketch, Web Font and Animations support.
-- [MrZillaGold/VK2Discord](https://github.com/MrZillaGold/VK2Discord) - 🔧 Автоматическая публикация записей из группы или профиля ВКонтакте в канал Discord
-- [express-validator/express-validator](https://github.com/express-validator/express-validator) - An express.js middleware for validator.js.
-- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
-- [ionic-team/ionicons](https://github.com/ionic-team/ionicons) - Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
-- [microsoft/fluentui](https://github.com/microsoft/fluentui) - Fluent UI web represents a collection of utilities, React components, and web components for building web applications.
+- [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript.
+- [alexcambose/motus](https://github.com/alexcambose/motus) - Animation library that mimics CSS keyframes when scrolling.
 - [microsoft/TypeScript](https://github.com/microsoft/TypeScript) - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
-- [gothinkster/realworld](https://github.com/gothinkster/realworld) - "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more
 - [wexond/browser-base](https://github.com/wexond/browser-base) - Modern and feature-rich web browser base based on Electron
-- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) - Interactive roadmaps, guides and other educational content to help developers grow in their careers.
-- [PreMiD/PreMiD](https://github.com/PreMiD/PreMiD) - 🧬 Source code of the PreMiD application.
-- [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - An emoji guide for your commit messages. 😜
-- [felixrieseberg/windows95](https://github.com/felixrieseberg/windows95) - 💩🚀 Windows 95 in Electron. Runs on macOS, Linux, and Windows.
-- [t4t5/sweetalert](https://github.com/t4t5/sweetalert) - A beautiful replacement for JavaScript's "alert"
-- [electron/i18n](https://github.com/electron/i18n) - 🌍 The home of Electron's translated documentation
 - [mui/material-ui](https://github.com/mui/material-ui) - MUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.
-- [socketio/socket.io](https://github.com/socketio/socket.io) - Realtime application framework (Node.JS server)
-- [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) - A JavaScript library to position floating elements and create interactions for them.
-- [iCrawl/discord-vscode](https://github.com/iCrawl/discord-vscode) - 🖋️ Update your discord status with a rich presence
-- [negezor/hybrid-torrent-tracker](https://github.com/negezor/hybrid-torrent-tracker) - Hybrid torrent tracker for Node.js
-- [styled-components/styled-components](https://github.com/styled-components/styled-components) - Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
-- [vuejs/vue](https://github.com/vuejs/vue) - This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core
-- [thedevs-network/kutt](https://github.com/thedevs-network/kutt) - Free Modern URL Shortener.
-- [7coil/dmail](https://github.com/7coil/dmail) - Receive your emails from within Discord, with Dmail
-- [tabwrangler/tabwrangler](https://github.com/tabwrangler/tabwrangler) - A browser extension that automatically closes your unused tabs so you can focus on the tabs that matter
-- [Pepijn98/discotify](https://github.com/Pepijn98/discotify) - Spotify Rich Presence for Discord (now also has a cli)
-- [roginvs/space-rangers-quest](https://github.com/roginvs/space-rangers-quest) - Онлайн плеер .qm и .qmm квестов из Космических Рейнжеров
-- [sindrets/atom-title-bar-replacer](https://github.com/sindrets/atom-title-bar-replacer) - Adds an alternative, theme-aware title bar and application menu that is more inline with Atom's UI design.
-- [vercel/hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
-- [negezor/vk-io](https://github.com/negezor/vk-io) - Modern VK API SDK for Node.js
-- [discordjs/discord.js](https://github.com/discordjs/discord.js) - A powerful JavaScript library for interacting with the Discord API
-- [samgozman/YoptaScript](https://github.com/samgozman/YoptaScript) - Joke programming language for 'gopniks' in Russia. Back from 2016!
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
 - [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
 
-## V 
+## ubuntu 
 
-- [vlang/v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in &lt;1s with zero library dependencies. Supports automatic C =&gt; V translation. https://vlang.io
+- [lakinduakash/linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) - Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Simil
 
-## Vala 
+## vim 
 
-- [Vysp3r/ProtonPlus](https://github.com/Vysp3r/ProtonPlus) - A simple Wine and Proton-based compatibility tools manager
+- [lapce/lapce](https://github.com/lapce/lapce) - Lightning-fast and Powerful Code Editor written in Rust
+- [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
 
-## Vue 
+## visual-studio-code 
 
-- [twilight-games/modpack-installer](https://github.com/twilight-games/modpack-installer) - Installer to easily install fabric/quilt, mods, configs and more into the vanilla Minecraft launcher, with minimal input from users. Making use of the mrpack format
+- [octref/polacode](https://github.com/octref/polacode) - 📸 Polaroid for your code
+- [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
+
+## vue 
+
+- [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - "Sigma File Manager" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.
+- [una-ui/una-ui](https://github.com/una-ui/una-ui) - 🚧 The Atomic UI framework for Nuxt, powered by Unocss engine 💛
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
 - [nuxt/ui](https://github.com/nuxt/ui) - A UI Library for Modern Web Apps, powered by Vue & Tailwind CSS.
+- [giscus/giscus-component](https://github.com/giscus/giscus-component) - Component library for giscus, a comment system powered by GitHub Discussions.
 - [eggsy/website](https://github.com/eggsy/website) - 🧬 Source code of my personal website. Everything is included. Written in NuxtJS, TypeScript and Windi CSS!
 - [staniel359/muffon](https://github.com/staniel359/muffon) - Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
-- [nuxt/devtools](https://github.com/nuxt/devtools) - Unleash Nuxt Developer Experience
-- [sakutaapp/sakuta-web](https://github.com/sakutaapp/sakuta-web) - 🌐 Sakuta Web App | Simple AniList Client
-- [nuxtbase/nuxt3-starter](https://github.com/nuxtbase/nuxt3-starter) - 💚 A Better Nuxt 3 Starter Template，generate by nuxi.
+- [beholdr/maska](https://github.com/beholdr/maska) - Simple zero-dependency input mask for Vue.js and vanilla JS.
+- [KingSora/OverlayScrollbars](https://github.com/KingSora/OverlayScrollbars) - A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.
+- [JLyne/LiveAtlas](https://github.com/JLyne/LiveAtlas) - A Dynmap, Squaremap, Pl3xmap and Overviewer frontend for the modern web
+- [nuxt/framework](https://github.com/nuxt/framework) - Old repo of Nuxt 3 framework, now on nuxt/nuxt
+- [DamianOsipiuk/vue-query](https://github.com/DamianOsipiuk/vue-query) - Hooks for fetching, caching and updating asynchronous data in Vue
+- [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) - Internationalization plugin for Vue.js
 - [indielayer/ui](https://github.com/indielayer/ui) - Vue 3 & Nuxt 3 UI Library with Tailwind CSS 3. 🚀 Build and prototype fast web applications.
-- [antfu/vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - 🏕 Vitesse experience for Nuxt 2 and Vue 2
+- [Equal-UI/Equal](https://github.com/Equal-UI/Equal) - Equal UI is a Vue 3 UI library empowered by Tailwindcss
+- [slidevjs/slidev](https://github.com/slidevjs/slidev) - Presentation Slides for Developers
+- [vueuse/vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
+- [pqina/vue-filepond](https://github.com/pqina/vue-filepond) - 🔌 A handy FilePond adapter component for Vue
+- [vgshenoy/vue-scrollama](https://github.com/vgshenoy/vue-scrollama) - Vue component to setup scroll-driven interactions (aka scrollytelling)
 - [PreMiD/Website](https://github.com/PreMiD/Website) - 📂 All our website insides for free.
-- [23phy/ewc](https://github.com/23phy/ewc) - Native window composition on Windows for Electron apps.
-- [sapic/sapic](https://github.com/sapic/sapic) - A useful tool to crop your Steam profile background for showcases.
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
+- [vuejs/vue](https://github.com/vuejs/vue) - This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core
+- [prettier/prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter.
 
-## Zig 
+## vuejs 
 
-- [oven-sh/bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+- [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) - Internationalization plugin for Vue.js
+- [Equal-UI/Equal](https://github.com/Equal-UI/Equal) - Equal UI is a Vue 3 UI library empowered by Tailwindcss
+- [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+- [PreMiD/Website](https://github.com/PreMiD/Website) - 📂 All our website insides for free.
+- [quasarframework/quasar](https://github.com/quasarframework/quasar) - Quasar Framework - Build high-performance VueJS user interfaces in record time
 
-## xBase 
+## web 
 
-- [calloatti/modrobot](https://github.com/calloatti/modrobot) - Updates Minecraft mods
+- [flosse/rust-web-framework-comparison](https://github.com/flosse/rust-web-framework-comparison) - A comparison of some web frameworks and libs written in Rust
+- [brofrain/unocss-classes-rs](https://github.com/brofrain/unocss-classes-rs) - ⚛️ HTML class builder macro with UnoCSS variant group transformer for Rust web frameworks
+- [leptos-rs/leptos](https://github.com/leptos-rs/leptos) - Build fast web applications with Rust.
+- [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans
+
+## web-components 
+
+- [giscus/giscus-component](https://github.com/giscus/giscus-component) - Component library for giscus, a comment system powered by GitHub Discussions.
+
+## web-development 
+
+- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
+- [redom/redom](https://github.com/redom/redom) - Tiny (2 KB) turboboosted JavaScript library for creating user interfaces.
+- [thedaviddias/Front-End-Design-Checklist](https://github.com/thedaviddias/Front-End-Design-Checklist) - 💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers
+
+## webapp 
+
+- [wukko/cobalt](https://github.com/wukko/cobalt) - save what you love
+- [egodigital/vscode-powertools](https://github.com/egodigital/vscode-powertools) - A swiss army knife with lots of tools, extensions and (scriptable) enhancements for Visual Studio Code.
+
+## webpack 
+
+- [usulpro/js-stack-from-scratch](https://github.com/usulpro/js-stack-from-scratch) - 🌺 Russian translation of "JavaScript Stack from Scratch" from the React-Theming developers https://github.com/sm-react/react-theming
+- [devanandb/webpack-mix](https://github.com/devanandb/webpack-mix) - Elegant wrapper around Webpack for more than 80% use cases.
+
+## website 
+
+- [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+- [PreMiD/Website](https://github.com/PreMiD/Website) - 📂 All our website insides for free.
+
+## windows 
+
+- [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram for Windows
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+- [Droptop-Four/Droptop-Four](https://github.com/Droptop-Four/Droptop-Four) - Popular dropdown menu bar & app launcher for Windows & Rainmeter
+- [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
+- [Pdawg-bytes/GyroShell](https://github.com/Pdawg-bytes/GyroShell) - A shell for Windows 11 (and maybe 10) that aims to allow for a much more customizable and streamlined shell experience. Fully written in C# WASDK.
+- [SuperCuber/dotter](https://github.com/SuperCuber/dotter) - A dotfile manager and templater written in rust 🦀
+- [twilight-games/modpack-installer](https://github.com/twilight-games/modpack-installer) - Installer to easily install fabric/quilt, mods, configs and more into the vanilla Minecraft launcher, with minimal input from users. Making use of the mrpack format
+- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
+- [semazurek/ET-Optimizer](https://github.com/semazurek/ET-Optimizer) - ET is a Batch/PowerShell GUI script to improve performance, debloat, optimize and enhance privacy for Windows 10/11.
+- [staniel359/muffon](https://github.com/staniel359/muffon) - Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
+- [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
+- [YurinDoctrine/adbloat](https://github.com/YurinDoctrine/adbloat) - Android debloating via debugging
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.
+- [badabing2005/PixelFlasher](https://github.com/badabing2005/PixelFlasher) - Pixel™ phone flashing GUI utility with features.
+- [0x5bfa/FluentHub](https://github.com/0x5bfa/FluentHub) - The stylish yet powerful GitHub client for Windows.
+- [ultralight-ux/Ultralight](https://github.com/ultralight-ux/Ultralight) - Lightweight, high-performance HTML renderer for game and app developers.
+- [gerardog/gsudo](https://github.com/gerardog/gsudo) - Sudo for Windows
+- [luandersonn/MyFTP](https://github.com/luandersonn/MyFTP) - A modern FTP client for Windows 11
+- [ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts) - A modern Fluent Design replacement for the old Metro themed flyouts present in Windows.
+- [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
+- [awesome-windows11/windows11](https://github.com/awesome-windows11/windows11) - 🌎 Windows 11 Settings, Tweaks, Scripts
+- [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) - KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
+- [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
+- [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome) - :computer: 🎉 An awesome & curated list of best applications and tools for Windows.
+- [nodejs/node](https://github.com/nodejs/node) - Node.js JavaScript runtime ✨🐢🚀✨
+- [files-community/Files](https://github.com/files-community/Files) - Building the best file manager for Windows
+- [microsoft/terminal](https://github.com/microsoft/terminal) - The new Windows Terminal and the original Windows console host, all in the same place!
+- [microsoft/calculator](https://github.com/microsoft/calculator) - Windows Calculator: A simple yet powerful calculator that ships with Windows
+- [PreMiD/PreMiD](https://github.com/PreMiD/PreMiD) - 🧬 Source code of the PreMiD application.
+- [dedepete/Forgefier](https://github.com/dedepete/Forgefier) - Minecraft Forge installer, written in C#.
+- [denysdovhan/inboxer](https://github.com/denysdovhan/inboxer) - Unofficial, free and open-source Inbox by Gmail Desktop App
+- [chocolatey/choco](https://github.com/chocolatey/choco) - Chocolatey - the package manager for Windows
+- [atom/atom](https://github.com/atom/atom) - :atom: The hackable text editor
+- [dedepete/FreeLauncher](https://github.com/dedepete/FreeLauncher) - Open source C# Minecraft launcher.
 
 
 ## License
