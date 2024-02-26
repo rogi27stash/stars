@@ -200,7 +200,7 @@
 - [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) - A full-featured package manager and viewer for Android
 - [DUpdateSystem/UpgradeAll](https://github.com/DUpdateSystem/UpgradeAll) - Check updates for Android apps, Magisk modules and more!
 - [Dr-TSNG/Hide-My-Applist](https://github.com/Dr-TSNG/Hide-My-Applist) - An Xposed module to intercept applist detections
-- [MRepoApp/MRepo](https://github.com/MRepoApp/MRepo) - A Modules Manager for Magisk & KernelSU
+- [MRepoApp/MRepo](https://github.com/MRepoApp/MRepo) - A modules manager for Magisk & KernelSU
 - [ente-io/auth](https://github.com/ente-io/auth) - 2FA app for Android, iOS and web, with free end-to-end encrypted backup and sync
 - [beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - A free, secure and open source app for Android to manage your 2-step verification tokens.
 - [Mahmud0808/Iconify](https://github.com/Mahmud0808/Iconify) - Customize Boring Android UI
@@ -899,7 +899,7 @@
 - [EtchDroid/EtchDroid](https://github.com/EtchDroid/EtchDroid) - An application to write OS images to USB drives, on Android, no root required.
 - [Keyspace-cloud/android](https://github.com/Keyspace-cloud/android) - Official Android client for keyspace.cloud. A beautiful and secure password manager.
 - [DUpdateSystem/UpgradeAll](https://github.com/DUpdateSystem/UpgradeAll) - Check updates for Android apps, Magisk modules and more!
-- [MRepoApp/MRepo](https://github.com/MRepoApp/MRepo) - A Modules Manager for Magisk & KernelSU
+- [MRepoApp/MRepo](https://github.com/MRepoApp/MRepo) - A modules manager for Magisk & KernelSU
 - [MiniPlaceholders/MiniPlaceholders](https://github.com/MiniPlaceholders/MiniPlaceholders) - MiniMessage Component-based Placeholders for Paper, Fabric, Sponge, Folia and Velocity platforms
 - [OmGodse/Notally](https://github.com/OmGodse/Notally) - A beautiful notes app
 - [Aliucord/Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Discord Android App
