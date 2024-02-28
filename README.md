@@ -186,7 +186,7 @@
 ## android 
 
 - [dabao1955/kernel_build_action](https://github.com/dabao1955/kernel_build_action) - a action to build kernel automatically
-- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - unofficial magiskboot build system (and port) targeting multi-platform (does not require NDK)
 - [sunshine0523/Mi-Freeform](https://github.com/sunshine0523/Mi-Freeform) - Mi-Freeform 3 is an Android third-party freeform software that supports Android 8.1-Android 14
 - [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
 - [EtchDroid/EtchDroid](https://github.com/EtchDroid/EtchDroid) - An application to write OS images to USB drives, on Android, no root required.
@@ -934,7 +934,7 @@
 ## linux 
 
 - [Locietta/xanmod-kernel-WSL2](https://github.com/Locietta/xanmod-kernel-WSL2) - Xanmod kernel for WSL2, built by clang with ThinLTO enabled. Build & Release are automated by Github Action.
-- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - unofficial magiskboot build system (and port) targeting multi-platform (does not require NDK)
 - [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
 - [EtchDroid/EtchDroid](https://github.com/EtchDroid/EtchDroid) - An application to write OS images to USB drives, on Android, no root required.
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
@@ -981,7 +981,7 @@
 
 ## macos 
 
-- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - unofficial magiskboot build system (and port) targeting multi-platform (does not require NDK)
 - [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
 - [twilight-games/modpack-installer](https://github.com/twilight-games/modpack-installer) - Installer to easily install fabric/quilt, mods, configs and more into the vanilla Minecraft launcher, with minimal input from users. Making use of the mrpack format
@@ -1700,7 +1700,7 @@
 
 ## termux 
 
-- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - unofficial magiskboot build system (and port) targeting multi-platform (does not require NDK)
 
 ## testing 
 
@@ -1822,7 +1822,7 @@
 ## windows 
 
 - [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram for Windows
-- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - a simple portable CMake-based build system for magiskboot
+- [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - unofficial magiskboot build system (and port) targeting multi-platform (does not require NDK)
 - [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
 - [Droptop-Four/Droptop-Four](https://github.com/Droptop-Four/Droptop-Four) - Popular dropdown menu bar & app launcher for Windows & Rainmeter
 - [microsoft/inshellisense](https://github.com/microsoft/inshellisense) - IDE style command line auto complete
