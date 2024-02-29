@@ -12,6 +12,7 @@
 - [android](#android)
 - [angular](#angular)
 - [api](#api)
+- [archlinux](#archlinux)
 - [aspnet](#aspnet)
 - [atom](#atom)
 - [automation](#automation)
@@ -114,6 +115,7 @@
 - [npm](#npm)
 - [open-source](#open-source)
 - [opengl](#opengl)
+- [osint](#osint)
 - [others](#others)
 - [package-manager](#package-manager)
 - [php](#php)
@@ -236,6 +238,10 @@
 - [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) - A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations
 - [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
 - [negezor/vk-io](https://github.com/negezor/vk-io) - Modern VK API SDK for Node.js
+
+## archlinux 
+
+- [lakinduakash/linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) - Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Simil
 
 ## aspnet 
 
@@ -1181,8 +1187,13 @@
 - [IrisShaders/Iris](https://github.com/IrisShaders/Iris) - A modern shaders mod for Minecraft compatible with existing OptiFine shader packs
 - [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) - A Fabric mod designed to improve frame rates and reduce micro-stutter
 
+## osint 
+
+- [Lissy93/web-check](https://github.com/Lissy93/web-check) - 🕵️‍♂️ All-in-one OSINT tool for analysing any website
+
 ## others 
 
+- [Softsplit/sbox-donut](https://github.com/Softsplit/sbox-donut) - S&box's most computationally intensive simulation of a torus, circa 2024
 - [melianmiko/OpenFreebuds](https://github.com/melianmiko/OpenFreebuds) - Open source app for HUAWEI FreeBuds (Linux + Windows)
 - [googlefonts/lexend](https://github.com/googlefonts/lexend) - A variable font family designed to aid in reading proficiency.
 - [HuskyDG/zygisk-maphide](https://github.com/HuskyDG/zygisk-maphide) - Wipe out the traces of mounted files of Magisk module for process on DenyList
@@ -1482,6 +1493,7 @@
 
 ## privacy 
 
+- [Lissy93/web-check](https://github.com/Lissy93/web-check) - 🕵️‍♂️ All-in-one OSINT tool for analysing any website
 - [Keyspace-cloud/android](https://github.com/Keyspace-cloud/android) - Official Android client for keyspace.cloud. A beautiful and secure password manager.
 - [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) - Get Android App Updates Directly From the Source.
 - [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
@@ -1613,6 +1625,7 @@
 
 ## security 
 
+- [Lissy93/web-check](https://github.com/Lissy93/web-check) - 🕵️‍♂️ All-in-one OSINT tool for analysing any website
 - [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) - Get Android App Updates Directly From the Source.
 - [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) - 🚀 An open and lightweight modification to Windows, designed to optimize performance, privacy and security.
 - [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
