@@ -1247,7 +1247,7 @@
 - [NightKosh/MineTrades](https://github.com/NightKosh/MineTrades) - 
 - [PerchunPak/superhub-fuck-ups-counter](https://github.com/PerchunPak/superhub-fuck-ups-counter) - We basically track the stability of their nodes, so you can know which is the stablest one.
 - [vendetta-mod/Vendetta](https://github.com/vendetta-mod/Vendetta) - A mod for Discord's mobile apps.
-- [BlackMesa123/KnoxPatch](https://github.com/BlackMesa123/KnoxPatch) - LSPosed module to get Samsung apps/features working again in your rooted Galaxy device.
+- [Mesa-Labs-Archive/KnoxPatch](https://github.com/Mesa-Labs-Archive/KnoxPatch) - LSPosed module to get Samsung apps/features working again in your rooted Galaxy device.
 - [osm0sis/Android-Image-Kitchen](https://github.com/osm0sis/Android-Image-Kitchen) - Automated scripts to unpack/repack Android kernel/recovery images + ramdisks
 - [RE800T/kernel_google_bluejay](https://github.com/RE800T/kernel_google_bluejay) - 
 - [map220v/android_device_xiaomi_nabu](https://github.com/map220v/android_device_xiaomi_nabu) - TWRP Device tree for Xiaomi Pad 5
@@ -1542,6 +1542,7 @@
 
 ## raspberry-pi 
 
+- [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) - 🎉🌩️ Dynamic DNS (DDNS) service based on Cloudflare! Access your home network remotely via a custom domain name without a static IP!
 - [jarun/nnn](https://github.com/jarun/nnn) - n³ The unorthodox terminal file manager
 
 ## react 
@@ -1634,6 +1635,7 @@
 
 ## self-hosted 
 
+- [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) - 🎉🌩️ Dynamic DNS (DDNS) service based on Cloudflare! Access your home network remotely via a custom domain name without a static IP!
 - [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.
 - [pawelmalak/flame](https://github.com/pawelmalak/flame) - Flame is self-hosted startpage for your server. Easily manage your apps and bookmarks with built-in editors.
 - [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
