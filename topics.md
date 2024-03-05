@@ -48,7 +48,6 @@
 - [education](#education)
 - [electron](#electron)
 - [emoji](#emoji)
-- [emulator](#emulator)
 - [es6](#es6)
 - [eslint](#eslint)
 - [express](#express)
@@ -385,7 +384,6 @@
 
 - [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) - Self-hosted game stream host for Moonlight.
 - [polybar/polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar
-- [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu) - Nintendo Switch emulator
 - [uowuo/abaddon](https://github.com/uowuo/abaddon) - An alternative Discord client with voice support made with C++ and GTK 3
 - [microsoft/calculator](https://github.com/microsoft/calculator) - Windows Calculator: A simple yet powerful calculator that ships with Windows
 
@@ -550,10 +548,6 @@
 - [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji) - A collection of familiar, friendly, and modern emoji from Microsoft
 - [crystalcommunication/twemoji-systemless](https://github.com/crystalcommunication/twemoji-systemless) - Use the Twitter emojis (aka Twemoji) as the Android system emojis with Magisk!
 - [carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji) - An emoji guide for your commit messages. 😜
-
-## emulator 
-
-- [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu) - Nintendo Switch emulator
 
 ## es6 
 
@@ -1838,6 +1832,7 @@
 
 ## windows 
 
+- [Karmel0x/AsusFanControl](https://github.com/Karmel0x/AsusFanControl) - Small fan control app for ASUS laptops running 64-bit windows
 - [UnigramDev/Unigram](https://github.com/UnigramDev/Unigram) - Telegram for Windows
 - [ookiineko/magiskboot_build](https://github.com/ookiineko/magiskboot_build) - unofficial magiskboot build system (and port) targeting multi-platform (does not require NDK)
 - [agalwood/Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
