@@ -12,7 +12,6 @@
 - [android](#android)
 - [angular](#angular)
 - [api](#api)
-- [archlinux](#archlinux)
 - [aspnet](#aspnet)
 - [atom](#atom)
 - [automation](#automation)
@@ -237,10 +236,6 @@
 - [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) - A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations
 - [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
 - [negezor/vk-io](https://github.com/negezor/vk-io) - Modern VK API SDK for Node.js
-
-## archlinux 
-
-- [lakinduakash/linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) - Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Simil
 
 ## aspnet 
 
@@ -1198,7 +1193,6 @@
 - [ravindu644/Kitchen](https://github.com/ravindu644/Kitchen) - Boot image unpacker and repacker while keeping Android Verified Boot.
 - [moudey/Shell](https://github.com/moudey/Shell) - Powerful context menu manager for Windows File Explorer
 - [gs-bluraviole/android_kernel_google_gs101](https://github.com/gs-bluraviole/android_kernel_google_gs101) - Pixel 6 series kernel.
-- [5t-RawBeRry/Raven_KurnelSU](https://github.com/5t-RawBeRry/Raven_KurnelSU) - 5.10 - 6.1 KernelSU
 - [maverickjb/linux-6.1.10](https://github.com/maverickjb/linux-6.1.10) - 
 - [awslabs/llrt](https://github.com/awslabs/llrt) - LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.
 - [AOSPA/android_kernel_xiaomi_sm8250](https://github.com/AOSPA/android_kernel_xiaomi_sm8250) - 
