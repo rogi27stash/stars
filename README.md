@@ -1197,8 +1197,6 @@
 - [awslabs/llrt](https://github.com/awslabs/llrt) - LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.
 - [AOSPA/android_kernel_xiaomi_sm8250](https://github.com/AOSPA/android_kernel_xiaomi_sm8250) - 
 - [map220v/nt36523_win](https://github.com/map220v/nt36523_win) - FocalTech 5x Digitizer driver for Windows
-- [Yervant7/kpatch-zip-flashable](https://github.com/Yervant7/kpatch-zip-flashable) - KernelPatch flashable zip in recovery
-- [Yervant7/Qingyue](https://github.com/Yervant7/Qingyue) - zygisknext assistent
 - [lukejacksonn/perflink](https://github.com/lukejacksonn/perflink) - Low friction JavaScript benchmarks that you can share via URL
 - [ajayyy/DeArrow](https://github.com/ajayyy/DeArrow) - Crowdsourcing better titles and thumbnails on YouTube
 - [fork-maintainers/iceraven-browser](https://github.com/fork-maintainers/iceraven-browser) - Iceraven Browser
@@ -1213,7 +1211,6 @@
 - [catdadcode/svelte-adapter-bun](https://github.com/catdadcode/svelte-adapter-bun) - A SvelteKit adapter for Bun
 - [IvanGreen/Xiaomi-Mi-Pad5-Linux-Install](https://github.com/IvanGreen/Xiaomi-Mi-Pad5-Linux-Install) - Эта инструкция предоставляет подробные шаги по установке различных версий Linux, включая Arch Linux и Ubuntu, на устройство Mi Pad 5. В документе описаны версии системы, особенности установки и рекоме
 - [FuSan21/kernel_xiaomi_nabu](https://github.com/FuSan21/kernel_xiaomi_nabu) - 
-- [Yervant7/ZygiskNext](https://github.com/Yervant7/ZygiskNext) - Standalone implementation of Zygisk For APatch
 - [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) - Lightweight utility for organizing the taskbar through groups
 - [andrewz1/pixel-mdm-patch](https://github.com/andrewz1/pixel-mdm-patch) - Pixel Modem Patch Magisk Module for Google Tensor devices
 - [stuartore/device_xiaomi_psyche](https://github.com/stuartore/device_xiaomi_psyche) - Device tree of Xiaomi 12X(psyche) - Auto bringup ability
