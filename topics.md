@@ -12,6 +12,7 @@
 - [android](#android)
 - [angular](#angular)
 - [api](#api)
+- [archlinux](#archlinux)
 - [aspnet](#aspnet)
 - [atom](#atom)
 - [automation](#automation)
@@ -236,6 +237,10 @@
 - [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) - A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations
 - [astrit/css.gg](https://github.com/astrit/css.gg) - 700+ Pure CSS, SVG, PNG & Figma UI Icons Available in SVG Sprite, styled-components, NPM & API and 6000 glyphs
 - [negezor/vk-io](https://github.com/negezor/vk-io) - Modern VK API SDK for Node.js
+
+## archlinux 
+
+- [lakinduakash/linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) - Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Simil
 
 ## aspnet 
 
