@@ -406,7 +406,7 @@
 
 - [Shina-SG/Shina-Fox](https://github.com/Shina-SG/Shina-Fox) - A Minimal, Cozy, Vertical Optimized Firefox Theme
 - [brofrain/unocss-classes-rs](https://github.com/brofrain/unocss-classes-rs) - ⚛️ HTML class builder macro with UnoCSS variant group transformer for Rust web frameworks
-- [SiriusBYT/Flashcord](https://github.com/SiriusBYT/Flashcord) - The world's most advanced, complex and feature rich Discord Theme to ever exist. A complete visual overhaul for Discord with many QoL features and virtually endless customization options.
+- [SiriusBYT/Flashcord](https://github.com/SiriusBYT/Flashcord) - The world's most advanced, complex and feature rich Discord Theme to ever exist. A complete yet user-friendly visual overhaul for Discord with many QoL features and virtually endless customization opt
 - [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
 - [KibSquib48/MicaFox](https://github.com/KibSquib48/MicaFox) - [HIATUS 2] Firefox Windows 11 Theme
 - [vercel/satori](https://github.com/vercel/satori) - Enlightened library to convert HTML and CSS to SVG
@@ -471,7 +471,7 @@
 ## discord 
 
 - [SpikeHD/Dorion](https://github.com/SpikeHD/Dorion) - Tiny alternative Discord client with a smaller footprint, themes, plugins and more!
-- [SiriusBYT/Flashcord](https://github.com/SiriusBYT/Flashcord) - The world's most advanced, complex and feature rich Discord Theme to ever exist. A complete visual overhaul for Discord with many QoL features and virtually endless customization options.
+- [SiriusBYT/Flashcord](https://github.com/SiriusBYT/Flashcord) - The world's most advanced, complex and feature rich Discord Theme to ever exist. A complete yet user-friendly visual overhaul for Discord with many QoL features and virtually endless customization opt
 - [TakosThings/Fluent-Discord](https://github.com/TakosThings/Fluent-Discord) - Windows 11 Fluent Discord theme.
 - [eggsy/website](https://github.com/eggsy/website) - 🧬 Source code of my personal website. Everything is included. Written in NuxtJS, TypeScript and Windi CSS!
 - [Vendicated/Vencord](https://github.com/Vendicated/Vencord) - The cutest Discord client mod
@@ -758,6 +758,7 @@
 
 ## http 
 
+- [aria2/aria2](https://github.com/aria2/aria2) - aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.
 - [Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) - Spoof TLS/JA3 fingerprints in GO and Javascript
 - [elysiajs/elysia](https://github.com/elysiajs/elysia) - Ergonomic Framework for Humans
 - [hatoo/oha](https://github.com/hatoo/oha) - Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.
