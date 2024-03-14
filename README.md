@@ -1190,6 +1190,7 @@
 
 ## others 
 
+- [symbuzzer/livebootmodule](https://github.com/symbuzzer/livebootmodule) - A Magisk and KernelSU module that enables unix-style (verbose) boot animation for Android devices
 - [ponces/APatchLite](https://github.com/ponces/APatchLite) - The new APatch root solution made simple
 - [Softsplit/sbox-donut](https://github.com/Softsplit/sbox-donut) - S&box's most computationally intensive simulation of a torus, circa 2024
 - [melianmiko/OpenFreebuds](https://github.com/melianmiko/OpenFreebuds) - Open source app for HUAWEI FreeBuds (Linux + Windows)
