@@ -1190,6 +1190,7 @@
 
 ## others 
 
+- [fmhy/FMHYedit](https://github.com/fmhy/FMHYedit) - Make changes to FMHY
 - [symbuzzer/livebootmodule](https://github.com/symbuzzer/livebootmodule) - A Magisk, KernelSU and APatch module that enables unix-style (verbose) boot animation for Android devices
 - [ponces/APatchLite](https://github.com/ponces/APatchLite) - The new APatch root solution made simple
 - [Softsplit/sbox-donut](https://github.com/Softsplit/sbox-donut) - S&box's most computationally intensive simulation of a torus, circa 2024
@@ -1210,7 +1211,7 @@
 - [Zenlua/Overlayfs](https://github.com/Zenlua/Overlayfs) - Overlayfs RW allows editor system, product, vendor, system_ext files
 - [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 - [zed-industries/zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
-- [utziacre/android_kernel_xiaomi_nabu](https://github.com/utziacre/android_kernel_xiaomi_nabu) - Compile the kernel with clang
+- [utziacre/android_kernel_xiaomi_nabu](https://github.com/utziacre/android_kernel_xiaomi_nabu) - Xiaomi Pad5 Mahiro Kernel(Compile the kernel with clang)
 - [daboynb/Android-Builder](https://github.com/daboynb/Android-Builder) - Automatically build android kernel by github actions.
 - [axel358/smartdock](https://github.com/axel358/smartdock) - A user-friendly desktop mode launcher that offers a modern and customizable user interface
 - [pumPCin/LSPosed](https://github.com/pumPCin/LSPosed) - LSPosed Framework
