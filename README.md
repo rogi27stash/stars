@@ -1369,7 +1369,6 @@
 - [cmiscm/leonsans](https://github.com/cmiscm/leonsans) - Leon Sans is a geometric sans-serif typeface made with code in 2019 by Jongmin Kim.
 - [baowenbo/DAIN](https://github.com/baowenbo/DAIN) - Depth-Aware Video Frame Interpolation (CVPR 2019)
 - [googlefonts/spacemono](https://github.com/googlefonts/spacemono) - Original monospace display typeface family
-- [sharanda/manrope](https://github.com/sharanda/manrope) - Manrope font – modern geometric sans-serif
 - [jpt/barlow](https://github.com/jpt/barlow) - Barlow: a straight-sided sans-serif superfamily
 - [taniarascia/taniarascia.com](https://github.com/taniarascia/taniarascia.com) - 💾 ‎  Personal website running on Gatsby, React, and Node.js.
 - [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) - This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
