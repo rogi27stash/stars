@@ -1023,6 +1023,8 @@
 
 ## minecraft 
 
+- [SilentChaos512/Silent-Gear](https://github.com/SilentChaos512/Silent-Gear) - Modular tool/armor mod (formerly part of Silent's Gems)
+- [Jozufozu/Flywheel](https://github.com/Jozufozu/Flywheel) - A modern engine for modded Minecraft.
 - [FTBTeam/FTB-Quests](https://github.com/FTBTeam/FTB-Quests) - Quests is one of the best Questing mods for Minecraft out there. It has a highly customisable questing system and an easy to use interface.
 - [otomir23/SootyChimneysFabric](https://github.com/otomir23/SootyChimneysFabric) - Unofficial port of Sooty Chimneys over to Fabric.
 - [CraftCanvasMC/Canvas](https://github.com/CraftCanvasMC/Canvas) - Empowering the impossible within Minecraft
