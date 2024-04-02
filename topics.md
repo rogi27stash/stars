@@ -1192,6 +1192,7 @@
 
 ## others 
 
+- [prazdevs/pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) - 🍍 Configurable persistence and rehydration of Pinia stores.
 - [fmhy/FMHYedit](https://github.com/fmhy/FMHYedit) - Make changes to FMHY
 - [symbuzzer/livebootmodule](https://github.com/symbuzzer/livebootmodule) - A Magisk, KernelSU and APatch module that enables unix-style (verbose) boot animation for Android devices
 - [ponces/APatchLite](https://github.com/ponces/APatchLite) - The new APatch root solution made simple
@@ -1243,7 +1244,6 @@
 - [emilyploszaj/emi](https://github.com/emilyploszaj/emi) - A featureful and accessible item and recipe viewer
 - [Low-Drag-MC/Photon](https://github.com/Low-Drag-MC/Photon) - 
 - [NightKosh/MineTrades](https://github.com/NightKosh/MineTrades) - 
-- [PerchunPak/superhub-fuck-ups-counter](https://github.com/PerchunPak/superhub-fuck-ups-counter) - We basically track the stability of their nodes, so you can know which is the stablest one.
 - [vendetta-mod/Vendetta](https://github.com/vendetta-mod/Vendetta) - A mod for Discord's mobile apps.
 - [Mesa-Labs-Archive/KnoxPatch](https://github.com/Mesa-Labs-Archive/KnoxPatch) - LSPosed module to get Samsung apps/features working again in your rooted Galaxy device.
 - [osm0sis/Android-Image-Kitchen](https://github.com/osm0sis/Android-Image-Kitchen) - Automated scripts to unpack/repack Android kernel/recovery images + ramdisks
