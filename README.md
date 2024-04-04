@@ -1192,6 +1192,7 @@
 
 ## others 
 
+- [Gaming32/mod-loading-screen](https://github.com/Gaming32/mod-loading-screen) - An advanced loading screen with the loading progress of mods
 - [prazdevs/pinia-plugin-persistedstate](https://github.com/prazdevs/pinia-plugin-persistedstate) - 🍍 Configurable persistence and rehydration of Pinia stores.
 - [fmhy/FMHYedit](https://github.com/fmhy/FMHYedit) - Make changes to FMHY
 - [symbuzzer/livebootmodule](https://github.com/symbuzzer/livebootmodule) - A Magisk, KernelSU and APatch module that enables unix-style (verbose) boot animation for Android devices
